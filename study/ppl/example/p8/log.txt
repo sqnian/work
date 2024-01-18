@@ -1,0 +1,851 @@
+
+      ____  ____  __   ____                    __              __
+     / __ \/ __ \/ /  / __ \__  ______ _____  / /_____  ____  / /
+    / /_/ / /_/ / /  / / / / / / / __ `/ __ \/ __/ __ \/ __ \/ /
+   / ____/ ____/ /__/ /_/ / /_/ / /_/ / / / / /_/ /_/ / /_/ / /
+  /_/   /_/   /_____\___\_\__,_/\__,_/_/ /_/\__/\____/\____/_/
+
+
+[31m[Warning] Compling Kernels... Please wait (It will take a few minutes).[0m
+[06:29:35] PPQ Quantization Config Refine Pass Running ... Finished.
+[06:29:35] PPQ Quantization Fusion Pass Running ...        Finished.
+[06:29:35] PPQ Quantize Simplify Pass Running ...          Finished.
+[06:29:35] PPQ Parameter Quantization Pass Running ...     Finished.
+[06:29:35] PPQ Runtime Calibration Pass Running ...        Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   3%|▎         | 1/32 [00:00<00:08,  3.53it/s]Calibration Progress(Phase 1):   6%|▋         | 2/32 [00:00<00:10,  2.91it/s]Calibration Progress(Phase 1):   9%|▉         | 3/32 [00:00<00:08,  3.39it/s]Calibration Progress(Phase 1):  12%|█▎        | 4/32 [00:01<00:09,  3.03it/s]Calibration Progress(Phase 1):  16%|█▌        | 5/32 [00:01<00:08,  3.05it/s]Calibration Progress(Phase 1):  19%|█▉        | 6/32 [00:01<00:08,  3.09it/s]Calibration Progress(Phase 1):  22%|██▏       | 7/32 [00:02<00:07,  3.14it/s]Calibration Progress(Phase 1):  25%|██▌       | 8/32 [00:02<00:07,  3.18it/s]Calibration Progress(Phase 1):  28%|██▊       | 9/32 [00:02<00:07,  3.18it/s]Calibration Progress(Phase 1):  31%|███▏      | 10/32 [00:03<00:07,  3.11it/s]Calibration Progress(Phase 1):  34%|███▍      | 11/32 [00:03<00:06,  3.09it/s]Calibration Progress(Phase 1):  38%|███▊      | 12/32 [00:03<00:06,  3.16it/s]Calibration Progress(Phase 1):  41%|████      | 13/32 [00:04<00:06,  3.09it/s]Calibration Progress(Phase 1):  44%|████▍     | 14/32 [00:04<00:05,  3.22it/s]Calibration Progress(Phase 1):  47%|████▋     | 15/32 [00:04<00:05,  3.09it/s]Calibration Progress(Phase 1):  50%|█████     | 16/32 [00:05<00:04,  3.32it/s]Calibration Progress(Phase 1):  53%|█████▎    | 17/32 [00:05<00:04,  3.15it/s]Calibration Progress(Phase 1):  56%|█████▋    | 18/32 [00:05<00:04,  3.23it/s]Calibration Progress(Phase 1):  59%|█████▉    | 19/32 [00:06<00:04,  3.09it/s]Calibration Progress(Phase 1):  62%|██████▎   | 20/32 [00:06<00:03,  3.24it/s]Calibration Progress(Phase 1):  66%|██████▌   | 21/32 [00:06<00:03,  3.16it/s]Calibration Progress(Phase 1):  69%|██████▉   | 22/32 [00:06<00:03,  3.26it/s]Calibration Progress(Phase 1):  72%|███████▏  | 23/32 [00:07<00:02,  3.23it/s]Calibration Progress(Phase 1):  75%|███████▌  | 24/32 [00:07<00:02,  3.29it/s]Calibration Progress(Phase 1):  78%|███████▊  | 25/32 [00:07<00:02,  3.23it/s]Calibration Progress(Phase 1):  81%|████████▏ | 26/32 [00:08<00:01,  3.29it/s]Calibration Progress(Phase 1):  84%|████████▍ | 27/32 [00:08<00:01,  3.20it/s]Calibration Progress(Phase 1):  88%|████████▊ | 28/32 [00:08<00:01,  3.19it/s]Calibration Progress(Phase 1):  91%|█████████ | 29/32 [00:09<00:00,  3.15it/s]Calibration Progress(Phase 1):  94%|█████████▍| 30/32 [00:09<00:00,  3.12it/s]Calibration Progress(Phase 1):  97%|█████████▋| 31/32 [00:09<00:00,  3.15it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:10<00:00,  3.12it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:10<00:00,  3.17it/s]
+Finished.
+[06:29:46] PPQ Quantization Alignment Pass Running ...     Finished.
+[06:29:46] PPQ Passive Parameter Quantization Running ...  Finished.
+[06:29:46] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [54]
+Num of Variable:              [277]
+Num of Quantized Var:         [207]
+------- Quantization Snapshot ------
+Num of Quant Config:          [214]
+BAKED:                        [53]
+ACTIVATED:                    [55]
+FP32:                         [106]
+Network Quantization Finished.
+Analysing Layerwise quantization error::   0%|          | 0/53 [00:00<?, ?it/s]Analysing Layerwise quantization error::   2%|▏         | 1/53 [00:01<01:25,  1.65s/it]Analysing Layerwise quantization error::   4%|▍         | 2/53 [00:03<01:20,  1.58s/it]Analysing Layerwise quantization error::   6%|▌         | 3/53 [00:04<01:19,  1.58s/it]Analysing Layerwise quantization error::   8%|▊         | 4/53 [00:06<01:18,  1.59s/it]Analysing Layerwise quantization error::   9%|▉         | 5/53 [00:07<01:15,  1.56s/it]Analysing Layerwise quantization error::  11%|█▏        | 6/53 [00:09<01:13,  1.57s/it]Analysing Layerwise quantization error::  13%|█▎        | 7/53 [00:11<01:12,  1.57s/it]Analysing Layerwise quantization error::  15%|█▌        | 8/53 [00:12<01:10,  1.56s/it]Analysing Layerwise quantization error::  17%|█▋        | 9/53 [00:14<01:09,  1.58s/it]Analysing Layerwise quantization error::  19%|█▉        | 10/53 [00:15<01:07,  1.56s/it]Analysing Layerwise quantization error::  21%|██        | 11/53 [00:17<01:06,  1.59s/it]Analysing Layerwise quantization error::  23%|██▎       | 12/53 [00:18<01:04,  1.58s/it]Analysing Layerwise quantization error::  25%|██▍       | 13/53 [00:20<01:03,  1.58s/it]Analysing Layerwise quantization error::  26%|██▋       | 14/53 [00:22<01:01,  1.57s/it]Analysing Layerwise quantization error::  28%|██▊       | 15/53 [00:23<00:58,  1.55s/it]Analysing Layerwise quantization error::  30%|███       | 16/53 [00:25<00:58,  1.58s/it]Analysing Layerwise quantization error::  32%|███▏      | 17/53 [00:26<00:56,  1.56s/it]Analysing Layerwise quantization error::  34%|███▍      | 18/53 [00:28<00:55,  1.58s/it]Analysing Layerwise quantization error::  36%|███▌      | 19/53 [00:29<00:53,  1.57s/it]Analysing Layerwise quantization error::  38%|███▊      | 20/53 [00:31<00:52,  1.58s/it]Analysing Layerwise quantization error::  40%|███▉      | 21/53 [00:33<00:50,  1.57s/it]Analysing Layerwise quantization error::  42%|████▏     | 22/53 [00:34<00:48,  1.55s/it]Analysing Layerwise quantization error::  43%|████▎     | 23/53 [00:36<00:47,  1.57s/it]Analysing Layerwise quantization error::  45%|████▌     | 24/53 [00:37<00:44,  1.55s/it]Analysing Layerwise quantization error::  47%|████▋     | 25/53 [00:39<00:43,  1.57s/it]Analysing Layerwise quantization error::  49%|████▉     | 26/53 [00:40<00:42,  1.56s/it]Analysing Layerwise quantization error::  51%|█████     | 27/53 [00:42<00:40,  1.57s/it]Analysing Layerwise quantization error::  53%|█████▎    | 28/53 [00:43<00:38,  1.55s/it]Analysing Layerwise quantization error::  55%|█████▍    | 29/53 [00:45<00:35,  1.49s/it]Analysing Layerwise quantization error::  57%|█████▋    | 30/53 [00:46<00:34,  1.50s/it]Analysing Layerwise quantization error::  58%|█████▊    | 31/53 [00:48<00:33,  1.53s/it]Analysing Layerwise quantization error::  60%|██████    | 32/53 [00:49<00:32,  1.53s/it]Analysing Layerwise quantization error::  62%|██████▏   | 33/53 [00:51<00:30,  1.52s/it]Analysing Layerwise quantization error::  64%|██████▍   | 34/53 [00:53<00:29,  1.55s/it]Analysing Layerwise quantization error::  66%|██████▌   | 35/53 [00:54<00:27,  1.54s/it]Analysing Layerwise quantization error::  68%|██████▊   | 36/53 [00:56<00:26,  1.56s/it]Analysing Layerwise quantization error::  70%|██████▉   | 37/53 [00:57<00:24,  1.54s/it]Analysing Layerwise quantization error::  72%|███████▏  | 38/53 [00:59<00:23,  1.56s/it]Analysing Layerwise quantization error::  74%|███████▎  | 39/53 [01:00<00:21,  1.55s/it]Analysing Layerwise quantization error::  75%|███████▌  | 40/53 [01:02<00:20,  1.54s/it]Analysing Layerwise quantization error::  77%|███████▋  | 41/53 [01:03<00:18,  1.57s/it]Analysing Layerwise quantization error::  79%|███████▉  | 42/53 [01:05<00:17,  1.55s/it]Analysing Layerwise quantization error::  81%|████████  | 43/53 [01:07<00:15,  1.56s/it]Analysing Layerwise quantization error::  83%|████████▎ | 44/53 [01:08<00:13,  1.53s/it]Analysing Layerwise quantization error::  85%|████████▍ | 45/53 [01:10<00:12,  1.55s/it]Analysing Layerwise quantization error::  87%|████████▋ | 46/53 [01:11<00:10,  1.54s/it]Analysing Layerwise quantization error::  89%|████████▊ | 47/53 [01:13<00:09,  1.56s/it]Analysing Layerwise quantization error::  91%|█████████ | 48/53 [01:14<00:07,  1.55s/it]Analysing Layerwise quantization error::  92%|█████████▏| 49/53 [01:16<00:06,  1.56s/it]Analysing Layerwise quantization error::  94%|█████████▍| 50/53 [01:17<00:04,  1.56s/it]Analysing Layerwise quantization error::  96%|█████████▌| 51/53 [01:19<00:03,  1.54s/it]Analysing Layerwise quantization error::  98%|█████████▊| 52/53 [01:20<00:01,  1.57s/it]Analysing Layerwise quantization error:: 100%|██████████| 53/53 [01:22<00:00,  1.55s/it]Analysing Layerwise quantization error:: 100%|██████████| 53/53 [01:22<00:00,  1.56s/it]
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_4:   | ████████████████████ | 0.007284
+Conv_133: | ██████████████       | 0.005070
+Conv_154: | ████                 | 0.001347
+Conv_22:  | ███                  | 0.001259
+Conv_123: | ███                  | 0.001228
+Conv_94:  | ███                  | 0.001069
+Conv_142: | ███                  | 0.000978
+Conv_152: | ██                   | 0.000861
+Conv_119: | ██                   | 0.000828
+Conv_113: | ██                   | 0.000778
+Conv_162: | ██                   | 0.000682
+Conv_90:  | █                    | 0.000499
+Conv_104: | █                    | 0.000496
+Conv_144: | █                    | 0.000478
+Conv_148: | █                    | 0.000475
+Conv_158: | █                    | 0.000442
+Conv_138: | █                    | 0.000391
+Conv_8:   | █                    | 0.000389
+Conv_109: | █                    | 0.000386
+Conv_134: | █                    | 0.000385
+Conv_13:  | █                    | 0.000294
+Conv_26:  | █                    | 0.000232
+Conv_17:  | █                    | 0.000221
+Conv_65:  |                      | 0.000163
+Conv_100: |                      | 0.000154
+Conv_41:  |                      | 0.000147
+Conv_36:  |                      | 0.000115
+Conv_129: |                      | 0.000108
+Conv_125: |                      | 0.000099
+Conv_84:  |                      | 0.000097
+Conv_70:  |                      | 0.000093
+Gemm_169: |                      | 0.000064
+Conv_57:  |                      | 0.000060
+Conv_28:  |                      | 0.000059
+Conv_55:  |                      | 0.000059
+Conv_80:  |                      | 0.000058
+Conv_74:  |                      | 0.000057
+Conv_32:  |                      | 0.000055
+Conv_96:  |                      | 0.000048
+Conv_105: |                      | 0.000046
+Conv_9:   |                      | 0.000044
+Conv_45:  |                      | 0.000038
+Conv_115: |                      | 0.000036
+Conv_86:  |                      | 0.000034
+Conv_18:  |                      | 0.000033
+Conv_51:  |                      | 0.000025
+Conv_0:   |                      | 0.000024
+Conv_66:  |                      | 0.000021
+Conv_61:  |                      | 0.000018
+Conv_76:  |                      | 0.000016
+Conv_47:  |                      | 0.000012
+Conv_37:  |                      | 0.000008
+Conv_163: |                      | 0.000008
+[31m[Warning] Compling Kernels... Please wait (It will take a few minutes).[0m
+[06:31:14] PPQ Quantization Config Refine Pass Running ... Finished.
+[06:31:14] PPQ Quantization Fusion Pass Running ...        Finished.
+[06:31:14] PPQ Quantize Simplify Pass Running ...          Finished.
+[06:31:14] PPQ Parameter Quantization Pass Running ...     Finished.
+[06:31:15] PPQ Runtime Calibration Pass Running ...        Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   3%|▎         | 1/32 [00:00<00:04,  7.55it/s]Calibration Progress(Phase 1):   6%|▋         | 2/32 [00:00<00:03,  7.79it/s]Calibration Progress(Phase 1):   9%|▉         | 3/32 [00:00<00:03,  7.99it/s]Calibration Progress(Phase 1):  16%|█▌        | 5/32 [00:00<00:02,  9.15it/s]Calibration Progress(Phase 1):  19%|█▉        | 6/32 [00:00<00:02,  8.70it/s]Calibration Progress(Phase 1):  22%|██▏       | 7/32 [00:00<00:02,  8.38it/s]Calibration Progress(Phase 1):  25%|██▌       | 8/32 [00:00<00:02,  8.36it/s]Calibration Progress(Phase 1):  28%|██▊       | 9/32 [00:01<00:02,  8.38it/s]Calibration Progress(Phase 1):  34%|███▍      | 11/32 [00:01<00:02,  8.98it/s]Calibration Progress(Phase 1):  38%|███▊      | 12/32 [00:01<00:02,  8.61it/s]Calibration Progress(Phase 1):  41%|████      | 13/32 [00:01<00:02,  8.42it/s]Calibration Progress(Phase 1):  44%|████▍     | 14/32 [00:01<00:02,  8.33it/s]Calibration Progress(Phase 1):  47%|████▋     | 15/32 [00:01<00:02,  8.30it/s]Calibration Progress(Phase 1):  53%|█████▎    | 17/32 [00:01<00:01,  8.95it/s]Calibration Progress(Phase 1):  56%|█████▋    | 18/32 [00:02<00:01,  8.58it/s]Calibration Progress(Phase 1):  59%|█████▉    | 19/32 [00:02<00:01,  8.38it/s]Calibration Progress(Phase 1):  62%|██████▎   | 20/32 [00:02<00:01,  8.31it/s]Calibration Progress(Phase 1):  66%|██████▌   | 21/32 [00:02<00:01,  8.58it/s]Calibration Progress(Phase 1):  72%|███████▏  | 23/32 [00:02<00:00,  9.46it/s]Calibration Progress(Phase 1):  75%|███████▌  | 24/32 [00:02<00:00,  9.00it/s]Calibration Progress(Phase 1):  78%|███████▊  | 25/32 [00:02<00:00,  8.63it/s]Calibration Progress(Phase 1):  81%|████████▏ | 26/32 [00:03<00:00,  8.44it/s]Calibration Progress(Phase 1):  84%|████████▍ | 27/32 [00:03<00:00,  8.36it/s]Calibration Progress(Phase 1):  91%|█████████ | 29/32 [00:03<00:00,  9.01it/s]Calibration Progress(Phase 1):  94%|█████████▍| 30/32 [00:03<00:00,  8.67it/s]Calibration Progress(Phase 1):  97%|█████████▋| 31/32 [00:03<00:00,  8.39it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:03<00:00,  8.33it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:03<00:00,  8.55it/s]
+Finished.
+[06:31:31] PPQ Quantization Alignment Pass Running ...     Finished.
+[06:31:31] PPQ Passive Parameter Quantization Running ...  Finished.
+[06:31:31] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [44]
+Num of Variable:              [277]
+Num of Quantized Var:         [168]
+------- Quantization Snapshot ------
+Num of Quant Config:          [174]
+BAKED:                        [43]
+ACTIVATED:                    [45]
+FP32:                         [86]
+Network Quantization Finished.
+Error Report of Algorithm isotone: 
+Analysing Graphwise Quantization Error(Phrase 1)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 1)::  12%|█▎        | 1/8 [00:00<00:01,  4.46it/s]Analysing Graphwise Quantization Error(Phrase 1)::  25%|██▌       | 2/8 [00:00<00:01,  4.36it/s]Analysing Graphwise Quantization Error(Phrase 1)::  38%|███▊      | 3/8 [00:00<00:01,  4.52it/s]Analysing Graphwise Quantization Error(Phrase 1)::  50%|█████     | 4/8 [00:00<00:00,  4.41it/s]Analysing Graphwise Quantization Error(Phrase 1)::  62%|██████▎   | 5/8 [00:01<00:00,  4.35it/s]Analysing Graphwise Quantization Error(Phrase 1)::  75%|███████▌  | 6/8 [00:01<00:00,  4.44it/s]Analysing Graphwise Quantization Error(Phrase 1)::  88%|████████▊ | 7/8 [00:01<00:00,  4.39it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:01<00:00,  4.45it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:02<00:00,  3.91it/s]
+Analysing Graphwise Quantization Error(Phrase 2)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 2)::  12%|█▎        | 1/8 [00:00<00:01,  4.49it/s]Analysing Graphwise Quantization Error(Phrase 2)::  25%|██▌       | 2/8 [00:00<00:01,  3.68it/s]Analysing Graphwise Quantization Error(Phrase 2)::  38%|███▊      | 3/8 [00:00<00:01,  3.62it/s]Analysing Graphwise Quantization Error(Phrase 2)::  50%|█████     | 4/8 [00:01<00:01,  3.48it/s]Analysing Graphwise Quantization Error(Phrase 2)::  62%|██████▎   | 5/8 [00:01<00:00,  3.49it/s]Analysing Graphwise Quantization Error(Phrase 2)::  75%|███████▌  | 6/8 [00:01<00:00,  3.42it/s]Analysing Graphwise Quantization Error(Phrase 2)::  88%|████████▊ | 7/8 [00:01<00:00,  3.50it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.43it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.13it/s]
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_17:  | ████████████████████ | 1.498335
+Conv_36:  | ██████████████████   | 1.319409
+Conv_26:  | ██████████████       | 1.082726
+Conv_162: | ██████████████       | 1.038312
+Conv_55:  | █████████████        | 1.024555
+Conv_144: | █████████████        | 0.959077
+Conv_65:  | ████████████         | 0.897317
+Conv_163: | ███████████          | 0.880526
+Conv_45:  | ███████████          | 0.876125
+Conv_8:   | ███████████          | 0.827980
+Conv_18:  | ██████████           | 0.751737
+Conv_148: | █████████            | 0.708187
+Conv_13:  | █████████            | 0.702849
+Conv_134: | █████████            | 0.682340
+Conv_104: | ████████             | 0.636734
+Conv_28:  | ████████             | 0.631955
+Conv_41:  | ███████              | 0.584638
+Conv_70:  | ███████              | 0.578596
+Conv_32:  | ███████              | 0.571543
+Conv_138: | ███████              | 0.566166
+Conv_57:  | ███████              | 0.553981
+Conv_9:   | ███████              | 0.542416
+Conv_125: | ██████               | 0.454442
+Conv_129: | █████                | 0.442701
+Conv_90:  | █████                | 0.440651
+Conv_109: | █████                | 0.440338
+Conv_51:  | █████                | 0.436612
+Conv_115: | █████                | 0.417722
+Conv_66:  | █████                | 0.415503
+Conv_37:  | █████                | 0.409395
+Conv_74:  | █████                | 0.374634
+Conv_47:  | ████                 | 0.367421
+Conv_105: | ████                 | 0.353679
+Conv_84:  | ████                 | 0.340786
+Conv_100: | ████                 | 0.339068
+Conv_96:  | ████                 | 0.338164
+Conv_86:  | ████                 | 0.316411
+Conv_80:  | ████                 | 0.310235
+Gemm_169: | ████                 | 0.300887
+Conv_76:  | ███                  | 0.246171
+Conv_61:  | ██                   | 0.227732
+Conv_158: | █                    | 0.102288
+Conv_0:   |                      | 0.046757
+[31m[Warning] Compling Kernels... Please wait (It will take a few minutes).[0m
+[06:31:42] PPQ Quantization Config Refine Pass Running ... Finished.
+[06:31:42] PPQ Quantization Fusion Pass Running ...        Finished.
+[06:31:42] PPQ Quantize Simplify Pass Running ...          Finished.
+[06:31:42] PPQ Parameter Quantization Pass Running ...     Finished.
+[06:31:43] PPQ Runtime Calibration Pass Running ...        Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   3%|▎         | 1/32 [00:00<00:03,  9.45it/s]Calibration Progress(Phase 1):   6%|▋         | 2/32 [00:00<00:03,  9.76it/s]Calibration Progress(Phase 1):   9%|▉         | 3/32 [00:00<00:02,  9.85it/s]Calibration Progress(Phase 1):  16%|█▌        | 5/32 [00:00<00:02, 10.76it/s]Calibration Progress(Phase 1):  22%|██▏       | 7/32 [00:00<00:02, 10.15it/s]Calibration Progress(Phase 1):  28%|██▊       | 9/32 [00:00<00:02, 10.07it/s]Calibration Progress(Phase 1):  34%|███▍      | 11/32 [00:01<00:01, 11.30it/s]Calibration Progress(Phase 1):  41%|████      | 13/32 [00:01<00:01, 10.64it/s]Calibration Progress(Phase 1):  47%|████▋     | 15/32 [00:01<00:01, 10.31it/s]Calibration Progress(Phase 1):  53%|█████▎    | 17/32 [00:01<00:01, 10.66it/s]Calibration Progress(Phase 1):  59%|█████▉    | 19/32 [00:01<00:01, 10.29it/s]Calibration Progress(Phase 1):  66%|██████▌   | 21/32 [00:02<00:01, 10.16it/s]Calibration Progress(Phase 1):  72%|███████▏  | 23/32 [00:02<00:00, 10.45it/s]Calibration Progress(Phase 1):  78%|███████▊  | 25/32 [00:02<00:00, 10.97it/s]Calibration Progress(Phase 1):  84%|████████▍ | 27/32 [00:02<00:00, 10.51it/s]Calibration Progress(Phase 1):  91%|█████████ | 29/32 [00:02<00:00, 10.33it/s]Calibration Progress(Phase 1):  97%|█████████▋| 31/32 [00:02<00:00, 10.87it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:03<00:00, 10.50it/s]
+Calibration Progress(Phase 2):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 2):   3%|▎         | 1/32 [00:00<00:06,  4.85it/s]Calibration Progress(Phase 2):   6%|▋         | 2/32 [00:00<00:05,  5.99it/s]Calibration Progress(Phase 2):   9%|▉         | 3/32 [00:00<00:05,  5.29it/s]Calibration Progress(Phase 2):  12%|█▎        | 4/32 [00:00<00:05,  5.06it/s]Calibration Progress(Phase 2):  16%|█▌        | 5/32 [00:00<00:05,  4.99it/s]Calibration Progress(Phase 2):  19%|█▉        | 6/32 [00:01<00:04,  5.43it/s]Calibration Progress(Phase 2):  22%|██▏       | 7/32 [00:01<00:04,  5.15it/s]Calibration Progress(Phase 2):  25%|██▌       | 8/32 [00:01<00:04,  5.00it/s]Calibration Progress(Phase 2):  28%|██▊       | 9/32 [00:01<00:04,  4.96it/s]Calibration Progress(Phase 2):  31%|███▏      | 10/32 [00:01<00:04,  5.44it/s]Calibration Progress(Phase 2):  34%|███▍      | 11/32 [00:02<00:04,  5.19it/s]Calibration Progress(Phase 2):  38%|███▊      | 12/32 [00:02<00:03,  5.04it/s]Calibration Progress(Phase 2):  41%|████      | 13/32 [00:02<00:03,  4.96it/s]Calibration Progress(Phase 2):  44%|████▍     | 14/32 [00:02<00:03,  5.27it/s]Calibration Progress(Phase 2):  47%|████▋     | 15/32 [00:02<00:03,  5.11it/s]Calibration Progress(Phase 2):  50%|█████     | 16/32 [00:03<00:03,  5.00it/s]Calibration Progress(Phase 2):  53%|█████▎    | 17/32 [00:03<00:03,  4.97it/s]Calibration Progress(Phase 2):  56%|█████▋    | 18/32 [00:03<00:02,  5.17it/s]Calibration Progress(Phase 2):  59%|█████▉    | 19/32 [00:03<00:02,  5.15it/s]Calibration Progress(Phase 2):  62%|██████▎   | 20/32 [00:03<00:02,  4.99it/s]Calibration Progress(Phase 2):  66%|██████▌   | 21/32 [00:04<00:02,  4.97it/s]Calibration Progress(Phase 2):  69%|██████▉   | 22/32 [00:04<00:01,  5.16it/s]Calibration Progress(Phase 2):  72%|███████▏  | 23/32 [00:04<00:01,  5.15it/s]Calibration Progress(Phase 2):  75%|███████▌  | 24/32 [00:04<00:01,  5.04it/s]Calibration Progress(Phase 2):  78%|███████▊  | 25/32 [00:04<00:01,  4.98it/s]Calibration Progress(Phase 2):  81%|████████▏ | 26/32 [00:05<00:01,  5.10it/s]Calibration Progress(Phase 2):  84%|████████▍ | 27/32 [00:05<00:00,  5.51it/s]Calibration Progress(Phase 2):  88%|████████▊ | 28/32 [00:05<00:00,  5.25it/s]Calibration Progress(Phase 2):  91%|█████████ | 29/32 [00:05<00:00,  5.13it/s]Calibration Progress(Phase 2):  94%|█████████▍| 30/32 [00:05<00:00,  5.07it/s]Calibration Progress(Phase 2):  97%|█████████▋| 31/32 [00:05<00:00,  5.58it/s]Calibration Progress(Phase 2): 100%|██████████| 32/32 [00:06<00:00,  5.28it/s]Calibration Progress(Phase 2): 100%|██████████| 32/32 [00:06<00:00,  5.16it/s]
+Finished.
+[06:31:53] PPQ Quantization Alignment Pass Running ...     Finished.
+[06:31:53] PPQ Passive Parameter Quantization Running ...  Finished.
+[06:31:53] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [44]
+Num of Variable:              [277]
+Num of Quantized Var:         [168]
+------- Quantization Snapshot ------
+Num of Quant Config:          [174]
+BAKED:                        [43]
+ACTIVATED:                    [45]
+FP32:                         [86]
+Network Quantization Finished.
+Error Report of Algorithm mse: 
+Analysing Graphwise Quantization Error(Phrase 1)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 1)::  12%|█▎        | 1/8 [00:00<00:01,  3.89it/s]Analysing Graphwise Quantization Error(Phrase 1)::  25%|██▌       | 2/8 [00:00<00:01,  4.13it/s]Analysing Graphwise Quantization Error(Phrase 1)::  38%|███▊      | 3/8 [00:00<00:01,  4.39it/s]Analysing Graphwise Quantization Error(Phrase 1)::  50%|█████     | 4/8 [00:00<00:00,  4.36it/s]Analysing Graphwise Quantization Error(Phrase 1)::  62%|██████▎   | 5/8 [00:01<00:00,  4.43it/s]Analysing Graphwise Quantization Error(Phrase 1)::  75%|███████▌  | 6/8 [00:01<00:00,  4.45it/s]Analysing Graphwise Quantization Error(Phrase 1)::  88%|████████▊ | 7/8 [00:01<00:00,  4.42it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:01<00:00,  4.56it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:02<00:00,  3.92it/s]
+Analysing Graphwise Quantization Error(Phrase 2)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 2)::  12%|█▎        | 1/8 [00:00<00:01,  4.36it/s]Analysing Graphwise Quantization Error(Phrase 2)::  25%|██▌       | 2/8 [00:00<00:01,  3.67it/s]Analysing Graphwise Quantization Error(Phrase 2)::  38%|███▊      | 3/8 [00:00<00:01,  3.53it/s]Analysing Graphwise Quantization Error(Phrase 2)::  50%|█████     | 4/8 [00:01<00:01,  3.67it/s]Analysing Graphwise Quantization Error(Phrase 2)::  62%|██████▎   | 5/8 [00:01<00:00,  3.88it/s]Analysing Graphwise Quantization Error(Phrase 2)::  75%|███████▌  | 6/8 [00:01<00:00,  3.91it/s]Analysing Graphwise Quantization Error(Phrase 2)::  88%|████████▊ | 7/8 [00:01<00:00,  3.92it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  4.06it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.47it/s]
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_162: | ████████████████████ | 0.041794
+Conv_163: | █████████████████    | 0.035942
+Conv_55:  | ███████████          | 0.022838
+Conv_104: | ██████               | 0.012781
+Conv_144: | ██████               | 0.011898
+Conv_138: | ██████               | 0.011513
+Conv_45:  | █████                | 0.010681
+Conv_148: | █████                | 0.010660
+Conv_134: | █████                | 0.009530
+Conv_26:  | ████                 | 0.009188
+Gemm_169: | ████                 | 0.009007
+Conv_51:  | ████                 | 0.007927
+Conv_125: | ████                 | 0.007485
+Conv_84:  | ███                  | 0.007312
+Conv_115: | ███                  | 0.006950
+Conv_90:  | ███                  | 0.006630
+Conv_109: | ███                  | 0.006540
+Conv_57:  | ███                  | 0.006354
+Conv_41:  | ███                  | 0.006291
+Conv_36:  | ███                  | 0.006146
+Conv_105: | ███                  | 0.005676
+Conv_100: | ███                  | 0.005672
+Conv_96:  | ███                  | 0.005522
+Conv_65:  | ███                  | 0.005242
+Conv_70:  | ██                   | 0.005031
+Conv_28:  | ██                   | 0.004935
+Conv_129: | ██                   | 0.004808
+Conv_86:  | ██                   | 0.004566
+Conv_80:  | ██                   | 0.004458
+Conv_17:  | ██                   | 0.004457
+Conv_47:  | ██                   | 0.003983
+Conv_74:  | ██                   | 0.003523
+Conv_158: | ██                   | 0.003182
+Conv_32:  | █                    | 0.003137
+Conv_13:  | █                    | 0.002720
+Conv_76:  | █                    | 0.002153
+Conv_66:  | █                    | 0.001710
+Conv_37:  | █                    | 0.001702
+Conv_61:  | █                    | 0.001650
+Conv_18:  | █                    | 0.001448
+Conv_8:   | █                    | 0.001383
+Conv_9:   | █                    | 0.001104
+Conv_0:   |                      | 0.000011
+[31m[Warning] Compling Kernels... Please wait (It will take a few minutes).[0m
+[06:32:03] PPQ Quantization Config Refine Pass Running ... Finished.
+[06:32:03] PPQ Quantization Fusion Pass Running ...        Finished.
+[06:32:03] PPQ Quantize Simplify Pass Running ...          Finished.
+[06:32:03] PPQ Parameter Quantization Pass Running ...     Finished.
+[06:32:04] PPQ Runtime Calibration Pass Running ...        Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   3%|▎         | 1/32 [00:00<00:03,  8.12it/s]Calibration Progress(Phase 1):   6%|▋         | 2/32 [00:00<00:03,  8.86it/s]Calibration Progress(Phase 1):   9%|▉         | 3/32 [00:00<00:03,  9.20it/s]Calibration Progress(Phase 1):  12%|█▎        | 4/32 [00:00<00:02,  9.38it/s]Calibration Progress(Phase 1):  16%|█▌        | 5/32 [00:00<00:02,  9.55it/s]Calibration Progress(Phase 1):  22%|██▏       | 7/32 [00:00<00:02, 11.02it/s]Calibration Progress(Phase 1):  28%|██▊       | 9/32 [00:00<00:02, 10.25it/s]Calibration Progress(Phase 1):  34%|███▍      | 11/32 [00:01<00:02, 10.10it/s]Calibration Progress(Phase 1):  41%|████      | 13/32 [00:01<00:01, 11.47it/s]Calibration Progress(Phase 1):  47%|████▋     | 15/32 [00:01<00:01, 10.75it/s]Calibration Progress(Phase 1):  53%|█████▎    | 17/32 [00:01<00:01, 10.39it/s]Calibration Progress(Phase 1):  59%|█████▉    | 19/32 [00:01<00:01, 10.79it/s]Calibration Progress(Phase 1):  66%|██████▌   | 21/32 [00:02<00:01, 10.37it/s]Calibration Progress(Phase 1):  72%|███████▏  | 23/32 [00:02<00:00, 10.17it/s]Calibration Progress(Phase 1):  78%|███████▊  | 25/32 [00:02<00:00, 10.53it/s]Calibration Progress(Phase 1):  84%|████████▍ | 27/32 [00:02<00:00, 10.98it/s]Calibration Progress(Phase 1):  91%|█████████ | 29/32 [00:02<00:00, 10.53it/s]Calibration Progress(Phase 1):  97%|█████████▋| 31/32 [00:02<00:00, 10.35it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:03<00:00, 10.51it/s]
+Calibration Progress(Phase 2):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 2):   3%|▎         | 1/32 [00:00<00:06,  4.67it/s]Calibration Progress(Phase 2):   6%|▋         | 2/32 [00:00<00:06,  4.91it/s]Calibration Progress(Phase 2):   9%|▉         | 3/32 [00:00<00:05,  5.03it/s]Calibration Progress(Phase 2):  12%|█▎        | 4/32 [00:00<00:04,  5.71it/s]Calibration Progress(Phase 2):  16%|█▌        | 5/32 [00:00<00:04,  5.45it/s]Calibration Progress(Phase 2):  19%|█▉        | 6/32 [00:01<00:04,  5.28it/s]Calibration Progress(Phase 2):  22%|██▏       | 7/32 [00:01<00:04,  5.26it/s]Calibration Progress(Phase 2):  25%|██▌       | 8/32 [00:01<00:04,  5.56it/s]Calibration Progress(Phase 2):  28%|██▊       | 9/32 [00:01<00:04,  5.40it/s]Calibration Progress(Phase 2):  31%|███▏      | 10/32 [00:01<00:04,  5.22it/s]Calibration Progress(Phase 2):  34%|███▍      | 11/32 [00:02<00:04,  5.21it/s]Calibration Progress(Phase 2):  38%|███▊      | 12/32 [00:02<00:03,  5.28it/s]Calibration Progress(Phase 2):  41%|████      | 13/32 [00:02<00:03,  5.82it/s]Calibration Progress(Phase 2):  44%|████▍     | 14/32 [00:02<00:03,  5.51it/s]Calibration Progress(Phase 2):  47%|████▋     | 15/32 [00:02<00:03,  5.35it/s]Calibration Progress(Phase 2):  50%|█████     | 16/32 [00:03<00:03,  5.28it/s]Calibration Progress(Phase 2):  53%|█████▎    | 17/32 [00:03<00:02,  5.48it/s]Calibration Progress(Phase 2):  56%|█████▋    | 18/32 [00:03<00:02,  5.43it/s]Calibration Progress(Phase 2):  59%|█████▉    | 19/32 [00:03<00:02,  5.21it/s]Calibration Progress(Phase 2):  62%|██████▎   | 20/32 [00:03<00:02,  5.13it/s]Calibration Progress(Phase 2):  66%|██████▌   | 21/32 [00:03<00:02,  5.18it/s]Calibration Progress(Phase 2):  69%|██████▉   | 22/32 [00:04<00:01,  5.73it/s]Calibration Progress(Phase 2):  72%|███████▏  | 23/32 [00:04<00:01,  5.45it/s]Calibration Progress(Phase 2):  75%|███████▌  | 24/32 [00:04<00:01,  5.28it/s]Calibration Progress(Phase 2):  78%|███████▊  | 25/32 [00:04<00:01,  5.26it/s]Calibration Progress(Phase 2):  81%|████████▏ | 26/32 [00:04<00:01,  5.44it/s]Calibration Progress(Phase 2):  84%|████████▍ | 27/32 [00:05<00:00,  5.40it/s]Calibration Progress(Phase 2):  88%|████████▊ | 28/32 [00:05<00:00,  5.22it/s]Calibration Progress(Phase 2):  91%|█████████ | 29/32 [00:05<00:00,  5.20it/s]Calibration Progress(Phase 2):  94%|█████████▍| 30/32 [00:05<00:00,  5.31it/s]Calibration Progress(Phase 2):  97%|█████████▋| 31/32 [00:05<00:00,  5.32it/s]Calibration Progress(Phase 2): 100%|██████████| 32/32 [00:06<00:00,  5.17it/s]Calibration Progress(Phase 2): 100%|██████████| 32/32 [00:06<00:00,  5.32it/s]
+Finished.
+[06:32:14] PPQ Quantization Alignment Pass Running ...     Finished.
+[06:32:14] PPQ Passive Parameter Quantization Running ...  Finished.
+[06:32:14] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [44]
+Num of Variable:              [277]
+Num of Quantized Var:         [168]
+------- Quantization Snapshot ------
+Num of Quant Config:          [174]
+BAKED:                        [43]
+ACTIVATED:                    [45]
+FP32:                         [86]
+Network Quantization Finished.
+Error Report of Algorithm kl: 
+Analysing Graphwise Quantization Error(Phrase 1)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 1)::  12%|█▎        | 1/8 [00:00<00:01,  4.22it/s]Analysing Graphwise Quantization Error(Phrase 1)::  25%|██▌       | 2/8 [00:00<00:01,  4.21it/s]Analysing Graphwise Quantization Error(Phrase 1)::  38%|███▊      | 3/8 [00:00<00:01,  4.48it/s]Analysing Graphwise Quantization Error(Phrase 1)::  50%|█████     | 4/8 [00:00<00:00,  4.38it/s]Analysing Graphwise Quantization Error(Phrase 1)::  62%|██████▎   | 5/8 [00:01<00:00,  4.38it/s]Analysing Graphwise Quantization Error(Phrase 1)::  75%|███████▌  | 6/8 [00:01<00:00,  4.46it/s]Analysing Graphwise Quantization Error(Phrase 1)::  88%|████████▊ | 7/8 [00:01<00:00,  4.41it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:01<00:00,  4.50it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:02<00:00,  3.91it/s]
+Analysing Graphwise Quantization Error(Phrase 2)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 2)::  12%|█▎        | 1/8 [00:00<00:01,  4.29it/s]Analysing Graphwise Quantization Error(Phrase 2)::  25%|██▌       | 2/8 [00:00<00:01,  3.57it/s]Analysing Graphwise Quantization Error(Phrase 2)::  38%|███▊      | 3/8 [00:00<00:01,  3.54it/s]Analysing Graphwise Quantization Error(Phrase 2)::  50%|█████     | 4/8 [00:01<00:01,  3.42it/s]Analysing Graphwise Quantization Error(Phrase 2)::  62%|██████▎   | 5/8 [00:01<00:00,  3.43it/s]Analysing Graphwise Quantization Error(Phrase 2)::  75%|███████▌  | 6/8 [00:01<00:00,  3.37it/s]Analysing Graphwise Quantization Error(Phrase 2)::  88%|████████▊ | 7/8 [00:02<00:00,  3.40it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.36it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.06it/s]
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_144: | ████████████████████ | 0.096164
+Conv_148: | ████████████████     | 0.078718
+Conv_134: | ████████████         | 0.059309
+Conv_138: | ███████████          | 0.052144
+Conv_162: | ██████████           | 0.045725
+Conv_129: | █████████            | 0.041386
+Conv_163: | ████████             | 0.038798
+Conv_125: | ████████             | 0.038613
+Conv_55:  | ███████              | 0.032970
+Conv_104: | █████                | 0.022446
+Conv_26:  | ████                 | 0.021115
+Conv_115: | ████                 | 0.016979
+Conv_45:  | ███                  | 0.014744
+Conv_109: | ███                  | 0.012941
+Conv_105: | ██                   | 0.011413
+Conv_51:  | ██                   | 0.011122
+Conv_84:  | ██                   | 0.010916
+Conv_57:  | ██                   | 0.010603
+Conv_90:  | ██                   | 0.010262
+Conv_8:   | ██                   | 0.009951
+Conv_9:   | ██                   | 0.009922
+Conv_28:  | ██                   | 0.009341
+Conv_36:  | ██                   | 0.009323
+Conv_96:  | ██                   | 0.009108
+Conv_100: | ██                   | 0.008888
+Conv_65:  | ██                   | 0.008656
+Conv_41:  | ██                   | 0.008345
+Gemm_169: | ██                   | 0.007771
+Conv_70:  | ██                   | 0.007627
+Conv_86:  | ██                   | 0.007483
+Conv_158: | █                    | 0.006839
+Conv_17:  | █                    | 0.006819
+Conv_32:  | █                    | 0.006687
+Conv_13:  | █                    | 0.006638
+Conv_80:  | █                    | 0.006434
+Conv_47:  | █                    | 0.005909
+Conv_74:  | █                    | 0.005269
+Conv_76:  | █                    | 0.003574
+Conv_61:  | █                    | 0.002921
+Conv_66:  | █                    | 0.002767
+Conv_37:  | █                    | 0.002418
+Conv_18:  |                      | 0.002087
+Conv_0:   |                      | 0.000011
+[31m[Warning] Compling Kernels... Please wait (It will take a few minutes).[0m
+[06:32:24] PPQ Quantization Config Refine Pass Running ... Finished.
+[06:32:24] PPQ Quantization Fusion Pass Running ...        Finished.
+[06:32:24] PPQ Quantize Simplify Pass Running ...          Finished.
+[06:32:24] PPQ Parameter Quantization Pass Running ...     Finished.
+[06:32:25] PPQ Runtime Calibration Pass Running ...        Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   3%|▎         | 1/32 [00:00<00:03,  8.95it/s]Calibration Progress(Phase 1):   6%|▋         | 2/32 [00:00<00:03,  9.39it/s]Calibration Progress(Phase 1):   9%|▉         | 3/32 [00:00<00:03,  9.52it/s]Calibration Progress(Phase 1):  16%|█▌        | 5/32 [00:00<00:02, 11.43it/s]Calibration Progress(Phase 1):  22%|██▏       | 7/32 [00:00<00:02, 10.53it/s]Calibration Progress(Phase 1):  28%|██▊       | 9/32 [00:00<00:02, 10.24it/s]Calibration Progress(Phase 1):  34%|███▍      | 11/32 [00:01<00:01, 10.65it/s]Calibration Progress(Phase 1):  41%|████      | 13/32 [00:01<00:01, 10.26it/s]Calibration Progress(Phase 1):  47%|████▋     | 15/32 [00:01<00:01, 10.04it/s]Calibration Progress(Phase 1):  53%|█████▎    | 17/32 [00:01<00:01, 10.36it/s]Calibration Progress(Phase 1):  59%|█████▉    | 19/32 [00:01<00:01, 11.11it/s]Calibration Progress(Phase 1):  66%|██████▌   | 21/32 [00:02<00:01, 10.62it/s]Calibration Progress(Phase 1):  72%|███████▏  | 23/32 [00:02<00:00, 10.38it/s]Calibration Progress(Phase 1):  78%|███████▊  | 25/32 [00:02<00:00, 10.86it/s]Calibration Progress(Phase 1):  84%|████████▍ | 27/32 [00:02<00:00, 10.46it/s]Calibration Progress(Phase 1):  91%|█████████ | 29/32 [00:02<00:00, 10.27it/s]Calibration Progress(Phase 1):  97%|█████████▋| 31/32 [00:02<00:00, 10.86it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:03<00:00, 10.49it/s]
+Finished.
+[06:32:28] PPQ Quantization Alignment Pass Running ...     Finished.
+[06:32:28] PPQ Passive Parameter Quantization Running ...  Finished.
+[06:32:28] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [44]
+Num of Variable:              [277]
+Num of Quantized Var:         [168]
+------- Quantization Snapshot ------
+Num of Quant Config:          [174]
+BAKED:                        [43]
+ACTIVATED:                    [45]
+FP32:                         [86]
+Network Quantization Finished.
+Error Report of Algorithm minmax: 
+Analysing Graphwise Quantization Error(Phrase 1)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 1)::  12%|█▎        | 1/8 [00:00<00:01,  3.99it/s]Analysing Graphwise Quantization Error(Phrase 1)::  25%|██▌       | 2/8 [00:00<00:01,  4.25it/s]Analysing Graphwise Quantization Error(Phrase 1)::  38%|███▊      | 3/8 [00:00<00:01,  4.43it/s]Analysing Graphwise Quantization Error(Phrase 1)::  50%|█████     | 4/8 [00:00<00:00,  4.38it/s]Analysing Graphwise Quantization Error(Phrase 1)::  62%|██████▎   | 5/8 [00:01<00:00,  4.56it/s]Analysing Graphwise Quantization Error(Phrase 1)::  75%|███████▌  | 6/8 [00:01<00:00,  4.46it/s]Analysing Graphwise Quantization Error(Phrase 1)::  88%|████████▊ | 7/8 [00:01<00:00,  4.42it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:01<00:00,  4.54it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:02<00:00,  3.94it/s]
+Analysing Graphwise Quantization Error(Phrase 2)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 2)::  12%|█▎        | 1/8 [00:00<00:01,  4.28it/s]Analysing Graphwise Quantization Error(Phrase 2)::  25%|██▌       | 2/8 [00:00<00:01,  3.64it/s]Analysing Graphwise Quantization Error(Phrase 2)::  38%|███▊      | 3/8 [00:00<00:01,  3.58it/s]Analysing Graphwise Quantization Error(Phrase 2)::  50%|█████     | 4/8 [00:01<00:01,  3.47it/s]Analysing Graphwise Quantization Error(Phrase 2)::  62%|██████▎   | 5/8 [00:01<00:00,  3.47it/s]Analysing Graphwise Quantization Error(Phrase 2)::  75%|███████▌  | 6/8 [00:01<00:00,  3.60it/s]Analysing Graphwise Quantization Error(Phrase 2)::  88%|████████▊ | 7/8 [00:01<00:00,  3.73it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.51it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.18it/s]
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_162: | ████████████████████ | 0.057923
+Conv_163: | █████████████████    | 0.050064
+Conv_55:  | ███████████          | 0.031655
+Conv_104: | ██████               | 0.016308
+Conv_138: | █████                | 0.015302
+Conv_45:  | █████                | 0.014606
+Conv_144: | █████                | 0.013840
+Conv_148: | █████                | 0.013416
+Gemm_169: | ████                 | 0.012550
+Conv_26:  | ████                 | 0.012370
+Conv_51:  | ████                 | 0.010777
+Conv_134: | ████                 | 0.010673
+Conv_84:  | ███                  | 0.009586
+Conv_115: | ███                  | 0.008915
+Conv_57:  | ███                  | 0.008810
+Conv_41:  | ███                  | 0.008710
+Conv_90:  | ███                  | 0.008645
+Conv_125: | ███                  | 0.008425
+Conv_109: | ███                  | 0.008407
+Conv_36:  | ███                  | 0.007939
+Conv_105: | ██                   | 0.007212
+Conv_100: | ██                   | 0.007085
+Conv_96:  | ██                   | 0.007028
+Conv_65:  | ██                   | 0.006919
+Conv_28:  | ██                   | 0.006670
+Conv_70:  | ██                   | 0.006541
+Conv_86:  | ██                   | 0.006002
+Conv_80:  | ██                   | 0.005875
+Conv_17:  | ██                   | 0.005787
+Conv_47:  | ██                   | 0.005367
+Conv_74:  | ██                   | 0.004654
+Conv_129: | ██                   | 0.004458
+Conv_32:  | █                    | 0.004344
+Conv_158: | █                    | 0.004318
+Conv_13:  | █                    | 0.003361
+Conv_76:  | █                    | 0.002757
+Conv_61:  | █                    | 0.002247
+Conv_37:  | █                    | 0.002230
+Conv_66:  | █                    | 0.002193
+Conv_18:  | █                    | 0.001917
+Conv_8:   |                      | 0.001259
+Conv_9:   |                      | 0.001027
+Conv_0:   |                      | 0.000011
+[31m[Warning] Compling Kernels... Please wait (It will take a few minutes).[0m
+[06:32:39] PPQ Quantization Config Refine Pass Running ... Finished.
+[06:32:39] PPQ Quantization Fusion Pass Running ...        Finished.
+[06:32:39] PPQ Quantize Simplify Pass Running ...          Finished.
+[06:32:39] PPQ Parameter Quantization Pass Running ...     Finished.
+[06:32:40] PPQ Runtime Calibration Pass Running ...        Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   3%|▎         | 1/32 [00:00<00:08,  3.62it/s]Calibration Progress(Phase 1):   6%|▋         | 2/32 [00:00<00:08,  3.74it/s]Calibration Progress(Phase 1):   9%|▉         | 3/32 [00:00<00:08,  3.59it/s]Calibration Progress(Phase 1):  12%|█▎        | 4/32 [00:01<00:07,  3.81it/s]Calibration Progress(Phase 1):  16%|█▌        | 5/32 [00:01<00:07,  3.57it/s]Calibration Progress(Phase 1):  19%|█▉        | 6/32 [00:01<00:06,  3.92it/s]Calibration Progress(Phase 1):  22%|██▏       | 7/32 [00:01<00:06,  3.69it/s]Calibration Progress(Phase 1):  25%|██▌       | 8/32 [00:02<00:06,  3.80it/s]Calibration Progress(Phase 1):  28%|██▊       | 9/32 [00:02<00:06,  3.71it/s]Calibration Progress(Phase 1):  31%|███▏      | 10/32 [00:02<00:05,  3.68it/s]Calibration Progress(Phase 1):  34%|███▍      | 11/32 [00:02<00:05,  3.61it/s]Calibration Progress(Phase 1):  38%|███▊      | 12/32 [00:03<00:05,  3.57it/s]Calibration Progress(Phase 1):  41%|████      | 13/32 [00:03<00:05,  3.49it/s]Calibration Progress(Phase 1):  44%|████▍     | 14/32 [00:03<00:05,  3.56it/s]Calibration Progress(Phase 1):  47%|████▋     | 15/32 [00:04<00:04,  3.64it/s]Calibration Progress(Phase 1):  50%|█████     | 16/32 [00:04<00:04,  3.67it/s]Calibration Progress(Phase 1):  53%|█████▎    | 17/32 [00:04<00:03,  3.83it/s]Calibration Progress(Phase 1):  56%|█████▋    | 18/32 [00:04<00:03,  3.65it/s]Calibration Progress(Phase 1):  59%|█████▉    | 19/32 [00:05<00:03,  3.90it/s]Calibration Progress(Phase 1):  62%|██████▎   | 20/32 [00:05<00:03,  3.60it/s]Calibration Progress(Phase 1):  66%|██████▌   | 21/32 [00:05<00:03,  3.66it/s]Calibration Progress(Phase 1):  69%|██████▉   | 22/32 [00:06<00:02,  3.58it/s]Calibration Progress(Phase 1):  72%|███████▏  | 23/32 [00:06<00:02,  3.61it/s]Calibration Progress(Phase 1):  75%|███████▌  | 24/32 [00:06<00:02,  3.50it/s]Calibration Progress(Phase 1):  78%|███████▊  | 25/32 [00:06<00:01,  3.58it/s]Calibration Progress(Phase 1):  81%|████████▏ | 26/32 [00:07<00:01,  3.51it/s]Calibration Progress(Phase 1):  84%|████████▍ | 27/32 [00:07<00:01,  3.51it/s]Calibration Progress(Phase 1):  88%|████████▊ | 28/32 [00:07<00:01,  3.33it/s]Calibration Progress(Phase 1):  91%|█████████ | 29/32 [00:08<00:00,  3.54it/s]Calibration Progress(Phase 1):  94%|█████████▍| 30/32 [00:08<00:00,  3.51it/s]Calibration Progress(Phase 1):  97%|█████████▋| 31/32 [00:08<00:00,  3.55it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:08<00:00,  3.46it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:08<00:00,  3.60it/s]
+Finished.
+[06:32:49] PPQ Quantization Alignment Pass Running ...     Finished.
+[06:32:49] PPQ Passive Parameter Quantization Running ...  Finished.
+[06:32:49] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [44]
+Num of Variable:              [277]
+Num of Quantized Var:         [168]
+------- Quantization Snapshot ------
+Num of Quant Config:          [174]
+BAKED:                        [43]
+ACTIVATED:                    [45]
+FP32:                         [86]
+Network Quantization Finished.
+Error Report of Algorithm percentile: 
+Analysing Graphwise Quantization Error(Phrase 1)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 1)::  12%|█▎        | 1/8 [00:00<00:01,  3.93it/s]Analysing Graphwise Quantization Error(Phrase 1)::  25%|██▌       | 2/8 [00:00<00:01,  4.23it/s]Analysing Graphwise Quantization Error(Phrase 1)::  38%|███▊      | 3/8 [00:00<00:01,  4.20it/s]Analysing Graphwise Quantization Error(Phrase 1)::  50%|█████     | 4/8 [00:00<00:00,  4.32it/s]Analysing Graphwise Quantization Error(Phrase 1)::  62%|██████▎   | 5/8 [00:01<00:00,  4.30it/s]Analysing Graphwise Quantization Error(Phrase 1)::  75%|███████▌  | 6/8 [00:01<00:00,  4.28it/s]Analysing Graphwise Quantization Error(Phrase 1)::  88%|████████▊ | 7/8 [00:01<00:00,  4.36it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:01<00:00,  4.30it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:02<00:00,  3.80it/s]
+Analysing Graphwise Quantization Error(Phrase 2)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 2)::  12%|█▎        | 1/8 [00:00<00:02,  3.42it/s]Analysing Graphwise Quantization Error(Phrase 2)::  25%|██▌       | 2/8 [00:00<00:01,  3.42it/s]Analysing Graphwise Quantization Error(Phrase 2)::  38%|███▊      | 3/8 [00:00<00:01,  3.33it/s]Analysing Graphwise Quantization Error(Phrase 2)::  50%|█████     | 4/8 [00:01<00:01,  3.38it/s]Analysing Graphwise Quantization Error(Phrase 2)::  62%|██████▎   | 5/8 [00:01<00:00,  3.34it/s]Analysing Graphwise Quantization Error(Phrase 2)::  75%|███████▌  | 6/8 [00:01<00:00,  3.39it/s]Analysing Graphwise Quantization Error(Phrase 2)::  88%|████████▊ | 7/8 [00:02<00:00,  3.35it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.39it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  2.99it/s]
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_144: | ████████████████████ | 0.172041
+Conv_148: | ███████████████      | 0.130678
+Conv_134: | █████████████        | 0.112534
+Conv_138: | ████████████         | 0.099072
+Conv_129: | ██████████           | 0.088110
+Conv_125: | █████████            | 0.075336
+Conv_162: | █████                | 0.041658
+Conv_163: | ████                 | 0.036312
+Conv_55:  | ██                   | 0.019926
+Conv_115: | ██                   | 0.018715
+Conv_104: | ██                   | 0.015515
+Conv_158: | █                    | 0.010682
+Conv_109: | █                    | 0.010440
+Conv_45:  | █                    | 0.009378
+Conv_105: | █                    | 0.008466
+Conv_26:  | █                    | 0.008459
+Conv_96:  | █                    | 0.007443
+Conv_51:  | █                    | 0.006808
+Conv_100: | █                    | 0.006602
+Conv_84:  | █                    | 0.006546
+Gemm_169: | █                    | 0.006499
+Conv_90:  | █                    | 0.005714
+Conv_57:  | █                    | 0.005701
+Conv_41:  | █                    | 0.005589
+Conv_36:  | █                    | 0.005138
+Conv_65:  | █                    | 0.004862
+Conv_28:  | █                    | 0.004437
+Conv_70:  | █                    | 0.004342
+Conv_17:  |                      | 0.004219
+Conv_86:  |                      | 0.004122
+Conv_80:  |                      | 0.003898
+Conv_47:  |                      | 0.003479
+Conv_74:  |                      | 0.003095
+Conv_32:  |                      | 0.002823
+Conv_13:  |                      | 0.002590
+Conv_76:  |                      | 0.001921
+Conv_61:  |                      | 0.001565
+Conv_66:  |                      | 0.001535
+Conv_37:  |                      | 0.001473
+Conv_18:  |                      | 0.001381
+Conv_8:   |                      | 0.001259
+Conv_9:   |                      | 0.000974
+Conv_0:   |                      | 0.000011
+[31m[Warning] Compling Kernels... Please wait (It will take a few minutes).[0m
+[06:32:59] PPQ Layerwise Equalization Pass Running ... 2 equalization pair(s) was found, ready to run optimization.
+Layerwise Equalization:   0%|          | 0/10 [00:00<?, ?it/s]Layerwise Equalization: 100%|██████████| 10/10 [00:00<00:00, 1319.42it/s]
+Equalization Data Collecting.:   0%|          | 0/16 [00:00<?, ?it/s]Equalization Data Collecting.:   6%|▋         | 1/16 [00:00<00:02,  7.32it/s]Equalization Data Collecting.:  19%|█▉        | 3/16 [00:00<00:01, 11.94it/s]Equalization Data Collecting.:  31%|███▏      | 5/16 [00:00<00:01, 10.14it/s]Equalization Data Collecting.:  44%|████▍     | 7/16 [00:00<00:00,  9.61it/s]Equalization Data Collecting.:  50%|█████     | 8/16 [00:00<00:00,  9.55it/s]Equalization Data Collecting.:  62%|██████▎   | 10/16 [00:01<00:00, 10.11it/s]Equalization Data Collecting.:  75%|███████▌  | 12/16 [00:01<00:00,  9.60it/s]Equalization Data Collecting.:  81%|████████▏ | 13/16 [00:01<00:00,  9.47it/s]Equalization Data Collecting.:  88%|████████▊ | 14/16 [00:01<00:00,  9.41it/s]Equalization Data Collecting.: 100%|██████████| 16/16 [00:01<00:00, 10.50it/s]Equalization Data Collecting.: 17it [00:01,  9.27it/s]                        input.4 torch.Size([32, 18])
+input.12 torch.Size([32, 18])
+input.20 torch.Size([16, 18])
+input.28 torch.Size([96, 18])
+input.36 torch.Size([96, 18])
+input.44 torch.Size([24, 18])
+input.52 torch.Size([144, 18])
+input.60 torch.Size([144, 18])
+onnx::Add_561 torch.Size([24, 18])
+input.76 torch.Size([144, 18])
+input.84 torch.Size([144, 18])
+input.92 torch.Size([32, 18])
+input.100 torch.Size([192, 18])
+input.108 torch.Size([192, 18])
+onnx::Add_579 torch.Size([32, 18])
+input.124 torch.Size([192, 18])
+input.132 torch.Size([192, 18])
+onnx::Add_588 torch.Size([32, 18])
+input.148 torch.Size([192, 18])
+input.156 torch.Size([192, 18])
+input.164 torch.Size([64, 18])
+input.172 torch.Size([384, 18])
+input.180 torch.Size([384, 18])
+onnx::Add_606 torch.Size([64, 18])
+input.196 torch.Size([384, 18])
+input.204 torch.Size([384, 18])
+onnx::Add_615 torch.Size([64, 18])
+input.220 torch.Size([384, 18])
+input.228 torch.Size([384, 18])
+onnx::Add_624 torch.Size([64, 18])
+input.244 torch.Size([384, 18])
+input.252 torch.Size([384, 18])
+input.260 torch.Size([96, 18])
+input.268 torch.Size([576, 18])
+input.276 torch.Size([576, 18])
+onnx::Add_642 torch.Size([96, 18])
+input.292 torch.Size([576, 18])
+input.300 torch.Size([576, 18])
+onnx::Add_651 torch.Size([96, 18])
+input.316 torch.Size([576, 18])
+input.324 torch.Size([576, 18])
+input.332 torch.Size([160, 18])
+input.340 torch.Size([960, 18])
+input.348 torch.Size([960, 18])
+onnx::Add_669 torch.Size([160, 18])
+input.364 torch.Size([960, 18])
+input.372 torch.Size([960, 18])
+onnx::Add_678 torch.Size([160, 18])
+input.388 torch.Size([960, 18])
+input.396 torch.Size([960, 18])
+input.404 torch.Size([320, 18])
+input.412 torch.Size([1280, 18])
+536 torch.Size([1000, 18])
+input.4 tensor([0.1242, 1.2020, 1.3453, 1.2031, 0.9775, 0.8657, 0.7102, 0.8105, 0.9292,
+        0.0088, 1.0353, 1.0721, 1.3264, 0.4597, 0.0094, 0.0157, 0.0441, 0.0218,
+        0.4139, 0.4945, 0.6729, 0.6555, 1.3475, 0.0171, 0.9691],
+       device='cuda:0')
+input.12 tensor([1.1896e-02, 3.3465e+00, 5.5537e+00, 2.8521e+00, 8.8006e+00, 5.1253e+00,
+        3.2644e+00, 4.8664e+00, 2.5755e+00, 4.8900e-03, 6.1457e-01, 8.3322e+00,
+        3.6463e+00, 4.1233e-01, 5.8329e-03, 6.1148e-03, 8.3305e-03, 1.3609e-02,
+        4.8651e+00, 1.1737e+00, 2.8765e-01, 2.7374e+00, 2.4947e+00, 1.2245e-03,
+        7.5950e-01], device='cuda:0')
+input.20 tensor([3.1140, 2.5714, 2.7476, 2.0107, 1.8733, 2.5988, 3.5744, 2.6478, 2.1263,
+        2.1805, 2.1474, 2.7111, 3.2155, 2.6680, 1.8568, 2.1912],
+       device='cuda:0')
+input.28 tensor([2.0666, 1.4353, 0.8013, 1.0224, 0.5729, 0.5967, 1.3055, 1.1195, 2.7736,
+        0.6119, 0.7514, 1.1191, 0.6456, 1.0567, 1.2114, 2.2402, 1.0700, 1.0253,
+        2.1463, 0.7109, 1.4317, 0.8861, 0.7284, 0.8435, 1.1961],
+       device='cuda:0')
+input.36 tensor([1.7481, 1.3205, 1.1499, 0.9778, 0.9258, 0.9254, 1.0919, 2.1107, 1.8953,
+        1.5780, 0.2274, 0.6575, 2.4508, 2.0367, 2.1903, 1.3483, 1.8713, 0.6014,
+        3.3846, 0.6180, 1.3194, 0.8385, 2.5356, 3.1460, 1.2469],
+       device='cuda:0')
+input.44 tensor([1.8562, 1.6632, 2.0387, 1.2215, 2.9320, 1.8600, 1.3272, 3.6073, 2.2692,
+        2.3464, 1.4935, 2.3405, 1.3472, 1.8466, 2.4846, 1.2236, 1.3992, 3.4354,
+        1.7307, 1.7853, 1.8134, 1.2737, 1.7015, 1.2450], device='cuda:0')
+input.52 tensor([4.2556, 0.4742, 0.5820, 0.4660, 0.5325, 0.4754, 0.8799, 0.6874, 0.3801,
+        0.9062, 0.7710, 0.7042, 0.4165, 0.8148, 0.8174, 0.6376, 0.5040, 0.4561,
+        0.5871, 0.4690, 0.7084, 0.4081, 0.5959, 0.5063, 0.6098],
+       device='cuda:0')
+input.60 tensor([0.5792, 1.0524, 0.6977, 0.9245, 0.1237, 1.0296, 1.1486, 1.4497, 0.8302,
+        2.2822, 1.6716, 1.3489, 0.5988, 0.7393, 1.2009, 0.4757, 0.7283, 1.2235,
+        1.3444, 1.2142, 1.2648, 1.0598, 0.9843, 1.1910, 0.6494],
+       device='cuda:0')
+onnx::Add_561 tensor([2.1136, 3.1046, 2.7362, 2.4312, 2.4807, 2.7221, 2.7104, 2.3212, 3.6162,
+        2.3883, 2.5799, 1.8567, 2.5961, 3.2816, 2.2320, 2.5270, 2.2651, 2.5042,
+        1.5366, 1.8894, 2.0399, 2.9227, 3.0788, 2.7097], device='cuda:0')
+input.76 tensor([1.4689, 0.5462, 0.8020, 0.8707, 0.9470, 0.4681, 1.2836, 1.6797, 0.7716,
+        0.6024, 0.9015, 0.9092, 0.6171, 0.5543, 0.7412, 0.9930, 1.3357, 1.3976,
+        1.5094, 1.2066, 0.8589, 0.7879, 0.8830, 0.9983, 1.1911],
+       device='cuda:0')
+input.84 tensor([0.8353, 1.3882, 0.5597, 1.4033, 0.4682, 0.3567, 0.7117, 0.8675, 0.7968,
+        0.4485, 0.7655, 1.0953, 0.6351, 1.2714, 0.5450, 0.9266, 1.2247, 1.0101,
+        1.3210, 1.1295, 0.4582, 0.4005, 0.9789, 1.2632, 0.7537],
+       device='cuda:0')
+input.92 tensor([1.4718, 1.6521, 1.5560, 1.8577, 1.4358, 1.6715, 2.1725, 1.2792, 1.6530,
+        1.2522, 1.5966, 1.7617, 1.4755, 1.3446, 1.9668, 1.3229, 1.4006, 1.4135,
+        1.4206, 2.5444, 1.7581, 1.5100, 2.2350, 1.2739, 2.1802],
+       device='cuda:0')
+input.100 tensor([0.4759, 0.3240, 0.3831, 0.3091, 0.4737, 0.3259, 0.3511, 0.7162, 0.3667,
+        0.6940, 0.3222, 0.6210, 0.2326, 0.3637, 0.4108, 0.3866, 0.3890, 0.3392,
+        0.2006, 0.3484, 0.4160, 0.9644, 0.7934, 0.4837, 0.3498],
+       device='cuda:0')
+input.108 tensor([1.0458, 0.5427, 1.2044, 0.3866, 0.1147, 0.9125, 0.6436, 1.7457, 0.1962,
+        0.3296, 1.0925, 1.5067, 0.2921, 0.5576, 0.9847, 0.7012, 0.9004, 0.5572,
+        0.4455, 0.6299, 1.5753, 2.3860, 1.3334, 1.0197, 0.7270],
+       device='cuda:0')
+onnx::Add_579 tensor([1.4417, 1.5902, 1.2036, 1.2127, 1.3878, 1.2677, 2.0366, 1.1871, 1.9562,
+        2.4920, 2.6444, 0.8159, 0.8462, 1.0997, 0.9679, 1.2228, 2.3779, 1.1279,
+        0.7705, 2.2806, 1.3856, 0.9981, 1.3641, 2.1996, 1.8191],
+       device='cuda:0')
+input.124 tensor([0.2445, 0.2389, 0.2877, 0.4442, 0.3593, 0.6953, 0.0387, 0.4545, 0.4337,
+        0.2964, 0.6527, 0.4861, 0.5208, 0.3581, 0.3383, 0.3476, 0.3760, 0.5477,
+        0.4378, 0.4426, 0.3902, 0.4606, 0.6550, 0.3392, 0.4254],
+       device='cuda:0')
+input.132 tensor([2.3966e-01, 6.9448e-01, 1.0571e+00, 1.4611e+00, 6.6239e-01, 7.8106e-01,
+        1.3507e-03, 3.7271e-01, 6.6814e-01, 5.8824e-01, 1.0052e-01, 3.6810e-01,
+        1.1394e+00, 7.0218e-01, 5.8478e-01, 7.3787e-01, 8.5905e-01, 1.2249e+00,
+        4.0554e-01, 9.4360e-01, 8.1590e-01, 1.2362e+00, 7.1661e-01, 6.4601e-01,
+        9.8820e-01], device='cuda:0')
+onnx::Add_588 tensor([1.2245, 0.9507, 1.1363, 1.2607, 1.7386, 1.1266, 1.1614, 1.2333, 1.0724,
+        1.4382, 1.9295, 0.9153, 0.8134, 0.7553, 1.0341, 1.4287, 1.2813, 1.5251,
+        1.1259, 1.6768, 0.9680, 0.8155, 1.0678, 1.7484, 1.0324],
+       device='cuda:0')
+input.148 tensor([0.7228, 0.9909, 0.5732, 0.9819, 0.7253, 0.4895, 0.4861, 0.7215, 1.2290,
+        1.0022, 0.4433, 0.8859, 0.5195, 0.4397, 0.4724, 0.8986, 0.4341, 0.7008,
+        0.5303, 0.9339, 0.9737, 0.5020, 0.3944, 0.9153, 0.6242],
+       device='cuda:0')
+input.156 tensor([0.4194, 0.4260, 0.7060, 0.8203, 0.9060, 0.4256, 0.7673, 0.4189, 0.7165,
+        0.8202, 0.6376, 0.5646, 0.4965, 0.6635, 0.6774, 0.7785, 0.3831, 0.1968,
+        1.2853, 0.7727, 1.1348, 0.4375, 0.9217, 0.6937, 0.3988],
+       device='cuda:0')
+input.164 tensor([0.9500, 1.1838, 1.1643, 0.8596, 0.8911, 0.8275, 1.1362, 0.8886, 1.3587,
+        1.1308, 1.8538, 1.3659, 0.6876, 1.0071, 0.9340, 1.2457, 1.5529, 1.4090,
+        0.8761, 1.3527, 1.1718, 1.1882, 1.0498, 0.8446, 0.8785],
+       device='cuda:0')
+input.172 tensor([0.2827, 0.2452, 0.1754, 0.2527, 0.3529, 0.1945, 0.3732, 0.5951, 0.3322,
+        0.3402, 0.3348, 0.1781, 0.4126, 0.2497, 0.3712, 0.2432, 0.4808, 0.2235,
+        0.3192, 0.1978, 0.2856, 0.3251, 0.4170, 0.2048, 0.1873],
+       device='cuda:0')
+input.180 tensor([0.6627, 0.4814, 0.3914, 0.7251, 0.6742, 0.4176, 0.6596, 0.5219, 0.8461,
+        0.5999, 0.6643, 0.4394, 0.7836, 0.5442, 0.1689, 0.2916, 0.5097, 0.2062,
+        0.5613, 0.5066, 0.2700, 0.2432, 0.6834, 0.2500, 0.2724],
+       device='cuda:0')
+onnx::Add_606 tensor([1.0031, 0.8439, 0.7257, 1.0365, 1.0598, 1.0138, 0.5717, 1.0601, 1.3926,
+        0.9070, 0.6078, 0.8611, 1.0214, 0.5806, 0.8530, 0.8898, 0.6765, 0.4142,
+        0.9056, 0.9341, 0.5395, 0.8542, 0.7738, 1.0396, 1.0535],
+       device='cuda:0')
+input.196 
+tensor([0.2425, 0.1749, 0.1633, 0.3018, 0.2291, 0.2712, 0.1918, 0.2035, 0.3845,
+        0.3394, 0.4151, 0.2973, 0.2778, 0.2926, 0.1112, 0.1925, 0.3090, 0.2087,
+        0.1685, 0.3534, 0.4565, 0.3252, 0.3735, 0.4026, 0.4422],
+       device='cuda:0')
+input.204 tensor([0.5004, 0.3504, 0.3351, 0.5985, 0.6460, 0.3681, 0.3756, 0.4520, 0.5046,
+        0.6396, 0.7673, 0.7035, 0.3844, 0.1726, 0.3092, 0.3677, 0.4758, 0.2480,
+        0.4155, 0.5809, 0.2252, 0.8504, 0.4974, 0.7952, 0.3561],
+       device='cuda:0')
+onnx::Add_615 tensor([0.6041, 0.6455, 0.7557, 0.8972, 1.0049, 1.0996, 0.8198, 1.2390, 1.0532,
+        0.8138, 0.7693, 1.1388, 0.6090, 0.7666, 0.7699, 0.7271, 0.6143, 0.6760,
+        1.9182, 0.4877, 0.4742, 0.5570, 0.9009, 0.9733, 1.0896],
+       device='cuda:0')
+input.220 tensor([0.0363, 0.2773, 0.1816, 0.3003, 0.3508, 0.2906, 0.3168, 0.5511, 0.3608,
+        0.1954, 0.2065, 0.3935, 0.2579, 0.3508, 0.6155, 0.5443, 0.3495, 0.1516,
+        0.2755, 0.1809, 0.1795, 0.3819, 0.2134, 0.1100, 0.3536],
+       device='cuda:0')
+input.228 tensor([0.0170, 0.2788, 0.3875, 0.2641, 0.5209, 0.5520, 0.6310, 0.0370, 0.9497,
+        0.3389, 0.3891, 0.9341, 0.3681, 0.2498, 0.4994, 0.0667, 0.3776, 0.2487,
+        0.5314, 0.4267, 0.2820, 0.6898, 0.1815, 0.4241, 0.7099],
+       device='cuda:0')
+onnx::Add_624 tensor([0.7403, 1.4453, 3.9039, 0.6601, 1.8945, 1.7170, 0.9977, 0.8882, 1.2610,
+        1.9399, 1.4190, 1.3388, 0.6405, 0.6009, 0.7829, 1.0218, 0.5921, 1.3110,
+        1.6845, 0.8199, 0.9980, 0.8821, 1.8562, 1.6008, 1.5596],
+       device='cuda:0')
+input.244 tensor([0.5726, 0.2999, 0.3066, 0.4244, 0.6849, 0.3842, 0.5711, 0.4969, 0.3807,
+        0.4566, 0.3107, 0.4707, 0.7217, 0.9047, 0.9000, 0.3599, 0.4275, 0.7266,
+        0.8608, 0.5709, 0.6726, 0.3823, 0.3888, 0.5500, 0.3572],
+       device='cuda:0')
+input.252 tensor([0.8024, 0.4461, 0.3417, 0.4574, 1.4238, 0.3403, 1.1855, 0.3871, 0.6807,
+        0.8487, 0.6363, 0.3666, 0.3051, 2.5737, 1.0950, 0.3562, 0.0502, 1.5469,
+        0.6763, 0.9993, 1.3085, 0.6691, 0.4164, 0.2539, 0.6287],
+       device='cuda:0')
+input.260 tensor([1.0934, 0.8282, 0.7902, 1.7168, 1.1170, 1.4786, 0.7645, 0.8160, 1.4841,
+        0.7791, 0.9495, 0.9056, 1.0274, 0.7406, 0.6881, 0.8058, 1.5485, 1.3753,
+        0.6025, 1.3559, 1.1286, 0.7483, 1.4628, 0.7813, 1.1648],
+       device='cuda:0')
+input.268 tensor([0.2988, 0.2323, 0.3709, 0.2206, 0.3384, 0.2878, 0.4951, 0.6063, 0.4387,
+        0.2925, 0.3043, 0.2251, 0.5070, 0.2901, 0.2503, 0.2116, 0.2643, 0.2670,
+        0.3298, 0.3871, 0.3115, 0.3000, 0.3160, 0.3631, 0.4717],
+       device='cuda:0')
+input.276 tensor([0.5017, 0.3324, 0.9285, 0.2500, 0.4701, 0.7079, 0.2075, 0.4059, 0.3631,
+        0.6051, 0.2717, 0.5608, 0.8977, 0.4638, 0.2240, 0.5456, 0.4238, 0.3002,
+        0.1609, 0.2008, 0.3481, 0.4547, 0.7089, 0.3977, 1.2160],
+       device='cuda:0')
+onnx::Add_642 tensor([2.1012, 1.0166, 0.6043, 0.4066, 0.9645, 0.7979, 0.9860, 1.1403, 1.0284,
+        1.0468, 0.8619, 1.6432, 1.9467, 0.4813, 1.0365, 0.9477, 1.8157, 0.6898,
+        1.2758, 1.4043, 1.2167, 1.1386, 1.2470, 1.0976, 1.0509],
+       device='cuda:0')
+input.292 tensor([0.5259, 0.4008, 0.4973, 0.3404, 0.4838, 0.3266, 0.1656, 0.3545, 0.3654,
+        0.2927, 0.3845, 0.3597, 0.4078, 0.2444, 0.2588, 0.3151, 0.7650, 0.3046,
+        0.5303, 0.6049, 0.3026, 0.3937, 0.6162, 0.6782, 0.4857],
+       device='cuda:0')
+input.300 tensor([0.5106, 0.3361, 0.3291, 0.2299, 0.6679, 0.3135, 0.4393, 0.3769, 0.5857,
+        0.9481, 0.3439, 0.4341, 0.2987, 1.0631, 0.2540, 0.7852, 1.0598, 0.7317,
+        0.4101, 0.9751, 0.5457, 0.7664, 1.9825, 1.4277, 1.0067],
+       device='cuda:0')
+onnx::Add_651 tensor([3.5872, 5.2412, 0.6272, 0.5598, 1.5197, 3.0957, 1.1953, 2.0029, 0.8797,
+        1.5216, 1.0293, 1.6360, 0.7269, 2.0049, 2.0747, 1.7284, 1.5859, 2.1604,
+        3.4021, 4.2177, 2.6232, 2.9468, 1.9861, 2.4470, 4.7402],
+       device='cuda:0')
+input.316 tensor([1.0312, 1.5471, 2.4185, 2.0532, 1.3015, 0.2234, 0.6366, 2.5959, 1.4200,
+        1.5813, 2.6334, 1.0153, 2.6056, 0.5023, 0.8829, 1.7711, 0.7104, 1.6678,
+        1.7592, 2.0454, 2.0019, 1.8268, 1.0895, 1.3811, 0.6488],
+       device='cuda:0')
+input.324 tensor([0.4945, 1.0074, 5.1643, 2.7092, 1.6382, 0.2932, 0.9753, 4.1316, 2.3084,
+        2.4548, 4.5895, 0.6963, 4.0808, 0.5182, 1.3984, 3.4544, 0.4130, 1.0799,
+        3.2619, 4.0214, 1.5507, 3.0489, 0.4776, 1.5904, 0.5061],
+       device='cuda:0')
+input.332 tensor([1.0721, 0.4946, 2.4495, 0.9509, 2.2408, 1.0796, 2.0939, 0.7562, 0.8701,
+        2.2641, 0.7014, 2.3344, 1.6876, 2.5842, 1.1378, 2.9299, 1.2337, 2.9596,
+        2.8336, 1.8722, 0.9183, 0.8008, 2.2638, 0.9201, 1.6552],
+       device='cuda:0')
+input.340 tensor([1.7464, 0.5840, 0.5859, 0.8186, 0.7186, 0.5018, 0.3760, 0.4377, 0.5056,
+        1.2711, 0.5601, 1.2941, 1.3341, 0.5374, 0.9078, 0.2956, 0.5472, 0.3728,
+        0.8599, 0.6493, 1.0673, 0.3957, 0.4939, 0.6948, 1.4165],
+       device='cuda:0')
+input.348 tensor([4.9124, 1.7748, 0.9139, 0.2190, 1.0424, 0.2494, 0.7225, 0.4517, 0.2793,
+        0.2357, 0.5408, 1.0769, 1.4457, 0.2425, 0.6810, 0.5237, 0.2580, 0.3303,
+        0.5362, 0.1901, 0.4378, 0.1317, 0.2323, 0.9925, 1.9203],
+       device='cuda:0')
+onnx::Add_669 tensor([3.3499, 3.7279, 0.9790, 3.3217, 1.7290, 1.7802, 1.6038, 1.6886, 0.8007,
+        3.9250, 5.7267, 4.2966, 1.8042, 3.1726, 3.0116, 0.7592, 1.1193, 2.7389,
+        1.1853, 1.5944, 1.6609, 4.1981, 1.7909, 2.1366, 1.2683],
+       device='cuda:0')
+input.364 tensor([1.3040, 0.8808, 1.1152, 1.8275, 2.8232, 0.5869, 0.9640, 0.7658, 0.3749,
+        2.1720, 2.2283, 1.8227, 1.0174, 1.2616, 0.5308, 0.7587, 1.0816, 0.8268,
+        0.7575, 1.4196, 0.3798, 1.1522, 1.9007, 1.0566, 1.6510],
+       device='cuda:0')
+input.372 tensor([0.2499, 1.0941, 2.3751, 0.8870, 4.2883, 0.9036, 1.4733, 1.0150, 0.5489,
+        0.5784, 0.7613, 0.6752, 1.0604, 0.5463, 0.2810, 1.1835, 1.4574, 0.2278,
+        0.6477, 0.2453, 0.2726, 1.8263, 3.1730, 1.0382, 0.5059],
+       device='cuda:0')
+onnx::Add_678 tensor([ 1.9670,  8.5034,  5.1107,  7.5107,  2.2365,  6.4991,  8.2372,  1.7501,
+         7.0039,  2.1002, 16.6268,  6.0510,  1.9451,  2.0783,  8.6973,  8.0555,
+         9.1101, 12.6530,  1.4973,  3.4404,  2.5876,  2.2497,  1.1651,  3.3023,
+         5.6091], device='cuda:0')
+input.388 tensor([2.3356, 1.3602, 4.8327, 5.4977, 5.4305, 6.4136, 6.2765, 4.2566, 4.3761,
+        5.3236, 0.6036, 1.7031, 5.6471, 5.4778, 3.5249, 5.5123, 6.6081, 6.5058,
+        5.7115, 5.8407, 5.8038, 3.0137, 4.1099, 1.6087, 0.7711],
+       device='cuda:0')
+input.396 tensor([0.2797, 0.2319, 0.0303, 0.0303, 0.0321, 0.0353, 0.0267, 0.0214, 0.0284,
+        0.0312, 0.2393, 0.2553, 0.0292, 0.0273, 0.0191, 0.0281, 0.1325, 0.0426,
+        0.0796, 0.0937, 0.1148, 0.3006, 0.6563, 0.3136, 0.1943],
+       device='cuda:0')
+input.404 tensor([0.3782, 0.3944, 0.7120, 0.5752, 0.5941, 0.5195, 0.2832, 0.5813, 0.3649,
+        0.9349, 0.6434, 0.4363, 0.4239, 0.3582, 0.4334, 0.4252, 0.9067, 0.4449,
+        0.5460, 0.8871, 0.5223, 0.4907, 0.3248, 0.4563, 0.5315],
+       device='cuda:0')
+input.412 tensor([1.3825, 1.8891, 4.8995, 2.2986, 2.6642, 1.2924, 1.3802, 1.4805, 1.3781,
+        3.0329, 1.8936, 4.1529, 1.3573, 2.3670, 1.4705, 2.1491, 1.2392, 2.5156,
+        1.0347, 2.0940, 1.5594, 1.2482, 1.8366, 1.2668, 1.9347],
+       device='cuda:0')
+536 tensor([2.9344, 1.5614, 1.7947, 1.4062, 1.8558, 1.5787, 2.3189, 1.1580, 1.9500,
+        1.3980, 1.1009, 1.7017, 2.2804, 1.5157, 0.9284, 1.6154, 2.5629, 1.3604,
+        2.2951, 0.5874, 0.5690, 2.7846, 2.7187, 2.3588, 0.7749],
+       device='cuda:0')
+Finished.
+[06:33:02] PPQ Quantization Config Refine Pass Running ... Finished.
+[06:33:02] PPQ Quantization Fusion Pass Running ...        Finished.
+[06:33:02] PPQ Quantize Simplify Pass Running ...          Finished.
+[06:33:02] PPQ Parameter Quantization Pass Running ...     Finished.
+[06:33:03] PPQ Runtime Calibration Pass Running ...        Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   3%|▎         | 1/32 [00:00<00:08,  3.66it/s]Calibration Progress(Phase 1):   6%|▋         | 2/32 [00:00<00:08,  3.40it/s]Calibration Progress(Phase 1):   9%|▉         | 3/32 [00:00<00:08,  3.50it/s]Calibration Progress(Phase 1):  12%|█▎        | 4/32 [00:01<00:07,  3.64it/s]Calibration Progress(Phase 1):  16%|█▌        | 5/32 [00:01<00:07,  3.60it/s]Calibration Progress(Phase 1):  19%|█▉        | 6/32 [00:01<00:06,  4.02it/s]Calibration Progress(Phase 1):  22%|██▏       | 7/32 [00:01<00:06,  3.71it/s]Calibration Progress(Phase 1):  25%|██▌       | 8/32 [00:02<00:06,  3.85it/s]Calibration Progress(Phase 1):  28%|██▊       | 9/32 [00:02<00:06,  3.69it/s]Calibration Progress(Phase 1):  31%|███▏      | 10/32 [00:02<00:05,  3.69it/s]Calibration Progress(Phase 1):  34%|███▍      | 11/32 [00:02<00:05,  3.70it/s]Calibration Progress(Phase 1):  38%|███▊      | 12/32 [00:03<00:05,  3.65it/s]Calibration Progress(Phase 1):  41%|████      | 13/32 [00:03<00:04,  3.85it/s]Calibration Progress(Phase 1):  44%|████▍     | 14/32 [00:03<00:05,  3.60it/s]Calibration Progress(Phase 1):  47%|████▋     | 15/32 [00:04<00:04,  3.85it/s]Calibration Progress(Phase 1):  50%|█████     | 16/32 [00:04<00:04,  3.71it/s]Calibration Progress(Phase 1):  53%|█████▎    | 17/32 [00:04<00:03,  3.86it/s]Calibration Progress(Phase 1):  56%|█████▋    | 18/32 [00:04<00:03,  3.60it/s]Calibration Progress(Phase 1):  59%|█████▉    | 19/32 [00:05<00:03,  3.76it/s]Calibration Progress(Phase 1):  62%|██████▎   | 20/32 [00:05<00:03,  3.51it/s]Calibration Progress(Phase 1):  66%|██████▌   | 21/32 [00:05<00:03,  3.61it/s]Calibration Progress(Phase 1):  69%|██████▉   | 22/32 [00:05<00:02,  3.54it/s]Calibration Progress(Phase 1):  72%|███████▏  | 23/32 [00:06<00:02,  3.67it/s]Calibration Progress(Phase 1):  75%|███████▌  | 24/32 [00:06<00:02,  3.51it/s]Calibration Progress(Phase 1):  78%|███████▊  | 25/32 [00:06<00:01,  3.57it/s]Calibration Progress(Phase 1):  81%|████████▏ | 26/32 [00:07<00:01,  3.62it/s]Calibration Progress(Phase 1):  84%|████████▍ | 27/32 [00:07<00:01,  3.61it/s]Calibration Progress(Phase 1):  88%|████████▊ | 28/32 [00:07<00:01,  3.57it/s]Calibration Progress(Phase 1):  91%|█████████ | 29/32 [00:07<00:00,  3.60it/s]Calibration Progress(Phase 1):  94%|█████████▍| 30/32 [00:08<00:00,  3.73it/s]Calibration Progress(Phase 1):  97%|█████████▋| 31/32 [00:08<00:00,  3.64it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:08<00:00,  3.53it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:08<00:00,  3.65it/s]
+/opt/conda/lib/python3.8/site-packages/torch/optim/adam.py:87: UserWarning: optimizer contains a parameter group with duplicate parameters; in future, this will cause an error; see github.com/pytorch/pytorch/issues/40967 for more information
+  super(Adam, self).__init__(params, defaults)
+Finished.
+[06:33:12] PPQ Quantization Alignment Pass Running ...     Finished.
+[06:33:12] PPQ Passive Parameter Quantization Running ...  Finished.
+[06:33:12] PPQ LSQ Optimization Running ...                
+Check following parameters:
+Is Scale Trainable:        True
+Interested Layers:         []
+Collecting Device:         cuda
+Num of blocks:             18
+Learning Rate:             1e-05
+Steps:                     500
+Gamma:                     0.0
+
+# Block [1 / 18]: [Conv_0 -> Conv_8]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   0%|          | 1/500 [00:00<02:07,  3.93it/s]# Tuning Procedure :   2%|▏         | 8/500 [00:00<00:18, 27.05it/s]# Tuning Procedure :   3%|▎         | 15/500 [00:00<00:11, 40.69it/s]# Tuning Procedure :   4%|▍         | 22/500 [00:00<00:09, 49.29it/s]# Tuning Procedure :   6%|▌         | 29/500 [00:00<00:08, 55.37it/s]# Tuning Procedure :   8%|▊         | 39/500 [00:00<00:06, 68.87it/s]# Tuning Procedure :   9%|▉         | 47/500 [00:00<00:06, 70.60it/s]# Tuning Procedure :  11%|█         | 55/500 [00:01<00:06, 68.43it/s]# Tuning Procedure :  13%|█▎        | 63/500 [00:01<00:06, 67.00it/s]# Tuning Procedure :  14%|█▍        | 70/500 [00:01<00:06, 67.02it/s]# Tuning Procedure :  15%|█▌        | 77/500 [00:01<00:06, 67.11it/s]# Tuning Procedure :  17%|█▋        | 84/500 [00:01<00:06, 66.92it/s]# Tuning Procedure :  18%|█▊        | 91/500 [00:01<00:06, 67.44it/s]# Tuning Procedure :  21%|██        | 103/500 [00:01<00:04, 80.10it/s]# Tuning Procedure :  22%|██▏       | 112/500 [00:01<00:05, 74.68it/s]# Tuning Procedure :  24%|██▍       | 120/500 [00:01<00:05, 71.03it/s]# Tuning Procedure :  26%|██▌       | 128/500 [00:02<00:05, 69.35it/s]# Tuning Procedure :  27%|██▋       | 135/500 [00:02<00:05, 68.42it/s]# Tuning Procedure :  28%|██▊       | 142/500 [00:02<00:05, 68.11it/s]# Tuning Procedure :  30%|██▉       | 149/500 [00:02<00:05, 68.03it/s]# Tuning Procedure :  31%|███▏      | 157/500 [00:02<00:04, 70.67it/s]# Tuning Procedure :  33%|███▎      | 167/500 [00:02<00:04, 78.30it/s]# Tuning Procedure :  35%|███▌      | 175/500 [00:02<00:04, 73.84it/s]# Tuning Procedure :  37%|███▋      | 183/500 [00:02<00:04, 70.71it/s]# Tuning Procedure :  38%|███▊      | 191/500 [00:02<00:04, 68.94it/s]# Tuning Procedure :  40%|███▉      | 198/500 [00:03<00:04, 68.64it/s]# Tuning Procedure :  41%|████      | 205/500 [00:03<00:04, 68.17it/s]# Tuning Procedure :  42%|████▏     | 212/500 [00:03<00:04, 68.16it/s]# Tuning Procedure :  44%|████▍     | 222/500 [00:03<00:03, 75.97it/s]# Tuning Procedure :  46%|████▌     | 231/500 [00:03<00:03, 77.12it/s]# Tuning Procedure :  48%|████▊     | 239/500 [00:03<00:03, 72.64it/s]# Tuning Procedure :  49%|████▉     | 247/500 [00:03<00:03, 70.03it/s]# Tuning Procedure :  51%|█████     | 255/500 [00:03<00:03, 68.68it/s]# Tuning Procedure :  52%|█████▏    | 262/500 [00:03<00:03, 68.24it/s]# Tuning Procedure :  54%|█████▍    | 269/500 [00:04<00:03, 67.96it/s]# Tuning Procedure :  55%|█████▌    | 276/500 [00:04<00:03, 68.11it/s]# Tuning Procedure :  58%|█████▊    | 288/500 [00:04<00:02, 80.13it/s]# Tuning Procedure :  59%|█████▉    | 296/500 [00:04<00:02, 74.93it/s]# Tuning Procedure :  61%|██████    | 304/500 [00:04<00:02, 71.50it/s]# Tuning Procedure :  62%|██████▏   | 312/500 [00:04<00:02, 69.80it/s]# Tuning Procedure :  64%|██████▍   | 320/500 [00:04<00:02, 69.05it/s]# Tuning Procedure :  65%|██████▌   | 327/500 [00:04<00:02, 68.31it/s]# Tuning Procedure :  67%|██████▋   | 334/500 [00:04<00:02, 68.17it/s]# Tuning Procedure :  69%|██████▉   | 344/500 [00:05<00:02, 76.83it/s]# Tuning Procedure :  70%|███████   | 352/500 [00:05<00:01, 76.75it/s]# Tuning Procedure :  72%|███████▏  | 360/500 [00:05<00:01, 72.59it/s]# Tuning Procedure :  74%|███████▎  | 368/500 [00:05<00:01, 69.90it/s]# Tuning Procedure :  75%|███████▌  | 376/500 [00:05<00:01, 68.81it/s]# Tuning Procedure :  77%|███████▋  | 383/500 [00:05<00:01, 68.38it/s]# Tuning Procedure :  78%|███████▊  | 390/500 [00:05<00:01, 68.12it/s]# Tuning Procedure :  79%|███████▉  | 397/500 [00:05<00:01, 68.19it/s]# Tuning Procedure :  82%|████████▏ | 409/500 [00:05<00:01, 81.36it/s]# Tuning Procedure :  84%|████████▎ | 418/500 [00:06<00:01, 75.37it/s]# Tuning Procedure :  85%|████████▌ | 426/500 [00:06<00:01, 71.46it/s]# Tuning Procedure :  87%|████████▋ | 434/500 [00:06<00:00, 69.50it/s]# Tuning Procedure :  88%|████████▊ | 442/500 [00:06<00:00, 68.77it/s]# Tuning Procedure :  90%|████████▉ | 449/500 [00:06<00:00, 68.15it/s]# Tuning Procedure :  91%|█████████ | 456/500 [00:06<00:00, 68.00it/s]# Tuning Procedure :  93%|█████████▎| 464/500 [00:06<00:00, 71.13it/s]# Tuning Procedure :  95%|█████████▌| 475/500 [00:06<00:00, 79.14it/s]# Tuning Procedure :  97%|█████████▋| 483/500 [00:07<00:00, 74.12it/s]# Tuning Procedure :  98%|█████████▊| 491/500 [00:07<00:00, 70.81it/s]# Tuning Procedure : 100%|█████████▉| 499/500 [00:07<00:00, 69.48it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:07<00:00, 68.80it/s]
+# Tuning Finished  : (0.0003 -> 0.0003) [Block Loss]
+
+# Block [2 / 18]: [Conv_9 -> Conv_17]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   1%|          | 6/500 [00:00<00:09, 52.97it/s]# Tuning Procedure :   3%|▎         | 13/500 [00:00<00:08, 59.08it/s]# Tuning Procedure :   4%|▍         | 19/500 [00:00<00:08, 57.00it/s]# Tuning Procedure :   5%|▌         | 25/500 [00:00<00:09, 51.96it/s]# Tuning Procedure :   6%|▌         | 31/500 [00:00<00:09, 49.63it/s]# Tuning Procedure :   7%|▋         | 37/500 [00:00<00:09, 48.65it/s]# Tuning Procedure :   8%|▊         | 42/500 [00:00<00:09, 48.32it/s]# Tuning Procedure :   9%|▉         | 47/500 [00:00<00:09, 48.17it/s]# Tuning Procedure :  10%|█         | 52/500 [00:01<00:09, 48.19it/s]# Tuning Procedure :  12%|█▏        | 58/500 [00:01<00:08, 49.36it/s]# Tuning Procedure :  13%|█▎        | 65/500 [00:01<00:08, 54.35it/s]# Tuning Procedure :  14%|█▍        | 71/500 [00:01<00:08, 51.47it/s]# Tuning Procedure :  15%|█▌        | 77/500 [00:01<00:08, 49.61it/s]# Tuning Procedure :  17%|█▋        | 83/500 [00:01<00:08, 48.72it/s]# Tuning Procedure :  18%|█▊        | 88/500 [00:01<00:08, 48.39it/s]# Tuning Procedure :  19%|█▊        | 93/500 [00:01<00:08, 48.40it/s]# Tuning Procedure :  20%|█▉        | 98/500 [00:01<00:08, 48.15it/s]# Tuning Procedure :  21%|██        | 103/500 [00:02<00:08, 48.26it/s]# Tuning Procedure :  22%|██▏       | 109/500 [00:02<00:07, 48.89it/s]# Tuning Procedure :  23%|██▎       | 116/500 [00:02<00:07, 53.30it/s]# Tuning Procedure :  24%|██▍       | 122/500 [00:02<00:07, 50.61it/s]# Tuning Procedure :  26%|██▌       | 128/500 [00:02<00:07, 49.04it/s]# Tuning Procedure :  27%|██▋       | 133/500 [00:02<00:07, 48.52it/s]# Tuning Procedure :  28%|██▊       | 138/500 [00:02<00:07, 48.22it/s]# Tuning Procedure :  29%|██▊       | 143/500 [00:02<00:07, 48.41it/s]# Tuning Procedure :  30%|██▉       | 148/500 [00:02<00:07, 48.23it/s]# Tuning Procedure :  31%|███       | 153/500 [00:03<00:07, 48.29it/s]# Tuning Procedure :  32%|███▏      | 160/500 [00:03<00:06, 53.86it/s]# Tuning Procedure :  33%|███▎      | 166/500 [00:03<00:06, 52.42it/s]# Tuning Procedure :  34%|███▍      | 172/500 [00:03<00:06, 50.17it/s]# Tuning Procedure :  36%|███▌      | 178/500 [00:03<00:06, 48.95it/s]# Tuning Procedure :  37%|███▋      | 183/500 [00:03<00:06, 48.47it/s]# Tuning Procedure :  38%|███▊      | 188/500 [00:03<00:06, 48.30it/s]# Tuning Procedure :  39%|███▊      | 193/500 [00:03<00:06, 48.08it/s]# Tuning Procedure :  40%|███▉      | 198/500 [00:03<00:06, 47.94it/s]# Tuning Procedure :  41%|████      | 204/500 [00:04<00:06, 49.03it/s]# Tuning Procedure :  42%|████▏     | 211/500 [00:04<00:05, 54.04it/s]# Tuning Procedure :  43%|████▎     | 217/500 [00:04<00:05, 51.25it/s]# Tuning Procedure :  45%|████▍     | 223/500 [00:04<00:05, 49.38it/s]# Tuning Procedure :  46%|████▌     | 228/500 [00:04<00:05, 48.63it/s]# Tuning Procedure :  47%|████▋     | 233/500 [00:04<00:05, 48.18it/s]# Tuning Procedure :  48%|████▊     | 238/500 [00:04<00:05, 48.32it/s]# Tuning Procedure :  49%|████▊     | 243/500 [00:04<00:05, 48.11it/s]# Tuning Procedure :  50%|████▉     | 248/500 [00:04<00:05, 48.29it/s]# Tuning Procedure :  51%|█████     | 254/500 [00:05<00:04, 51.00it/s]# Tuning Procedure :  52%|█████▏    | 261/500 [00:05<00:04, 53.31it/s]# Tuning Procedure :  53%|█████▎    | 267/500 [00:05<00:04, 50.68it/s]# Tuning Procedure :  55%|█████▍    | 273/500 [00:05<00:04, 49.14it/s]# Tuning Procedure :  56%|█████▌    | 278/500 [00:05<00:04, 48.62it/s]# Tuning Procedure :  57%|█████▋    | 283/500 [00:05<00:04, 48.60it/s]# Tuning Procedure :  58%|█████▊    | 288/500 [00:05<00:04, 48.46it/s]# Tuning Procedure :  59%|█████▊    | 293/500 [00:05<00:04, 48.58it/s]# Tuning Procedure :  60%|█████▉    | 299/500 [00:06<00:03, 50.98it/s]# Tuning Procedure :  61%|██████    | 306/500 [00:06<00:03, 53.29it/s]# Tuning Procedure :  62%|██████▏   | 312/500 [00:06<00:03, 50.74it/s]# Tuning Procedure :  64%|██████▎   | 318/500 [00:06<00:03, 49.20it/s]# Tuning Procedure :  65%|██████▍   | 323/500 [00:06<00:03, 48.43it/s]# Tuning Procedure :  66%|██████▌   | 328/500 [00:06<00:03, 48.07it/s]# Tuning Procedure :  67%|██████▋   | 333/500 [00:06<00:03, 48.16it/s]# Tuning Procedure :  68%|██████▊   | 338/500 [00:06<00:03, 47.88it/s]# Tuning Procedure :  69%|██████▊   | 343/500 [00:06<00:03, 47.95it/s]# Tuning Procedure :  70%|███████   | 350/500 [00:07<00:02, 53.99it/s]# Tuning Procedure :  71%|███████   | 356/500 [00:07<00:02, 52.08it/s]# Tuning Procedure :  72%|███████▏  | 362/500 [00:07<00:02, 49.81it/s]# Tuning Procedure :  74%|███████▎  | 368/500 [00:07<00:02, 48.84it/s]# Tuning Procedure :  75%|███████▍  | 373/500 [00:07<00:02, 48.36it/s]# Tuning Procedure :  76%|███████▌  | 378/500 [00:07<00:02, 48.31it/s]# Tuning Procedure :  77%|███████▋  | 383/500 [00:07<00:02, 47.97it/s]# Tuning Procedure :  78%|███████▊  | 388/500 [00:07<00:02, 47.88it/s]# Tuning Procedure :  79%|███████▉  | 394/500 [00:07<00:02, 49.52it/s]# Tuning Procedure :  80%|████████  | 401/500 [00:08<00:01, 53.26it/s]# Tuning Procedure :  81%|████████▏ | 407/500 [00:08<00:01, 50.68it/s]# Tuning Procedure :  83%|████████▎ | 413/500 [00:08<00:01, 49.02it/s]# Tuning Procedure :  84%|████████▎ | 418/500 [00:08<00:01, 48.36it/s]# Tuning Procedure :  85%|████████▍ | 423/500 [00:08<00:01, 48.11it/s]# Tuning Procedure :  86%|████████▌ | 428/500 [00:08<00:01, 48.02it/s]# Tuning Procedure :  87%|████████▋ | 433/500 [00:08<00:01, 47.86it/s]# Tuning Procedure :  88%|████████▊ | 438/500 [00:08<00:01, 48.05it/s]# Tuning Procedure :  89%|████████▉ | 446/500 [00:08<00:00, 54.87it/s]# Tuning Procedure :  90%|█████████ | 452/500 [00:09<00:00, 51.86it/s]# Tuning Procedure :  92%|█████████▏| 458/500 [00:09<00:00, 49.78it/s]# Tuning Procedure :  93%|█████████▎| 464/500 [00:09<00:00, 48.78it/s]# Tuning Procedure :  94%|█████████▍| 469/500 [00:09<00:00, 48.52it/s]# Tuning Procedure :  95%|█████████▍| 474/500 [00:09<00:00, 48.42it/s]# Tuning Procedure :  96%|█████████▌| 479/500 [00:09<00:00, 48.23it/s]# Tuning Procedure :  97%|█████████▋| 484/500 [00:09<00:00, 48.29it/s]# Tuning Procedure :  98%|█████████▊| 491/500 [00:09<00:00, 53.70it/s]# Tuning Procedure :  99%|█████████▉| 497/500 [00:09<00:00, 52.36it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:10<00:00, 49.75it/s]
+# Tuning Finished  : (0.0011 -> 0.0010) [Block Loss]
+
+# Block [3 / 18]: [Conv_18 -> Conv_26]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   2%|▏         | 9/500 [00:00<00:05, 88.48it/s]# Tuning Procedure :   4%|▎         | 18/500 [00:00<00:06, 72.70it/s]# Tuning Procedure :   5%|▌         | 26/500 [00:00<00:06, 69.09it/s]# Tuning Procedure :   7%|▋         | 34/500 [00:00<00:06, 68.42it/s]# Tuning Procedure :   8%|▊         | 41/500 [00:00<00:06, 67.74it/s]# Tuning Procedure :  10%|▉         | 48/500 [00:00<00:06, 67.30it/s]# Tuning Procedure :  11%|█         | 55/500 [00:00<00:06, 67.87it/s]# Tuning Procedure :  13%|█▎        | 67/500 [00:00<00:05, 80.84it/s]# Tuning Procedure :  15%|█▌        | 76/500 [00:01<00:05, 75.12it/s]# Tuning Procedure :  17%|█▋        | 84/500 [00:01<00:05, 71.66it/s]# Tuning Procedure :  18%|█▊        | 92/500 [00:01<00:05, 70.05it/s]# Tuning Procedure :  20%|██        | 100/500 [00:01<00:05, 69.30it/s]# Tuning Procedure :  21%|██▏       | 107/500 [00:01<00:05, 68.69it/s]# Tuning Procedure :  23%|██▎       | 114/500 [00:01<00:05, 68.66it/s]# Tuning Procedure :  25%|██▍       | 124/500 [00:01<00:04, 76.31it/s]# Tuning Procedure :  26%|██▋       | 132/500 [00:01<00:04, 75.31it/s]# Tuning Procedure :  28%|██▊       | 140/500 [00:01<00:05, 71.86it/s]# Tuning Procedure :  30%|██▉       | 148/500 [00:02<00:05, 69.92it/s]# Tuning Procedure :  31%|███       | 156/500 [00:02<00:04, 69.05it/s]# Tuning Procedure :  33%|███▎      | 163/500 [00:02<00:04, 68.48it/s]# Tuning Procedure :  34%|███▍      | 170/500 [00:02<00:04, 68.11it/s]# Tuning Procedure :  36%|███▌      | 178/500 [00:02<00:04, 70.70it/s]# Tuning Procedure :  38%|███▊      | 188/500 [00:02<00:03, 78.45it/s]# Tuning Procedure :  39%|███▉      | 196/500 [00:02<00:04, 74.01it/s]# Tuning Procedure :  41%|████      | 204/500 [00:02<00:04, 70.86it/s]# Tuning Procedure :  42%|████▏     | 212/500 [00:02<00:04, 69.69it/s]# Tuning Procedure :  44%|████▍     | 220/500 [00:03<00:04, 68.93it/s]# Tuning Procedure :  45%|████▌     | 227/500 [00:03<00:03, 68.56it/s]# Tuning Procedure :  47%|████▋     | 235/500 [00:03<00:03, 70.57it/s]# Tuning Procedure :  49%|████▉     | 246/500 [00:03<00:03, 80.13it/s]# Tuning Procedure :  51%|█████     | 255/500 [00:03<00:03, 74.80it/s]# Tuning Procedure :  53%|█████▎    | 263/500 [00:03<00:03, 71.32it/s]# Tuning Procedure :  54%|█████▍    | 271/500 [00:03<00:03, 69.87it/s]# Tuning Procedure :  56%|█████▌    | 279/500 [00:03<00:03, 69.49it/s]# Tuning Procedure :  57%|█████▋    | 286/500 [00:04<00:03, 68.84it/s]# Tuning Procedure :  59%|█████▊    | 293/500 [00:04<00:03, 68.72it/s]# Tuning Procedure :  61%|██████    | 305/500 [00:04<00:02, 81.15it/s]# Tuning Procedure :  63%|██████▎   | 314/500 [00:04<00:02, 75.68it/s]# Tuning Procedure :  64%|██████▍   | 322/500 [00:04<00:02, 72.19it/s]# Tuning Procedure :  66%|██████▌   | 330/500 [00:04<00:02, 70.26it/s]# Tuning Procedure :  68%|██████▊   | 338/500 [00:04<00:02, 69.29it/s]# Tuning Procedure :  69%|██████▉   | 345/500 [00:04<00:02, 68.52it/s]# Tuning Procedure :  70%|███████   | 352/500 [00:04<00:02, 68.48it/s]# Tuning Procedure :  73%|███████▎  | 363/500 [00:05<00:01, 78.69it/s]# Tuning Procedure :  74%|███████▍  | 371/500 [00:05<00:01, 75.91it/s]# Tuning Procedure :  76%|███████▌  | 379/500 [00:05<00:01, 72.20it/s]# Tuning Procedure :  77%|███████▋  | 387/500 [00:05<00:01, 70.14it/s]# Tuning Procedure :  79%|███████▉  | 395/500 [00:05<00:01, 68.99it/s]# Tuning Procedure :  80%|████████  | 402/500 [00:05<00:01, 68.63it/s]# Tuning Procedure :  82%|████████▏ | 409/500 [00:05<00:01, 67.99it/s]# Tuning Procedure :  83%|████████▎ | 416/500 [00:05<00:01, 68.19it/s]# Tuning Procedure :  85%|████████▌ | 427/500 [00:05<00:00, 77.33it/s]# Tuning Procedure :  87%|████████▋ | 435/500 [00:06<00:00, 73.43it/s]# Tuning Procedure :  89%|████████▊ | 443/500 [00:06<00:00, 70.37it/s]# Tuning Procedure :  90%|█████████ | 451/500 [00:06<00:00, 68.78it/s]# Tuning Procedure :  92%|█████████▏| 458/500 [00:06<00:00, 68.16it/s]# Tuning Procedure :  93%|█████████▎| 465/500 [00:06<00:00, 68.13it/s]# Tuning Procedure :  94%|█████████▍| 472/500 [00:06<00:00, 67.96it/s]# Tuning Procedure :  96%|█████████▌| 480/500 [00:06<00:00, 70.13it/s]# Tuning Procedure :  98%|█████████▊| 491/500 [00:06<00:00, 78.08it/s]# Tuning Procedure : 100%|█████████▉| 499/500 [00:06<00:00, 73.85it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:06<00:00, 71.54it/s]
+# Tuning Finished  : (0.0023 -> 0.0019) [Block Loss]
+
+# Block [4 / 18]: [Conv_28 -> Conv_36]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   2%|▏         | 9/500 [00:00<00:05, 88.67it/s]# Tuning Procedure :   4%|▍         | 19/500 [00:00<00:05, 91.06it/s]# Tuning Procedure :   6%|▌         | 29/500 [00:00<00:05, 91.63it/s]# Tuning Procedure :   8%|▊         | 40/500 [00:00<00:04, 95.77it/s]# Tuning Procedure :  10%|█         | 52/500 [00:00<00:04, 100.57it/s]# Tuning Procedure :  13%|█▎        | 63/500 [00:00<00:04, 95.39it/s] # Tuning Procedure :  15%|█▍        | 73/500 [00:00<00:04, 92.95it/s]# Tuning Procedure :  17%|█▋        | 83/500 [00:00<00:04, 92.34it/s]# Tuning Procedure :  19%|█▊        | 93/500 [00:00<00:04, 91.68it/s]# Tuning Procedure :  21%|██        | 103/500 [00:01<00:04, 91.39it/s]# Tuning Procedure :  23%|██▎       | 113/500 [00:01<00:04, 92.44it/s]# Tuning Procedure :  25%|██▌       | 125/500 [00:01<00:03, 98.42it/s]# Tuning Procedure :  27%|██▋       | 135/500 [00:01<00:03, 94.95it/s]# Tuning Procedure :  29%|██▉       | 145/500 [00:01<00:03, 92.32it/s]# Tuning Procedure :  31%|███       | 155/500 [00:01<00:03, 91.56it/s]# Tuning Procedure :  33%|███▎      | 165/500 [00:01<00:03, 91.67it/s]# Tuning Procedure :  35%|███▌      | 175/500 [00:01<00:03, 91.44it/s]# Tuning Procedure :  37%|███▋      | 185/500 [00:01<00:03, 91.46it/s]# Tuning Procedure :  39%|███▉      | 197/500 [00:02<00:03, 98.92it/s]# Tuning Procedure :  41%|████▏     | 207/500 [00:02<00:03, 95.45it/s]# Tuning Procedure :  43%|████▎     | 217/500 [00:02<00:03, 92.48it/s]# Tuning Procedure :  45%|████▌     | 227/500 [00:02<00:02, 91.13it/s]# Tuning Procedure :  47%|████▋     | 237/500 [00:02<00:02, 90.69it/s]# Tuning Procedure :  49%|████▉     | 247/500 [00:02<00:02, 91.00it/s]# Tuning Procedure :  51%|█████▏    | 257/500 [00:02<00:02, 90.63it/s]# Tuning Procedure :  53%|█████▎    | 267/500 [00:02<00:02, 91.99it/s]# Tuning Procedure :  56%|█████▌    | 279/500 [00:02<00:02, 99.17it/s]# Tuning Procedure :  58%|█████▊    | 289/500 [00:03<00:02, 95.53it/s]# Tuning Procedure :  60%|█████▉    | 299/500 [00:03<00:02, 92.60it/s]# Tuning Procedure :  62%|██████▏   | 309/500 [00:03<00:02, 91.71it/s]# Tuning Procedure :  64%|██████▍   | 319/500 [00:03<00:01, 91.63it/s]# Tuning Procedure :  66%|██████▌   | 329/500 [00:03<00:01, 91.34it/s]# Tuning Procedure :  68%|██████▊   | 339/500 [00:03<00:01, 92.01it/s]# Tuning Procedure :  70%|███████   | 351/500 [00:03<00:01, 99.50it/s]# Tuning Procedure :  72%|███████▏  | 362/500 [00:03<00:01, 95.30it/s]# Tuning Procedure :  74%|███████▍  | 372/500 [00:03<00:01, 92.80it/s]# Tuning Procedure :  76%|███████▋  | 382/500 [00:04<00:01, 91.20it/s]# Tuning Procedure :  78%|███████▊  | 392/500 [00:04<00:01, 91.02it/s]# Tuning Procedure :  80%|████████  | 402/500 [00:04<00:01, 89.81it/s]# Tuning Procedure :  82%|████████▏ | 412/500 [00:04<00:00, 90.01it/s]# Tuning Procedure :  84%|████████▍ | 422/500 [00:04<00:00, 92.20it/s]# Tuning Procedure :  87%|████████▋ | 434/500 [00:04<00:00, 98.39it/s]# Tuning Procedure :  89%|████████▉ | 444/500 [00:04<00:00, 95.17it/s]# Tuning Procedure :  91%|█████████ | 454/500 [00:04<00:00, 92.63it/s]# Tuning Procedure :  93%|█████████▎| 464/500 [00:04<00:00, 91.77it/s]# Tuning Procedure :  95%|█████████▍| 474/500 [00:05<00:00, 91.75it/s]# Tuning Procedure :  97%|█████████▋| 484/500 [00:05<00:00, 91.51it/s]# Tuning Procedure :  99%|█████████▉| 494/500 [00:05<00:00, 91.62it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:05<00:00, 93.11it/s]
+# Tuning Finished  : (0.0012 -> 0.0011) [Block Loss]
+
+# Block [5 / 18]: [Conv_37 -> Conv_45]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   2%|▏         | 11/500 [00:00<00:04, 105.89it/s]# Tuning Procedure :   5%|▍         | 24/500 [00:00<00:04, 118.32it/s]# Tuning Procedure :   8%|▊         | 39/500 [00:00<00:03, 130.48it/s]# Tuning Procedure :  11%|█         | 54/500 [00:00<00:03, 135.03it/s]# Tuning Procedure :  14%|█▍        | 70/500 [00:00<00:03, 141.05it/s]# Tuning Procedure :  17%|█▋        | 85/500 [00:00<00:02, 141.80it/s]# Tuning Procedure :  20%|██        | 100/500 [00:00<00:03, 127.65it/s]# Tuning Procedure :  23%|██▎       | 114/500 [00:00<00:03, 121.57it/s]# Tuning Procedure :  26%|██▌       | 129/500 [00:00<00:02, 128.32it/s]# Tuning Procedure :  29%|██▉       | 144/500 [00:01<00:02, 132.56it/s]# Tuning Procedure :  32%|███▏      | 159/500 [00:01<00:02, 136.47it/s]# Tuning Procedure :  35%|███▌      | 175/500 [00:01<00:02, 141.77it/s]# Tuning Procedure :  38%|███▊      | 190/500 [00:01<00:02, 141.63it/s]# Tuning Procedure :  41%|████      | 205/500 [00:01<00:02, 126.60it/s]# Tuning Procedure :  44%|████▍     | 219/500 [00:01<00:02, 123.21it/s]# Tuning Procedure :  47%|████▋     | 234/500 [00:01<00:02, 129.00it/s]# Tuning Procedure :  50%|████▉     | 249/500 [00:01<00:01, 133.27it/s]# Tuning Procedure :  53%|█████▎    | 264/500 [00:01<00:01, 136.65it/s]# Tuning Procedure :  56%|█████▌    | 280/500 [00:02<00:01, 142.71it/s]# Tuning Procedure :  59%|█████▉    | 295/500 [00:02<00:01, 134.70it/s]# Tuning Procedure :  62%|██████▏   | 309/500 [00:02<00:01, 125.56it/s]# Tuning Procedure :  64%|██████▍   | 322/500 [00:02<00:01, 124.87it/s]# Tuning Procedure :  67%|██████▋   | 337/500 [00:02<00:01, 130.64it/s]# Tuning Procedure :  70%|███████   | 352/500 [00:02<00:01, 134.89it/s]# Tuning Procedure :  73%|███████▎  | 367/500 [00:02<00:00, 138.29it/s]# Tuning Procedure :  77%|███████▋  | 383/500 [00:02<00:00, 144.47it/s]# Tuning Procedure :  80%|███████▉  | 398/500 [00:02<00:00, 136.91it/s]# Tuning Procedure :  82%|████████▏ | 412/500 [00:03<00:00, 125.23it/s]# Tuning Procedure :  85%|████████▌ | 425/500 [00:03<00:00, 124.87it/s]# Tuning Procedure :  88%|████████▊ | 440/500 [00:03<00:00, 130.14it/s]# Tuning Procedure :  91%|█████████ | 455/500 [00:03<00:00, 134.38it/s]# Tuning Procedure :  94%|█████████▍| 470/500 [00:03<00:00, 138.15it/s]# Tuning Procedure :  97%|█████████▋| 486/500 [00:03<00:00, 141.14it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 132.41it/s]
+# Tuning Finished  : (0.0009 -> 0.0008) [Block Loss]
+
+# Block [6 / 18]: [Conv_47 -> Conv_55]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   2%|▏         | 11/500 [00:00<00:04, 104.49it/s]# Tuning Procedure :   4%|▍         | 22/500 [00:00<00:04, 101.83it/s]# Tuning Procedure :   7%|▋         | 34/500 [00:00<00:04, 107.33it/s]# Tuning Procedure :  10%|▉         | 49/500 [00:00<00:03, 121.14it/s]# Tuning Procedure :  13%|█▎        | 64/500 [00:00<00:03, 130.44it/s]# Tuning Procedure :  16%|█▌        | 79/500 [00:00<00:03, 135.28it/s]# Tuning Procedure :  19%|█▉        | 95/500 [00:00<00:02, 142.70it/s]# Tuning Procedure :  22%|██▏       | 110/500 [00:00<00:02, 133.87it/s]# Tuning Procedure :  25%|██▍       | 124/500 [00:00<00:03, 123.34it/s]# Tuning Procedure :  27%|██▋       | 137/500 [00:01<00:02, 123.71it/s]# Tuning Procedure :  30%|███       | 152/500 [00:01<00:02, 129.89it/s]# Tuning Procedure :  33%|███▎      | 167/500 [00:01<00:02, 134.35it/s]# Tuning Procedure :  36%|███▋      | 182/500 [00:01<00:02, 138.33it/s]# Tuning Procedure :  39%|███▉      | 197/500 [00:01<00:02, 139.41it/s]# Tuning Procedure :  42%|████▏     | 212/500 [00:01<00:02, 126.98it/s]# Tuning Procedure :  45%|████▌     | 225/500 [00:01<00:02, 119.10it/s]# Tuning Procedure :  48%|████▊     | 239/500 [00:01<00:02, 124.57it/s]# Tuning Procedure :  51%|█████     | 254/500 [00:01<00:01, 130.13it/s]# Tuning Procedure :  54%|█████▍    | 269/500 [00:02<00:01, 134.25it/s]# Tuning Procedure :  57%|█████▋    | 284/500 [00:02<00:01, 138.25it/s]# Tuning Procedure :  60%|██████    | 300/500 [00:02<00:01, 141.97it/s]# Tuning Procedure :  63%|██████▎   | 315/500 [00:02<00:01, 131.99it/s]# Tuning Procedure :  66%|██████▌   | 329/500 [00:02<00:01, 121.31it/s]# Tuning Procedure :  69%|██████▉   | 344/500 [00:02<00:01, 127.72it/s]# Tuning Procedure :  72%|███████▏  | 359/500 [00:02<00:01, 133.00it/s]# Tuning Procedure :  75%|███████▍  | 374/500 [00:02<00:00, 136.54it/s]# Tuning Procedure :  78%|███████▊  | 390/500 [00:02<00:00, 142.69it/s]# Tuning Procedure :  81%|████████  | 405/500 [00:03<00:00, 140.24it/s]# Tuning Procedure :  84%|████████▍ | 420/500 [00:03<00:00, 125.35it/s]# Tuning Procedure :  87%|████████▋ | 433/500 [00:03<00:00, 124.84it/s]# Tuning Procedure :  90%|████████▉ | 448/500 [00:03<00:00, 131.19it/s]# Tuning Procedure :  93%|█████████▎| 463/500 [00:03<00:00, 135.30it/s]# Tuning Procedure :  96%|█████████▌| 478/500 [00:03<00:00, 139.16it/s]# Tuning Procedure :  99%|█████████▊| 493/500 [00:03<00:00, 141.99it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 131.68it/s]
+# Tuning Finished  : (0.0010 -> 0.0009) [Block Loss]
+
+# Block [7 / 18]: [Conv_57 -> Conv_65]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 16/500 [00:00<00:03, 153.15it/s]# Tuning Procedure :   7%|▋         | 33/500 [00:00<00:02, 161.84it/s]# Tuning Procedure :  10%|█         | 50/500 [00:00<00:02, 156.28it/s]# Tuning Procedure :  13%|█▎        | 66/500 [00:00<00:02, 153.37it/s]# Tuning Procedure :  16%|█▋        | 82/500 [00:00<00:02, 152.41it/s]# Tuning Procedure :  20%|█▉        | 98/500 [00:00<00:02, 145.88it/s]# Tuning Procedure :  23%|██▎       | 114/500 [00:00<00:02, 149.32it/s]# Tuning Procedure :  26%|██▌       | 131/500 [00:00<00:02, 154.28it/s]# Tuning Procedure :  29%|██▉       | 147/500 [00:00<00:02, 154.79it/s]# Tuning Procedure :  33%|███▎      | 163/500 [00:01<00:02, 152.95it/s]# Tuning Procedure :  36%|███▌      | 179/500 [00:01<00:02, 151.63it/s]# Tuning Procedure :  39%|███▉      | 195/500 [00:01<00:01, 153.21it/s]# Tuning Procedure :  42%|████▏     | 211/500 [00:01<00:01, 153.93it/s]# Tuning Procedure :  45%|████▌     | 227/500 [00:01<00:01, 155.59it/s]# Tuning Procedure :  49%|████▉     | 245/500 [00:01<00:01, 160.43it/s]# Tuning Procedure :  52%|█████▏    | 262/500 [00:01<00:01, 153.83it/s]# Tuning Procedure :  56%|█████▌    | 278/500 [00:01<00:01, 152.70it/s]# Tuning Procedure :  59%|█████▉    | 294/500 [00:01<00:01, 150.67it/s]# Tuning Procedure :  62%|██████▏   | 310/500 [00:02<00:01, 152.30it/s]# Tuning Procedure :  65%|██████▌   | 326/500 [00:02<00:01, 153.74it/s]# Tuning Procedure :  69%|██████▉   | 344/500 [00:02<00:00, 158.79it/s]# Tuning Procedure :  72%|███████▏  | 360/500 [00:02<00:00, 158.62it/s]# Tuning Procedure :  75%|███████▌  | 376/500 [00:02<00:00, 155.94it/s]# Tuning Procedure :  78%|███████▊  | 392/500 [00:02<00:00, 153.39it/s]# Tuning Procedure :  82%|████████▏ | 408/500 [00:02<00:00, 153.86it/s]# Tuning Procedure :  85%|████████▍ | 424/500 [00:02<00:00, 152.34it/s]# Tuning Procedure :  88%|████████▊ | 440/500 [00:02<00:00, 154.10it/s]# Tuning Procedure :  91%|█████████▏| 457/500 [00:02<00:00, 157.57it/s]# Tuning Procedure :  95%|█████████▍| 473/500 [00:03<00:00, 154.72it/s]# Tuning Procedure :  98%|█████████▊| 489/500 [00:03<00:00, 152.87it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 153.77it/s]
+# Tuning Finished  : (0.0007 -> 0.0007) [Block Loss]
+
+# Block [8 / 18]: [Conv_66 -> Conv_74]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 15/500 [00:00<00:03, 143.25it/s]# Tuning Procedure :   6%|▌         | 30/500 [00:00<00:03, 138.61it/s]# Tuning Procedure :   9%|▉         | 46/500 [00:00<00:03, 144.34it/s]# Tuning Procedure :  12%|█▏        | 62/500 [00:00<00:02, 147.90it/s]# Tuning Procedure :  16%|█▌        | 78/500 [00:00<00:02, 152.09it/s]# Tuning Procedure :  19%|█▉        | 94/500 [00:00<00:02, 154.17it/s]# Tuning Procedure :  22%|██▏       | 110/500 [00:00<00:02, 154.14it/s]# Tuning Procedure :  25%|██▌       | 126/500 [00:00<00:02, 153.07it/s]# Tuning Procedure :  28%|██▊       | 142/500 [00:00<00:02, 152.83it/s]# Tuning Procedure :  32%|███▏      | 158/500 [00:01<00:02, 151.76it/s]# Tuning Procedure :  35%|███▍      | 174/500 [00:01<00:02, 152.85it/s]# Tuning Procedure :  38%|███▊      | 190/500 [00:01<00:02, 153.83it/s]# Tuning Procedure :  41%|████      | 206/500 [00:01<00:01, 151.02it/s]# Tuning Procedure :  44%|████▍     | 222/500 [00:01<00:01, 151.11it/s]# Tuning Procedure :  48%|████▊     | 238/500 [00:01<00:01, 151.30it/s]# Tuning Procedure :  51%|█████     | 254/500 [00:01<00:01, 149.62it/s]# Tuning Procedure :  54%|█████▍    | 270/500 [00:01<00:01, 150.05it/s]# Tuning Procedure :  57%|█████▋    | 286/500 [00:01<00:01, 151.87it/s]# Tuning Procedure :  60%|██████    | 302/500 [00:02<00:01, 148.46it/s]# Tuning Procedure :  63%|██████▎   | 317/500 [00:02<00:01, 135.47it/s]# Tuning Procedure :  66%|██████▌   | 331/500 [00:02<00:01, 130.87it/s]# Tuning Procedure :  69%|██████▉   | 346/500 [00:02<00:01, 135.87it/s]# Tuning Procedure :  72%|███████▏  | 360/500 [00:02<00:01, 136.09it/s]# Tuning Procedure :  75%|███████▌  | 375/500 [00:02<00:00, 138.77it/s]# Tuning Procedure :  78%|███████▊  | 391/500 [00:02<00:00, 143.77it/s]# Tuning Procedure :  81%|████████▏ | 407/500 [00:02<00:00, 147.11it/s]# Tuning Procedure :  84%|████████▍ | 422/500 [00:02<00:00, 147.34it/s]# Tuning Procedure :  87%|████████▋ | 437/500 [00:02<00:00, 147.23it/s]# Tuning Procedure :  91%|█████████ | 453/500 [00:03<00:00, 149.26it/s]# Tuning Procedure :  94%|█████████▎| 468/500 [00:03<00:00, 148.71it/s]# Tuning Procedure :  97%|█████████▋| 484/500 [00:03<00:00, 150.40it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 147.34it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 147.19it/s]
+# Tuning Finished  : (0.0003 -> 0.0002) [Block Loss]
+
+# Block [9 / 18]: [Conv_76 -> Conv_84]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 16/500 [00:00<00:03, 151.78it/s]# Tuning Procedure :   6%|▋         | 32/500 [00:00<00:03, 154.29it/s]# Tuning Procedure :  10%|▉         | 48/500 [00:00<00:03, 148.82it/s]# Tuning Procedure :  13%|█▎        | 63/500 [00:00<00:02, 146.60it/s]# Tuning Procedure :  16%|█▌        | 78/500 [00:00<00:02, 146.96it/s]# Tuning Procedure :  19%|█▊        | 93/500 [00:00<00:02, 145.45it/s]# Tuning Procedure :  22%|██▏       | 108/500 [00:00<00:02, 143.92it/s]# Tuning Procedure :  25%|██▍       | 124/500 [00:00<00:02, 148.50it/s]# Tuning Procedure :  28%|██▊       | 140/500 [00:00<00:02, 151.99it/s]# Tuning Procedure :  31%|███▏      | 157/500 [00:01<00:02, 156.85it/s]# Tuning Procedure :  35%|███▍      | 173/500 [00:01<00:02, 155.38it/s]# Tuning Procedure :  38%|███▊      | 189/500 [00:01<00:02, 153.92it/s]# Tuning Procedure :  41%|████      | 205/500 [00:01<00:01, 150.62it/s]# Tuning Procedure :  44%|████▍     | 221/500 [00:01<00:01, 152.81it/s]# Tuning Procedure :  47%|████▋     | 237/500 [00:01<00:01, 153.25it/s]# Tuning Procedure :  51%|█████     | 253/500 [00:01<00:01, 153.06it/s]# Tuning Procedure :  54%|█████▍    | 269/500 [00:01<00:01, 151.13it/s]# Tuning Procedure :  57%|█████▋    | 285/500 [00:01<00:01, 148.14it/s]# Tuning Procedure :  60%|██████    | 300/500 [00:01<00:01, 148.24it/s]# Tuning Procedure :  63%|██████▎   | 316/500 [00:02<00:01, 148.99it/s]# Tuning Procedure :  67%|██████▋   | 333/500 [00:02<00:01, 152.60it/s]# Tuning Procedure :  70%|██████▉   | 349/500 [00:02<00:00, 153.00it/s]# Tuning Procedure :  73%|███████▎  | 366/500 [00:02<00:00, 156.77it/s]# Tuning Procedure :  77%|███████▋  | 383/500 [00:02<00:00, 158.03it/s]# Tuning Procedure :  80%|███████▉  | 399/500 [00:02<00:00, 156.32it/s]# Tuning Procedure :  83%|████████▎ | 415/500 [00:02<00:00, 154.69it/s]# Tuning Procedure :  86%|████████▌ | 431/500 [00:02<00:00, 154.51it/s]# Tuning Procedure :  89%|████████▉ | 447/500 [00:02<00:00, 154.99it/s]# Tuning Procedure :  93%|█████████▎| 463/500 [00:03<00:00, 155.16it/s]# Tuning Procedure :  96%|█████████▌| 481/500 [00:03<00:00, 160.43it/s]# Tuning Procedure : 100%|█████████▉| 498/500 [00:03<00:00, 156.56it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 152.81it/s]
+# Tuning Finished  : (0.0004 -> 0.0004) [Block Loss]
+
+# Block [10 / 18]: [Conv_86 -> Conv_94]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 16/500 [00:00<00:03, 159.41it/s]# Tuning Procedure :   6%|▋         | 32/500 [00:00<00:02, 157.13it/s]# Tuning Procedure :  10%|▉         | 48/500 [00:00<00:02, 157.08it/s]# Tuning Procedure :  13%|█▎        | 65/500 [00:00<00:02, 158.68it/s]# Tuning Procedure :  16%|█▋        | 82/500 [00:00<00:02, 160.69it/s]# Tuning Procedure :  20%|█▉        | 99/500 [00:00<00:02, 162.57it/s]# Tuning Procedure :  24%|██▎       | 118/500 [00:00<00:02, 169.55it/s]# Tuning Procedure :  27%|██▋       | 135/500 [00:00<00:02, 158.16it/s]# Tuning Procedure :  30%|███       | 151/500 [00:00<00:02, 157.73it/s]# Tuning Procedure :  33%|███▎      | 167/500 [00:01<00:02, 157.65it/s]# Tuning Procedure :  37%|███▋      | 184/500 [00:01<00:01, 160.43it/s]# Tuning Procedure :  40%|████      | 201/500 [00:01<00:01, 161.58it/s]# Tuning Procedure :  44%|████▎     | 218/500 [00:01<00:01, 163.79it/s]# Tuning Procedure :  47%|████▋     | 237/500 [00:01<00:01, 169.20it/s]# Tuning Procedure :  51%|█████     | 254/500 [00:01<00:01, 165.99it/s]# Tuning Procedure :  54%|█████▍    | 271/500 [00:01<00:01, 163.11it/s]# Tuning Procedure :  58%|█████▊    | 288/500 [00:01<00:01, 162.21it/s]# Tuning Procedure :  61%|██████    | 305/500 [00:01<00:01, 161.41it/s]# Tuning Procedure :  64%|██████▍   | 322/500 [00:01<00:01, 162.49it/s]# Tuning Procedure :  68%|██████▊   | 342/500 [00:02<00:00, 171.68it/s]# Tuning Procedure :  72%|███████▏  | 360/500 [00:02<00:00, 167.78it/s]# Tuning Procedure :  75%|███████▌  | 377/500 [00:02<00:00, 164.67it/s]# Tuning Procedure :  79%|███████▉  | 394/500 [00:02<00:00, 160.52it/s]# Tuning Procedure :  82%|████████▏ | 411/500 [00:02<00:00, 161.64it/s]# Tuning Procedure :  86%|████████▌ | 428/500 [00:02<00:00, 162.26it/s]# Tuning Procedure :  89%|████████▉ | 446/500 [00:02<00:00, 167.10it/s]# Tuning Procedure :  93%|█████████▎| 464/500 [00:02<00:00, 169.23it/s]# Tuning Procedure :  96%|█████████▌| 481/500 [00:02<00:00, 164.54it/s]# Tuning Procedure : 100%|█████████▉| 498/500 [00:03<00:00, 162.21it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 162.92it/s]
+# Tuning Finished  : (0.0017 -> 0.0005) [Block Loss]
+
+# Block [11 / 18]: [Conv_96 -> Conv_104]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 13/500 [00:00<00:03, 124.63it/s]# Tuning Procedure :   5%|▌         | 27/500 [00:00<00:03, 130.72it/s]# Tuning Procedure :   8%|▊         | 42/500 [00:00<00:03, 136.94it/s]# Tuning Procedure :  12%|█▏        | 58/500 [00:00<00:03, 143.53it/s]# Tuning Procedure :  15%|█▍        | 74/500 [00:00<00:02, 147.72it/s]# Tuning Procedure :  18%|█▊        | 90/500 [00:00<00:02, 151.49it/s]# Tuning Procedure :  21%|██▏       | 107/500 [00:00<00:02, 156.05it/s]# Tuning Procedure :  25%|██▍       | 123/500 [00:00<00:02, 153.13it/s]# Tuning Procedure :  28%|██▊       | 139/500 [00:00<00:02, 150.88it/s]# Tuning Procedure :  31%|███       | 155/500 [00:01<00:02, 150.84it/s]# Tuning Procedure :  34%|███▍      | 171/500 [00:01<00:02, 152.92it/s]# Tuning Procedure :  37%|███▋      | 187/500 [00:01<00:02, 149.12it/s]# Tuning Procedure :  41%|████      | 204/500 [00:01<00:01, 154.42it/s]# Tuning Procedure :  44%|████▍     | 221/500 [00:01<00:01, 156.80it/s]# Tuning Procedure :  47%|████▋     | 237/500 [00:01<00:01, 154.58it/s]# Tuning Procedure :  51%|█████     | 253/500 [00:01<00:01, 153.45it/s]# Tuning Procedure :  54%|█████▍    | 269/500 [00:01<00:01, 154.22it/s]# Tuning Procedure :  57%|█████▋    | 285/500 [00:01<00:01, 155.13it/s]# Tuning Procedure :  60%|██████    | 301/500 [00:01<00:01, 155.98it/s]# Tuning Procedure :  64%|██████▎   | 318/500 [00:02<00:01, 159.93it/s]# Tuning Procedure :  67%|██████▋   | 335/500 [00:02<00:01, 158.85it/s]# Tuning Procedure :  70%|███████   | 351/500 [00:02<00:00, 152.48it/s]# Tuning Procedure :  73%|███████▎  | 367/500 [00:02<00:00, 149.32it/s]# Tuning Procedure :  77%|███████▋  | 383/500 [00:02<00:00, 150.25it/s]# Tuning Procedure :  80%|███████▉  | 399/500 [00:02<00:00, 148.75it/s]# Tuning Procedure :  83%|████████▎ | 415/500 [00:02<00:00, 151.10it/s]# Tuning Procedure :  86%|████████▌ | 431/500 [00:02<00:00, 147.54it/s]# Tuning Procedure :  89%|████████▉ | 446/500 [00:02<00:00, 143.31it/s]# Tuning Procedure :  92%|█████████▏| 461/500 [00:03<00:00, 139.00it/s]# Tuning Procedure :  95%|█████████▌| 476/500 [00:03<00:00, 140.61it/s]# Tuning Procedure :  98%|█████████▊| 491/500 [00:03<00:00, 143.25it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 148.70it/s]
+# Tuning Finished  : (0.0006 -> 0.0005) [Block Loss]
+
+# Block [12 / 18]: [Conv_105 -> Conv_113]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 15/500 [00:00<00:03, 143.50it/s]# Tuning Procedure :   6%|▌         | 31/500 [00:00<00:03, 148.06it/s]# Tuning Procedure :  10%|▉         | 48/500 [00:00<00:02, 156.13it/s]# Tuning Procedure :  13%|█▎        | 64/500 [00:00<00:02, 155.16it/s]# Tuning Procedure :  16%|█▌        | 80/500 [00:00<00:02, 151.10it/s]# Tuning Procedure :  19%|█▉        | 96/500 [00:00<00:02, 148.27it/s]# Tuning Procedure :  22%|██▏       | 111/500 [00:00<00:02, 148.34it/s]# Tuning Procedure :  25%|██▌       | 127/500 [00:00<00:02, 149.95it/s]# Tuning Procedure :  29%|██▊       | 143/500 [00:00<00:02, 150.25it/s]# Tuning Procedure :  32%|███▏      | 160/500 [00:01<00:02, 152.65it/s]# Tuning Procedure :  35%|███▌      | 176/500 [00:01<00:02, 152.25it/s]# Tuning Procedure :  38%|███▊      | 192/500 [00:01<00:02, 149.61it/s]# Tuning Procedure :  41%|████▏     | 207/500 [00:01<00:01, 147.88it/s]# Tuning Procedure :  44%|████▍     | 222/500 [00:01<00:01, 148.13it/s]# Tuning Procedure :  47%|████▋     | 237/500 [00:01<00:01, 148.25it/s]# Tuning Procedure :  51%|█████     | 253/500 [00:01<00:01, 148.91it/s]# Tuning Procedure :  54%|█████▍    | 270/500 [00:01<00:01, 152.09it/s]# Tuning Procedure :  57%|█████▋    | 286/500 [00:01<00:01, 152.66it/s]# Tuning Procedure :  60%|██████    | 302/500 [00:02<00:01, 149.88it/s]# Tuning Procedure :  63%|██████▎   | 317/500 [00:02<00:01, 148.09it/s]# Tuning Procedure :  66%|██████▋   | 332/500 [00:02<00:01, 148.60it/s]# Tuning Procedure :  70%|██████▉   | 348/500 [00:02<00:01, 149.23it/s]# Tuning Procedure :  73%|███████▎  | 364/500 [00:02<00:00, 150.54it/s]# Tuning Procedure :  76%|███████▌  | 381/500 [00:02<00:00, 155.10it/s]# Tuning Procedure :  79%|███████▉  | 397/500 [00:02<00:00, 153.18it/s]# Tuning Procedure :  83%|████████▎ | 413/500 [00:02<00:00, 150.44it/s]# Tuning Procedure :  86%|████████▌ | 429/500 [00:02<00:00, 148.25it/s]# Tuning Procedure :  89%|████████▉ | 444/500 [00:02<00:00, 148.30it/s]# Tuning Procedure :  92%|█████████▏| 460/500 [00:03<00:00, 149.61it/s]# Tuning Procedure :  95%|█████████▌| 476/500 [00:03<00:00, 150.44it/s]# Tuning Procedure :  98%|█████████▊| 492/500 [00:03<00:00, 152.85it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 150.75it/s]
+# Tuning Finished  : (0.0005 -> 0.0004) [Block Loss]
+
+# Block [13 / 18]: [Conv_115 -> Conv_123]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 15/500 [00:00<00:03, 145.41it/s]# Tuning Procedure :   6%|▌         | 31/500 [00:00<00:03, 153.62it/s]# Tuning Procedure :   9%|▉         | 47/500 [00:00<00:02, 156.06it/s]# Tuning Procedure :  13%|█▎        | 67/500 [00:00<00:02, 172.52it/s]# Tuning Procedure :  17%|█▋        | 85/500 [00:00<00:02, 165.05it/s]# Tuning Procedure :  20%|██        | 102/500 [00:00<00:02, 160.15it/s]# Tuning Procedure :  24%|██▍       | 119/500 [00:00<00:02, 157.01it/s]# Tuning Procedure :  27%|██▋       | 135/500 [00:00<00:02, 157.42it/s]# Tuning Procedure :  30%|███       | 151/500 [00:00<00:02, 156.91it/s]# Tuning Procedure :  34%|███▎      | 168/500 [00:01<00:02, 158.37it/s]# Tuning Procedure :  38%|███▊      | 188/500 [00:01<00:01, 169.13it/s]# Tuning Procedure :  41%|████      | 205/500 [00:01<00:01, 164.03it/s]# Tuning Procedure :  44%|████▍     | 222/500 [00:01<00:01, 159.76it/s]# Tuning Procedure :  48%|████▊     | 239/500 [00:01<00:01, 158.03it/s]# Tuning Procedure :  51%|█████     | 256/500 [00:01<00:01, 158.89it/s]# Tuning Procedure :  54%|█████▍    | 272/500 [00:01<00:01, 157.35it/s]# Tuning Procedure :  58%|█████▊    | 289/500 [00:01<00:01, 159.42it/s]# Tuning Procedure :  62%|██████▏   | 308/500 [00:01<00:01, 166.08it/s]# Tuning Procedure :  65%|██████▌   | 325/500 [00:02<00:01, 161.56it/s]# Tuning Procedure :  68%|██████▊   | 342/500 [00:02<00:00, 158.21it/s]# Tuning Procedure :  72%|███████▏  | 358/500 [00:02<00:00, 157.18it/s]# Tuning Procedure :  75%|███████▌  | 375/500 [00:02<00:00, 157.99it/s]# Tuning Procedure :  78%|███████▊  | 391/500 [00:02<00:00, 158.05it/s]# Tuning Procedure :  82%|████████▏ | 409/500 [00:02<00:00, 164.19it/s]# Tuning Procedure :  86%|████████▌ | 428/500 [00:02<00:00, 170.39it/s]# Tuning Procedure :  89%|████████▉ | 446/500 [00:02<00:00, 164.32it/s]# Tuning Procedure :  93%|█████████▎| 463/500 [00:02<00:00, 160.21it/s]# Tuning Procedure :  96%|█████████▌| 480/500 [00:02<00:00, 159.58it/s]# Tuning Procedure :  99%|█████████▉| 496/500 [00:03<00:00, 158.80it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 160.45it/s]
+# Tuning Finished  : (0.0008 -> 0.0008) [Block Loss]
+
+# Block [14 / 18]: [Conv_125 -> Conv_133]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 15/500 [00:00<00:03, 146.83it/s]# Tuning Procedure :   6%|▋         | 32/500 [00:00<00:02, 156.91it/s]# Tuning Procedure :  10%|█         | 50/500 [00:00<00:02, 166.15it/s]# Tuning Procedure :  13%|█▎        | 67/500 [00:00<00:02, 161.24it/s]# Tuning Procedure :  17%|█▋        | 84/500 [00:00<00:02, 158.08it/s]# Tuning Procedure :  20%|██        | 100/500 [00:00<00:02, 156.90it/s]# Tuning Procedure :  23%|██▎       | 116/500 [00:00<00:02, 155.27it/s]# Tuning Procedure :  26%|██▋       | 132/500 [00:00<00:02, 154.09it/s]# Tuning Procedure :  30%|██▉       | 149/500 [00:00<00:02, 158.70it/s]# Tuning Procedure :  33%|███▎      | 167/500 [00:01<00:02, 163.66it/s]# Tuning Procedure :  37%|███▋      | 184/500 [00:01<00:01, 160.15it/s]# Tuning Procedure :  40%|████      | 201/500 [00:01<00:01, 157.57it/s]# Tuning Procedure :  43%|████▎     | 217/500 [00:01<00:01, 157.80it/s]# Tuning Procedure :  47%|████▋     | 233/500 [00:01<00:01, 158.44it/s]# Tuning Procedure :  50%|█████     | 250/500 [00:01<00:01, 159.26it/s]# Tuning Procedure :  54%|█████▎    | 268/500 [00:01<00:01, 163.68it/s]# Tuning Procedure :  57%|█████▋    | 285/500 [00:01<00:01, 163.55it/s]# Tuning Procedure :  60%|██████    | 302/500 [00:01<00:01, 159.99it/s]# Tuning Procedure :  64%|██████▍   | 319/500 [00:02<00:01, 157.51it/s]# Tuning Procedure :  67%|██████▋   | 335/500 [00:02<00:01, 157.63it/s]# Tuning Procedure :  70%|███████   | 351/500 [00:02<00:00, 157.97it/s]# Tuning Procedure :  74%|███████▎  | 368/500 [00:02<00:00, 159.26it/s]# Tuning Procedure :  77%|███████▋  | 387/500 [00:02<00:00, 166.74it/s]# Tuning Procedure :  81%|████████  | 404/500 [00:02<00:00, 162.94it/s]# Tuning Procedure :  84%|████████▍ | 421/500 [00:02<00:00, 159.97it/s]# Tuning Procedure :  88%|████████▊ | 438/500 [00:02<00:00, 158.44it/s]# Tuning Procedure :  91%|█████████ | 454/500 [00:02<00:00, 158.66it/s]# Tuning Procedure :  94%|█████████▍| 470/500 [00:02<00:00, 157.01it/s]# Tuning Procedure :  97%|█████████▋| 487/500 [00:03<00:00, 159.47it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 159.36it/s]
+# Tuning Finished  : (0.0008 -> 0.0007) [Block Loss]
+
+# Block [15 / 18]: [Conv_134 -> Conv_142]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 14/500 [00:00<00:03, 136.94it/s]# Tuning Procedure :   6%|▌         | 31/500 [00:00<00:03, 155.37it/s]# Tuning Procedure :  10%|█         | 50/500 [00:00<00:02, 165.75it/s]# Tuning Procedure :  13%|█▎        | 67/500 [00:00<00:02, 163.72it/s]# Tuning Procedure :  17%|█▋        | 84/500 [00:00<00:02, 160.92it/s]# Tuning Procedure :  20%|██        | 101/500 [00:00<00:02, 158.08it/s]# Tuning Procedure :  24%|██▎       | 118/500 [00:00<00:02, 159.29it/s]# Tuning Procedure :  27%|██▋       | 135/500 [00:00<00:02, 160.03it/s]# Tuning Procedure :  30%|███       | 152/500 [00:00<00:02, 161.41it/s]# Tuning Procedure :  34%|███▍      | 171/500 [00:01<00:01, 167.10it/s]# Tuning Procedure :  38%|███▊      | 188/500 [00:01<00:01, 162.92it/s]# Tuning Procedure :  41%|████      | 205/500 [00:01<00:01, 159.45it/s]# Tuning Procedure :  44%|████▍     | 221/500 [00:01<00:01, 158.48it/s]# Tuning Procedure :  47%|████▋     | 237/500 [00:01<00:01, 158.81it/s]# Tuning Procedure :  51%|█████     | 253/500 [00:01<00:01, 158.53it/s]# Tuning Procedure :  54%|█████▍    | 270/500 [00:01<00:01, 160.42it/s]# Tuning Procedure :  58%|█████▊    | 289/500 [00:01<00:01, 166.06it/s]# Tuning Procedure :  61%|██████    | 306/500 [00:01<00:01, 161.62it/s]# Tuning Procedure :  65%|██████▍   | 323/500 [00:02<00:01, 158.25it/s]# Tuning Procedure :  68%|██████▊   | 339/500 [00:02<00:01, 158.32it/s]# Tuning Procedure :  71%|███████   | 355/500 [00:02<00:00, 158.33it/s]# Tuning Procedure :  74%|███████▍  | 371/500 [00:02<00:00, 158.66it/s]# Tuning Procedure :  77%|███████▋  | 387/500 [00:02<00:00, 157.35it/s]# Tuning Procedure :  81%|████████  | 403/500 [00:02<00:00, 155.30it/s]# Tuning Procedure :  84%|████████▍ | 419/500 [00:02<00:00, 154.56it/s]# Tuning Procedure :  87%|████████▋ | 435/500 [00:02<00:00, 154.88it/s]# Tuning Procedure :  90%|█████████ | 451/500 [00:02<00:00, 153.29it/s]# Tuning Procedure :  94%|█████████▎| 468/500 [00:02<00:00, 156.44it/s]# Tuning Procedure :  97%|█████████▋| 485/500 [00:03<00:00, 159.71it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 159.64it/s]
+# Tuning Finished  : (0.0016 -> 0.0010) [Block Loss]
+
+# Block [16 / 18]: [Conv_144 -> Conv_152]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 16/500 [00:00<00:03, 159.49it/s]# Tuning Procedure :   7%|▋         | 33/500 [00:00<00:02, 162.82it/s]# Tuning Procedure :  10%|█         | 50/500 [00:00<00:02, 159.95it/s]# Tuning Procedure :  13%|█▎        | 67/500 [00:00<00:02, 158.40it/s]# Tuning Procedure :  17%|█▋        | 83/500 [00:00<00:02, 157.18it/s]# Tuning Procedure :  20%|██        | 100/500 [00:00<00:02, 160.01it/s]# Tuning Procedure :  23%|██▎       | 117/500 [00:00<00:02, 151.72it/s]# Tuning Procedure :  27%|██▋       | 133/500 [00:00<00:02, 148.13it/s]# Tuning Procedure :  30%|██▉       | 148/500 [00:00<00:02, 136.98it/s]# Tuning Procedure :  33%|███▎      | 164/500 [00:01<00:02, 141.37it/s]# Tuning Procedure :  36%|███▌      | 180/500 [00:01<00:02, 145.14it/s]# Tuning Procedure :  39%|███▉      | 197/500 [00:01<00:02, 149.56it/s]# Tuning Procedure :  43%|████▎     | 213/500 [00:01<00:01, 152.25it/s]# Tuning Procedure :  46%|████▌     | 229/500 [00:01<00:01, 152.62it/s]# Tuning Procedure :  49%|████▉     | 245/500 [00:01<00:01, 154.52it/s]# Tuning Procedure :  52%|█████▏    | 261/500 [00:01<00:01, 141.21it/s]# Tuning Procedure :  55%|█████▌    | 276/500 [00:01<00:01, 130.46it/s]# Tuning Procedure :  58%|█████▊    | 290/500 [00:01<00:01, 129.11it/s]# Tuning Procedure :  61%|██████    | 305/500 [00:02<00:01, 134.29it/s]# Tuning Procedure :  64%|██████▍   | 321/500 [00:02<00:01, 139.82it/s]# Tuning Procedure :  68%|██████▊   | 340/500 [00:02<00:01, 151.40it/s]# Tuning Procedure :  71%|███████   | 356/500 [00:02<00:00, 148.39it/s]# Tuning Procedure :  74%|███████▍  | 372/500 [00:02<00:00, 150.06it/s]# Tuning Procedure :  78%|███████▊  | 388/500 [00:02<00:00, 151.05it/s]# Tuning Procedure :  81%|████████  | 404/500 [00:02<00:00, 152.98it/s]# Tuning Procedure :  84%|████████▍ | 420/500 [00:02<00:00, 154.70it/s]# Tuning Procedure :  87%|████████▋ | 436/500 [00:02<00:00, 156.15it/s]# Tuning Procedure :  90%|█████████ | 452/500 [00:03<00:00, 156.93it/s]# Tuning Procedure :  94%|█████████▎| 468/500 [00:03<00:00, 154.82it/s]# Tuning Procedure :  97%|█████████▋| 484/500 [00:03<00:00, 154.22it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 153.85it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 149.28it/s]
+# Tuning Finished  : (0.0071 -> 0.0047) [Block Loss]
+
+# Block [17 / 18]: [Conv_158 -> Clip_166]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :   3%|▎         | 13/500 [00:00<00:03, 126.20it/s]# Tuning Procedure :   5%|▌         | 26/500 [00:00<00:03, 124.90it/s]# Tuning Procedure :   8%|▊         | 40/500 [00:00<00:03, 130.39it/s]# Tuning Procedure :  11%|█         | 54/500 [00:00<00:03, 133.09it/s]# Tuning Procedure :  14%|█▍        | 69/500 [00:00<00:03, 138.81it/s]# Tuning Procedure :  17%|█▋        | 83/500 [00:00<00:03, 135.95it/s]# Tuning Procedure :  19%|█▉        | 97/500 [00:00<00:03, 133.86it/s]# Tuning Procedure :  22%|██▏       | 111/500 [00:00<00:02, 133.38it/s]# Tuning Procedure :  25%|██▌       | 125/500 [00:00<00:02, 132.85it/s]# Tuning Procedure :  28%|██▊       | 139/500 [00:01<00:02, 131.30it/s]# Tuning Procedure :  31%|███       | 153/500 [00:01<00:02, 132.75it/s]# Tuning Procedure :  34%|███▎      | 168/500 [00:01<00:02, 135.83it/s]# Tuning Procedure :  37%|███▋      | 183/500 [00:01<00:02, 138.99it/s]# Tuning Procedure :  39%|███▉      | 197/500 [00:01<00:02, 136.57it/s]# Tuning Procedure :  42%|████▏     | 211/500 [00:01<00:02, 134.08it/s]# Tuning Procedure :  45%|████▌     | 225/500 [00:01<00:02, 135.13it/s]# Tuning Procedure :  48%|████▊     | 239/500 [00:01<00:01, 133.19it/s]# Tuning Procedure :  51%|█████     | 253/500 [00:01<00:01, 132.23it/s]# Tuning Procedure :  53%|█████▎    | 267/500 [00:01<00:01, 133.23it/s]# Tuning Procedure :  56%|█████▋    | 282/500 [00:02<00:01, 135.10it/s]# Tuning Procedure :  60%|█████▉    | 298/500 [00:02<00:01, 139.45it/s]# Tuning Procedure :  62%|██████▏   | 312/500 [00:02<00:01, 137.46it/s]# Tuning Procedure :  65%|██████▌   | 326/500 [00:02<00:01, 135.03it/s]# Tuning Procedure :  68%|██████▊   | 340/500 [00:02<00:01, 135.46it/s]# Tuning Procedure :  71%|███████   | 354/500 [00:02<00:01, 131.56it/s]# Tuning Procedure :  74%|███████▎  | 368/500 [00:02<00:00, 132.28it/s]# Tuning Procedure :  76%|███████▋  | 382/500 [00:02<00:00, 132.50it/s]# Tuning Procedure :  79%|███████▉  | 396/500 [00:02<00:00, 130.56it/s]# Tuning Procedure :  82%|████████▏ | 411/500 [00:03<00:00, 134.35it/s]# Tuning Procedure :  85%|████████▌ | 425/500 [00:03<00:00, 132.83it/s]# Tuning Procedure :  88%|████████▊ | 439/500 [00:03<00:00, 130.38it/s]# Tuning Procedure :  91%|█████████ | 453/500 [00:03<00:00, 128.21it/s]# Tuning Procedure :  93%|█████████▎| 467/500 [00:03<00:00, 130.24it/s]# Tuning Procedure :  96%|█████████▌| 481/500 [00:03<00:00, 132.51it/s]# Tuning Procedure :  99%|█████████▉| 495/500 [00:03<00:00, 133.37it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:03<00:00, 133.32it/s]
+# Tuning Finished  : (0.0050 -> 0.0041) [Block Loss]
+
+# Block [18 / 18]: [Gemm_169 -> Gemm_169]
+# Tuning Procedure :   0%|          | 0/500 [00:00<?, ?it/s]# Tuning Procedure :  10%|█         | 52/500 [00:00<00:00, 513.08it/s]# Tuning Procedure :  21%|██        | 104/500 [00:00<00:00, 516.38it/s]# Tuning Procedure :  32%|███▏      | 159/500 [00:00<00:00, 528.45it/s]# Tuning Procedure :  43%|████▎     | 213/500 [00:00<00:00, 530.37it/s]# Tuning Procedure :  54%|█████▎    | 268/500 [00:00<00:00, 535.37it/s]# Tuning Procedure :  65%|██████▍   | 323/500 [00:00<00:00, 539.02it/s]# Tuning Procedure :  76%|███████▌  | 378/500 [00:00<00:00, 541.09it/s]# Tuning Procedure :  87%|████████▋ | 433/500 [00:00<00:00, 541.79it/s]# Tuning Procedure :  98%|█████████▊| 488/500 [00:00<00:00, 542.44it/s]# Tuning Procedure : 100%|██████████| 500/500 [00:00<00:00, 536.78it/s]
+# Tuning Finished  : (0.0091 -> 0.0083) [Block Loss]
+
+Finished.
+[06:35:42] PPQ Passive Parameter Quantization Running ...  Finished.
+[06:35:42] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [44]
+Num of Variable:              [277]
+Num of Quantized Var:         [168]
+------- Quantization Snapshot ------
+Num of Quant Config:          [174]
+BAKED:                        [43]
+ACTIVATED:                    [45]
+FP32:                         [86]
+Network Quantization Finished.
+Analysing Graphwise Quantization Error(Phrase 1)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 1)::  12%|█▎        | 1/8 [00:00<00:01,  3.98it/s]Analysing Graphwise Quantization Error(Phrase 1)::  25%|██▌       | 2/8 [00:00<00:01,  4.18it/s]Analysing Graphwise Quantization Error(Phrase 1)::  38%|███▊      | 3/8 [00:00<00:01,  4.37it/s]Analysing Graphwise Quantization Error(Phrase 1)::  50%|█████     | 4/8 [00:00<00:00,  4.32it/s]Analysing Graphwise Quantization Error(Phrase 1)::  62%|██████▎   | 5/8 [00:01<00:00,  4.48it/s]Analysing Graphwise Quantization Error(Phrase 1)::  75%|███████▌  | 6/8 [00:01<00:00,  4.38it/s]Analysing Graphwise Quantization Error(Phrase 1)::  88%|████████▊ | 7/8 [00:01<00:00,  4.30it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:01<00:00,  4.41it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:02<00:00,  3.86it/s]
+Analysing Graphwise Quantization Error(Phrase 2)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 2)::  12%|█▎        | 1/8 [00:00<00:01,  4.27it/s]Analysing Graphwise Quantization Error(Phrase 2)::  25%|██▌       | 2/8 [00:00<00:01,  3.60it/s]Analysing Graphwise Quantization Error(Phrase 2)::  38%|███▊      | 3/8 [00:00<00:01,  3.52it/s]Analysing Graphwise Quantization Error(Phrase 2)::  50%|█████     | 4/8 [00:01<00:01,  3.42it/s]Analysing Graphwise Quantization Error(Phrase 2)::  62%|██████▎   | 5/8 [00:01<00:00,  3.51it/s]Analysing Graphwise Quantization Error(Phrase 2)::  75%|███████▌  | 6/8 [00:01<00:00,  3.42it/s]Analysing Graphwise Quantization Error(Phrase 2)::  88%|████████▊ | 7/8 [00:01<00:00,  3.49it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.41it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:02<00:00,  3.09it/s]
+/opt/conda/lib/python3.8/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:54: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'CPUExecutionProvider'
+  warnings.warn(
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_144: | ████████████████████ | 0.019278
+Conv_162: | ████████████████████ | 0.018832
+Conv_163: | ██████████████████   | 0.017301
+Conv_55:  | ██████████████████   | 0.017148
+Conv_134: | █████████████████    | 0.016721
+Conv_138: | ████████████████     | 0.015519
+Conv_148: | █████████████        | 0.012504
+Conv_104: | █████████            | 0.008515
+Conv_45:  | ████████             | 0.007758
+Conv_90:  | ████████             | 0.007623
+Conv_26:  | ████████             | 0.007551
+Conv_86:  | ███████              | 0.007022
+Conv_125: | ███████              | 0.006694
+Conv_41:  | ██████               | 0.006121
+Conv_51:  | ██████               | 0.005958
+Conv_105: | ██████               | 0.005790
+Conv_109: | ██████               | 0.005654
+Conv_115: | █████                | 0.005121
+Conv_57:  | █████                | 0.004941
+Conv_84:  | █████                | 0.004888
+Conv_129: | █████                | 0.004712
+Conv_96:  | █████                | 0.004690
+Conv_100: | █████                | 0.004563
+Conv_70:  | █████                | 0.004409
+Conv_28:  | ████                 | 0.004136
+Conv_36:  | ████                 | 0.004129
+Conv_80:  | ████                 | 0.003942
+Conv_17:  | ████                 | 0.003704
+Conv_65:  | ████                 | 0.003405
+Conv_13:  | ███                  | 0.003134
+Conv_47:  | ███                  | 0.003001
+Conv_32:  | ███                  | 0.002549
+Conv_158: | ███                  | 0.002548
+Conv_66:  | ███                  | 0.002546
+Gemm_169: | ███                  | 0.002481
+Conv_74:  | ██                   | 0.002281
+Conv_37:  | ██                   | 0.002011
+Conv_76:  | ██                   | 0.001997
+Conv_18:  | █                    | 0.001271
+Conv_8:   | █                    | 0.001247
+Conv_61:  | █                    | 0.001211
+Conv_9:   | █                    | 0.001004
+Conv_0:   |                      | 0.000021
+[31m[Warning] File ./model.onnx is already existed, Exporter will overwrite it.[0m
+Simulating Error For 536: 0.9010

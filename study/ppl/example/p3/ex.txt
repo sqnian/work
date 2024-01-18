@@ -1,0 +1,39 @@
+nohup: ignoring input
+Layerwise Equalization:   0%|          | 0/10 [00:00<?, ?it/s]Layerwise Equalization:   0%|          | 0/10 [00:00<?, ?it/s]
+
+      ____  ____  __   ____                    __              __
+     / __ \/ __ \/ /  / __ \__  ______ _____  / /_____  ____  / /
+    / /_/ / /_/ / /  / / / / / / / __ `/ __ \/ __/ __ \/ __ \/ /
+   / ____/ ____/ /__/ /_/ / /_/ / /_/ / / / / /_/ /_/ / /_/ / /
+  /_/   /_/   /_____\___\_\__,_/\__,_/_/ /_/\__/\____/\____/_/
+
+
+[08:44:14] PPQ Layerwise Equalization Pass Running ... 2 equalization pair(s) was found, ready to run optimization.
+Traceback (most recent call last):
+  File "execute.py", line 39, in <module>
+    quantized = quantize_torch_model(
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/core/defs.py", line 54, in _wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/api/interface.py", line 364, in quantize_torch_model
+    return quantize_onnx_model(onnx_import_file=onnx_export_file,
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/core/defs.py", line 54, in _wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/api/interface.py", line 284, in quantize_onnx_model
+    quantizer.quantize(
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/core/defs.py", line 54, in _wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/quantization/quantizer/base.py", line 48, in quantize
+    prequant_pipeline.optimize(
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/quantization/optim/base.py", line 97, in optimize
+    optim_pass.apply(graph=graph, dataloader=dataloader, executor=executor, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/quantization/optim/base.py", line 31, in apply
+    self.optimize(graph, dataloader=dataloader, executor=executor, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/core/defs.py", line 54, in _wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/quantization/optim/equalization.py", line 369, in optimize
+    equalization_pair.equalize(
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/quantization/algorithm/equalization.py", line 234, in equalize
+    key_value = EqualizationHelper.key_value_from_downstream(op=op)
+  File "/opt/conda/lib/python3.8/site-packages/ppq-0.6.5-py3.8.egg/ppq/quantization/algorithm/equalization.py", line 114, in key_value_from_downstream
+    w = torch.permute(w, (2, 0, 1, 3, 4))
+AttributeError: module 'torch' has no attribute 'permute'

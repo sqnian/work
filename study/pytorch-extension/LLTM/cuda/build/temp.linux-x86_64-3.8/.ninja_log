@@ -1,0 +1,3 @@
+# ninja log v5
+0	16129	1662303563119094976	/home/shengquan.nian/quan/sheng/pytorch-extension/LLTM/cuda/build/temp.linux-x86_64-3.8/lltm_cuda.o	41391a8cfe4139e
+0	87399	1662303634387091458	/home/shengquan.nian/quan/sheng/pytorch-extension/LLTM/cuda/build/temp.linux-x86_64-3.8/lltm_cuda_kernel.o	c465edbedbe23bfc

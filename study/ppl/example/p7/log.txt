@@ -1,0 +1,240 @@
+
+      ____  ____  __   ____                    __              __
+     / __ \/ __ \/ /  / __ \__  ______ _____  / /_____  ____  / /
+    / /_/ / /_/ / /  / / / / / / / __ `/ __ \/ __/ __ \/ __ \/ /
+   / ____/ ____/ /__/ /_/ / /_/ / /_/ / / / / /_/ /_/ / /_/ / /
+  /_/   /_/   /_____\___\_\__,_/\__,_/_/ /_/\__/\____/\____/_/
+
+
+[31m[Warning] Compling Kernels... Please wait (It will take a few minutes).[0m
+[05:38:56] PPQ Quantization Config Refine Pass Running ... Finished.
+[05:38:56] PPQ Quantization Fusion Pass Running ...        [31m[Warning] Unexpected dispatching was found: Op Conv_0 and Clip_3 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_4 and Clip_7 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_9 and Clip_12 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_13 and Clip_16 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_18 and Clip_21 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_22 and Clip_25 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_28 and Clip_31 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_32 and Clip_35 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_37 and Clip_40 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_41 and Clip_44 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_47 and Clip_50 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_51 and Clip_54 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_57 and Clip_60 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_61 and Clip_64 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_66 and Clip_69 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_70 and Clip_73 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_76 and Clip_79 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_80 and Clip_83 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_86 and Clip_89 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_90 and Clip_93 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_96 and Clip_99 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_100 and Clip_103 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_105 and Clip_108 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_109 and Clip_112 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_115 and Clip_118 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_119 and Clip_122 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_125 and Clip_128 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_129 and Clip_132 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_134 and Clip_137 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_138 and Clip_141 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_144 and Clip_147 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_148 and Clip_151 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_154 and Clip_157 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_158 and Clip_161 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_163 and Clip_166 should both be quantized operation.[0m
+Finished.
+[05:38:56] PPQ Quantize Simplify Pass Running ...          Finished.
+[05:38:56] PPQ Parameter Quantization Pass Running ...     Finished.
+[05:38:56] PPQ Runtime Calibration Pass Running ...        Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   3%|▎         | 1/32 [00:00<00:03,  7.90it/s]Calibration Progress(Phase 1):   9%|▉         | 3/32 [00:00<00:02, 10.00it/s]Calibration Progress(Phase 1):  16%|█▌        | 5/32 [00:00<00:02, 10.62it/s]Calibration Progress(Phase 1):  22%|██▏       | 7/32 [00:00<00:02, 11.00it/s]Calibration Progress(Phase 1):  28%|██▊       | 9/32 [00:00<00:02, 11.09it/s]Calibration Progress(Phase 1):  34%|███▍      | 11/32 [00:01<00:01, 11.19it/s]Calibration Progress(Phase 1):  41%|████      | 13/32 [00:01<00:01, 11.25it/s]Calibration Progress(Phase 1):  47%|████▋     | 15/32 [00:01<00:01, 11.35it/s]Calibration Progress(Phase 1):  53%|█████▎    | 17/32 [00:01<00:01, 11.47it/s]Calibration Progress(Phase 1):  59%|█████▉    | 19/32 [00:01<00:01, 11.51it/s]Calibration Progress(Phase 1):  66%|██████▌   | 21/32 [00:01<00:00, 11.37it/s]Calibration Progress(Phase 1):  72%|███████▏  | 23/32 [00:02<00:00, 11.38it/s]Calibration Progress(Phase 1):  78%|███████▊  | 25/32 [00:02<00:00, 11.33it/s]Calibration Progress(Phase 1):  84%|████████▍ | 27/32 [00:02<00:00, 11.28it/s]Calibration Progress(Phase 1):  91%|█████████ | 29/32 [00:02<00:00, 11.24it/s]Calibration Progress(Phase 1):  97%|█████████▋| 31/32 [00:02<00:00, 11.31it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:02<00:00, 11.19it/s]
+Finished.
+[05:38:59] PPQ Quantization Alignment Pass Running ...     Finished.
+[05:38:59] PPQ Passive Parameter Quantization Running ...  Finished.
+[05:38:59] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [52]
+Num of Variable:              [277]
+Num of Quantized Var:         [201]
+------- Quantization Snapshot ------
+Num of Quant Config:          [208]
+BAKED:                        [52]
+ACTIVATED:                    [52]
+FP32:                         [104]
+Network Quantization Finished.
+Analysing Graphwise Quantization Error(Phrase 1)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 1)::  12%|█▎        | 1/8 [00:00<00:00,  9.44it/s]Analysing Graphwise Quantization Error(Phrase 1)::  25%|██▌       | 2/8 [00:00<00:00,  9.57it/s]Analysing Graphwise Quantization Error(Phrase 1)::  38%|███▊      | 3/8 [00:00<00:00,  9.38it/s]Analysing Graphwise Quantization Error(Phrase 1)::  50%|█████     | 4/8 [00:00<00:00,  9.30it/s]Analysing Graphwise Quantization Error(Phrase 1)::  62%|██████▎   | 5/8 [00:00<00:00,  9.25it/s]Analysing Graphwise Quantization Error(Phrase 1)::  75%|███████▌  | 6/8 [00:00<00:00,  9.22it/s]Analysing Graphwise Quantization Error(Phrase 1)::  88%|████████▊ | 7/8 [00:00<00:00,  9.21it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:00<00:00,  9.20it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:00<00:00,  8.22it/s]
+Analysing Graphwise Quantization Error(Phrase 2)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 2)::  12%|█▎        | 1/8 [00:00<00:00,  7.84it/s]Analysing Graphwise Quantization Error(Phrase 2)::  25%|██▌       | 2/8 [00:00<00:00,  8.24it/s]Analysing Graphwise Quantization Error(Phrase 2)::  38%|███▊      | 3/8 [00:00<00:00,  8.28it/s]Analysing Graphwise Quantization Error(Phrase 2)::  50%|█████     | 4/8 [00:00<00:00,  8.40it/s]Analysing Graphwise Quantization Error(Phrase 2)::  62%|██████▎   | 5/8 [00:00<00:00,  8.47it/s]Analysing Graphwise Quantization Error(Phrase 2)::  75%|███████▌  | 6/8 [00:00<00:00,  8.51it/s]Analysing Graphwise Quantization Error(Phrase 2)::  88%|████████▊ | 7/8 [00:00<00:00,  8.52it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:00<00:00,  8.54it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:01<00:00,  7.46it/s]
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_162: | ████████████████████ | 4.469564
+Conv_163: | █████████████████    | 3.796862
+Conv_55:  | ███████████          | 2.358960
+Conv_45:  | █████████            | 1.916194
+Conv_104: | ████████             | 1.848709
+Conv_65:  | ███████              | 1.608640
+Conv_36:  | ███████              | 1.527322
+Conv_113: | ███████              | 1.489844
+Conv_125: | ██████               | 1.338494
+Conv_26:  | ██████               | 1.292400
+Conv_123: | ██████               | 1.233793
+Conv_133: | █████                | 1.195669
+Conv_148: | █████                | 1.163949
+Conv_84:  | █████                | 1.156629
+Conv_134: | █████                | 1.155597
+Conv_142: | █████                | 1.123850
+Conv_144: | █████                | 1.119863
+Conv_138: | █████                | 1.115643
+Conv_70:  | █████                | 1.106950
+Conv_152: | █████                | 1.100367
+Conv_90:  | █████                | 1.048857
+Conv_94:  | █████                | 1.035837
+Conv_51:  | █████                | 1.009898
+Conv_115: | ████                 | 0.957407
+Conv_57:  | ████                 | 0.947991
+Conv_80:  | ████                 | 0.945680
+Conv_154: | ████                 | 0.931150
+Conv_105: | ████                 | 0.915809
+Conv_109: | ████                 | 0.912738
+Conv_41:  | ████                 | 0.876404
+Conv_86:  | ████                 | 0.841202
+Conv_17:  | ████                 | 0.796938
+Conv_96:  | ████                 | 0.784382
+Conv_100: | ███                  | 0.760816
+Conv_129: | ███                  | 0.756461
+Conv_119: | ███                  | 0.754041
+Conv_74:  | ███                  | 0.744942
+Conv_66:  | ███                  | 0.729332
+Conv_32:  | ███                  | 0.726990
+Conv_28:  | ███                  | 0.704079
+Conv_47:  | ███                  | 0.653307
+Conv_76:  | ███                  | 0.618381
+Conv_8:   | ███                  | 0.603043
+Conv_22:  | ███                  | 0.602080
+Conv_37:  | ██                   | 0.509791
+Conv_61:  | ██                   | 0.506709
+Conv_13:  | ██                   | 0.495827
+Conv_9:   | ██                   | 0.404825
+Conv_158: | ██                   | 0.392166
+Conv_18:  | █                    | 0.221014
+Conv_4:   |                      | 0.082779
+Conv_0:   |                      | 0.001353
+Analysing Layerwise quantization error::   0%|          | 0/52 [00:00<?, ?it/s]Analysing Layerwise quantization error::   2%|▏         | 1/52 [00:00<00:12,  4.01it/s]Analysing Layerwise quantization error::   4%|▍         | 2/52 [00:00<00:12,  3.98it/s]Analysing Layerwise quantization error::   6%|▌         | 3/52 [00:00<00:12,  3.99it/s]Analysing Layerwise quantization error::   8%|▊         | 4/52 [00:01<00:11,  4.00it/s]Analysing Layerwise quantization error::  10%|▉         | 5/52 [00:01<00:11,  3.99it/s]Analysing Layerwise quantization error::  12%|█▏        | 6/52 [00:01<00:11,  4.00it/s]Analysing Layerwise quantization error::  13%|█▎        | 7/52 [00:01<00:11,  3.99it/s]Analysing Layerwise quantization error::  15%|█▌        | 8/52 [00:02<00:11,  4.00it/s]Analysing Layerwise quantization error::  17%|█▋        | 9/52 [00:02<00:10,  4.00it/s]Analysing Layerwise quantization error::  19%|█▉        | 10/52 [00:02<00:10,  4.01it/s]Analysing Layerwise quantization error::  21%|██        | 11/52 [00:02<00:10,  4.01it/s]Analysing Layerwise quantization error::  23%|██▎       | 12/52 [00:03<00:10,  4.00it/s]Analysing Layerwise quantization error::  25%|██▌       | 13/52 [00:03<00:09,  4.00it/s]Analysing Layerwise quantization error::  27%|██▋       | 14/52 [00:03<00:09,  4.00it/s]Analysing Layerwise quantization error::  29%|██▉       | 15/52 [00:03<00:09,  4.01it/s]Analysing Layerwise quantization error::  31%|███       | 16/52 [00:03<00:08,  4.01it/s]Analysing Layerwise quantization error::  33%|███▎      | 17/52 [00:04<00:08,  3.99it/s]Analysing Layerwise quantization error::  35%|███▍      | 18/52 [00:04<00:08,  4.00it/s]Analysing Layerwise quantization error::  37%|███▋      | 19/52 [00:04<00:08,  4.01it/s]Analysing Layerwise quantization error::  38%|███▊      | 20/52 [00:04<00:07,  4.01it/s]Analysing Layerwise quantization error::  40%|████      | 21/52 [00:05<00:07,  4.00it/s]Analysing Layerwise quantization error::  42%|████▏     | 22/52 [00:05<00:07,  4.00it/s]Analysing Layerwise quantization error::  44%|████▍     | 23/52 [00:05<00:07,  4.01it/s]Analysing Layerwise quantization error::  46%|████▌     | 24/52 [00:05<00:06,  4.01it/s]Analysing Layerwise quantization error::  48%|████▊     | 25/52 [00:06<00:06,  4.00it/s]Analysing Layerwise quantization error::  50%|█████     | 26/52 [00:06<00:06,  4.00it/s]Analysing Layerwise quantization error::  52%|█████▏    | 27/52 [00:06<00:06,  4.00it/s]Analysing Layerwise quantization error::  54%|█████▍    | 28/52 [00:07<00:06,  4.00it/s]Analysing Layerwise quantization error::  56%|█████▌    | 29/52 [00:07<00:05,  4.01it/s]Analysing Layerwise quantization error::  58%|█████▊    | 30/52 [00:07<00:05,  4.00it/s]Analysing Layerwise quantization error::  60%|█████▉    | 31/52 [00:07<00:05,  3.98it/s]Analysing Layerwise quantization error::  62%|██████▏   | 32/52 [00:08<00:05,  3.99it/s]Analysing Layerwise quantization error::  63%|██████▎   | 33/52 [00:08<00:04,  3.99it/s]Analysing Layerwise quantization error::  65%|██████▌   | 34/52 [00:08<00:04,  3.97it/s]Analysing Layerwise quantization error::  67%|██████▋   | 35/52 [00:08<00:04,  3.99it/s]Analysing Layerwise quantization error::  69%|██████▉   | 36/52 [00:09<00:04,  3.91it/s]Analysing Layerwise quantization error::  71%|███████   | 37/52 [00:09<00:03,  3.93it/s]Analysing Layerwise quantization error::  73%|███████▎  | 38/52 [00:09<00:03,  3.95it/s]Analysing Layerwise quantization error::  75%|███████▌  | 39/52 [00:09<00:03,  3.94it/s]Analysing Layerwise quantization error::  77%|███████▋  | 40/52 [00:10<00:03,  3.95it/s]Analysing Layerwise quantization error::  79%|███████▉  | 41/52 [00:10<00:02,  3.89it/s]Analysing Layerwise quantization error::  81%|████████  | 42/52 [00:10<00:02,  3.87it/s]Analysing Layerwise quantization error::  83%|████████▎ | 43/52 [00:10<00:02,  3.87it/s]Analysing Layerwise quantization error::  85%|████████▍ | 44/52 [00:11<00:02,  3.91it/s]Analysing Layerwise quantization error::  87%|████████▋ | 45/52 [00:11<00:01,  3.91it/s]Analysing Layerwise quantization error::  88%|████████▊ | 46/52 [00:11<00:01,  3.90it/s]Analysing Layerwise quantization error::  90%|█████████ | 47/52 [00:11<00:01,  3.93it/s]Analysing Layerwise quantization error::  92%|█████████▏| 48/52 [00:12<00:01,  3.83it/s]Analysing Layerwise quantization error::  94%|█████████▍| 49/52 [00:12<00:00,  3.85it/s]Analysing Layerwise quantization error::  96%|█████████▌| 50/52 [00:12<00:00,  3.88it/s]Analysing Layerwise quantization error::  98%|█████████▊| 51/52 [00:12<00:00,  3.85it/s]Analysing Layerwise quantization error:: 100%|██████████| 52/52 [00:13<00:00,  3.79it/s]Analysing Layerwise quantization error:: 100%|██████████| 52/52 [00:13<00:00,  3.95it/s]
+Conv_4 has been dispatched to INT8
+Conv_13 has been dispatched to INT8
+Conv_22 has been dispatched to INT8
+Conv_32 has been dispatched to INT8
+Conv_41 has been dispatched to INT8
+Conv_70 has been dispatched to INT8
+Conv_80 has been dispatched to INT8
+Conv_109 has been dispatched to INT8
+Conv_148 has been dispatched to INT8
+Conv_158 has been dispatched to INT8
+[05:39:15] PPQ Quantization Config Refine Pass Running ... Finished.
+[05:39:15] PPQ Quantization Fusion Pass Running ...        [31m[Warning] Unexpected dispatching was found: Op Conv_0 and Clip_3 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_4 and Clip_7 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_9 and Clip_12 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_13 and Clip_16 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_18 and Clip_21 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_22 and Clip_25 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_28 and Clip_31 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_32 and Clip_35 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_37 and Clip_40 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_41 and Clip_44 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_47 and Clip_50 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_51 and Clip_54 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_57 and Clip_60 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_61 and Clip_64 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_66 and Clip_69 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_70 and Clip_73 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_76 and Clip_79 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_80 and Clip_83 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_86 and Clip_89 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_90 and Clip_93 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_96 and Clip_99 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_100 and Clip_103 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_105 and Clip_108 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_109 and Clip_112 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_115 and Clip_118 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_119 and Clip_122 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_125 and Clip_128 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_129 and Clip_132 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_134 and Clip_137 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_138 and Clip_141 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_144 and Clip_147 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_148 and Clip_151 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_154 and Clip_157 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_158 and Clip_161 should both be quantized operation.[0m
+[31m[Warning] Unexpected dispatching was found: Op Conv_163 and Clip_166 should both be quantized operation.[0m
+Finished.
+[05:39:15] PPQ Quantize Simplify Pass Running ...          Finished.
+[05:39:15] PPQ Parameter Quantization Pass Running ...     Finished.
+[05:39:15] PPQ Runtime Calibration Pass Running ...        Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   6%|▋         | 2/32 [00:00<00:02, 12.12it/s]Calibration Progress(Phase 1):  12%|█▎        | 4/32 [00:00<00:02, 13.05it/s]Calibration Progress(Phase 1):  19%|█▉        | 6/32 [00:00<00:01, 13.25it/s]Calibration Progress(Phase 1):  25%|██▌       | 8/32 [00:00<00:01, 13.44it/s]Calibration Progress(Phase 1):  31%|███▏      | 10/32 [00:00<00:01, 13.48it/s]Calibration Progress(Phase 1):  38%|███▊      | 12/32 [00:00<00:01, 13.28it/s]Calibration Progress(Phase 1):  44%|████▍     | 14/32 [00:01<00:01, 13.10it/s]Calibration Progress(Phase 1):  50%|█████     | 16/32 [00:01<00:01, 12.92it/s]Calibration Progress(Phase 1):  56%|█████▋    | 18/32 [00:01<00:01, 12.99it/s]Calibration Progress(Phase 1):  62%|██████▎   | 20/32 [00:01<00:00, 13.03it/s]Calibration Progress(Phase 1):  69%|██████▉   | 22/32 [00:01<00:00, 12.95it/s]Calibration Progress(Phase 1):  75%|███████▌  | 24/32 [00:01<00:00, 13.02it/s]Calibration Progress(Phase 1):  81%|████████▏ | 26/32 [00:01<00:00, 13.10it/s]Calibration Progress(Phase 1):  88%|████████▊ | 28/32 [00:02<00:00, 13.05it/s]Calibration Progress(Phase 1):  94%|█████████▍| 30/32 [00:02<00:00, 13.02it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:02<00:00, 13.00it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:02<00:00, 13.06it/s]
+Finished.
+[05:39:17] PPQ Quantization Alignment Pass Running ...     Finished.
+[05:39:17] PPQ Passive Parameter Quantization Running ...  Finished.
+[05:39:17] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [52]
+Num of Variable:              [277]
+Num of Quantized Var:         [201]
+------- Quantization Snapshot ------
+Num of Quant Config:          [208]
+BAKED:                        [52]
+ACTIVATED:                    [52]
+FP32:                         [104]
+Network Quantization Finished.
+Analysing Graphwise Quantization Error(Phrase 1)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 1)::  12%|█▎        | 1/8 [00:00<00:01,  6.86it/s]Analysing Graphwise Quantization Error(Phrase 1)::  25%|██▌       | 2/8 [00:00<00:00,  7.97it/s]Analysing Graphwise Quantization Error(Phrase 1)::  38%|███▊      | 3/8 [00:00<00:00,  8.36it/s]Analysing Graphwise Quantization Error(Phrase 1)::  50%|█████     | 4/8 [00:00<00:00,  8.61it/s]Analysing Graphwise Quantization Error(Phrase 1)::  62%|██████▎   | 5/8 [00:00<00:00,  8.65it/s]Analysing Graphwise Quantization Error(Phrase 1)::  75%|███████▌  | 6/8 [00:00<00:00,  8.65it/s]Analysing Graphwise Quantization Error(Phrase 1)::  88%|████████▊ | 7/8 [00:00<00:00,  8.55it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:00<00:00,  8.70it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:01<00:00,  7.60it/s]
+Analysing Graphwise Quantization Error(Phrase 2)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 2)::  12%|█▎        | 1/8 [00:00<00:00,  7.75it/s]Analysing Graphwise Quantization Error(Phrase 2)::  25%|██▌       | 2/8 [00:00<00:00,  8.14it/s]Analysing Graphwise Quantization Error(Phrase 2)::  38%|███▊      | 3/8 [00:00<00:00,  8.18it/s]Analysing Graphwise Quantization Error(Phrase 2)::  50%|█████     | 4/8 [00:00<00:00,  8.25it/s]Analysing Graphwise Quantization Error(Phrase 2)::  62%|██████▎   | 5/8 [00:00<00:00,  7.03it/s]Analysing Graphwise Quantization Error(Phrase 2)::  75%|███████▌  | 6/8 [00:00<00:00,  6.16it/s]Analysing Graphwise Quantization Error(Phrase 2)::  88%|████████▊ | 7/8 [00:01<00:00,  5.92it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:01<00:00,  5.76it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:01<00:00,  5.64it/s]
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_162: | ████████████████████ | 2.602241
+Conv_163: | █████████████████    | 2.160837
+Conv_142: | ████████             | 0.991362
+Conv_152: | ███████              | 0.943710
+Conv_133: | ███████              | 0.885206
+Conv_154: | ██████               | 0.840136
+Conv_144: | ██████               | 0.808373
+Conv_113: | ██████               | 0.771283
+Conv_123: | ██████               | 0.761448
+Conv_55:  | ██████               | 0.751858
+Conv_148: | ██████               | 0.734521
+Conv_134: | █████                | 0.700948
+Conv_138: | █████                | 0.688839
+Conv_104: | █████                | 0.653958
+Conv_125: | █████                | 0.606137
+Conv_129: | ████                 | 0.512940
+Conv_94:  | ███                  | 0.420290
+Conv_26:  | ███                  | 0.380846
+Conv_65:  | ███                  | 0.348712
+Conv_45:  | ███                  | 0.326942
+Conv_115: | ██                   | 0.313652
+Conv_51:  | ██                   | 0.309173
+Conv_90:  | ██                   | 0.308499
+Conv_109: | ██                   | 0.307272
+Conv_119: | ██                   | 0.305434
+Conv_84:  | ██                   | 0.300523
+Conv_105: | ██                   | 0.291879
+Conv_100: | ██                   | 0.289319
+Conv_36:  | ██                   | 0.285215
+Conv_158: | ██                   | 0.242913
+Conv_57:  | ██                   | 0.236399
+Conv_96:  | ██                   | 0.228828
+Conv_28:  | ██                   | 0.224474
+Conv_41:  | ██                   | 0.221757
+Conv_70:  | ██                   | 0.210314
+Conv_86:  | ██                   | 0.198304
+Conv_80:  | █                    | 0.193799
+Conv_22:  | █                    | 0.188963
+Conv_17:  | █                    | 0.183890
+Conv_47:  | █                    | 0.162605
+Conv_32:  | █                    | 0.143125
+Conv_74:  | █                    | 0.141152
+Conv_66:  | █                    | 0.135066
+Conv_8:   | █                    | 0.122442
+Conv_76:  | █                    | 0.115116
+Conv_37:  | █                    | 0.103618
+Conv_13:  | █                    | 0.101174
+Conv_9:   | █                    | 0.094143
+Conv_61:  | █                    | 0.093169
+Conv_18:  | █                    | 0.069118
+Conv_4:   |                      | 0.007497
+Conv_0:   |                      | 0.001353

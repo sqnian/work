@@ -1,0 +1,832 @@
+Conv_0: input.1
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_0: onnx::Conv_538
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_0: onnx::Conv_539
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_0: input.4
+Quant State: ACTIVATED
+Scale:  [0.008248462341725826]
+Offset: [0.0]
+Conv_4: onnx::Conv_319
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_4: onnx::Conv_541
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_4: onnx::Conv_542
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_4: input.12
+Quant State: ACTIVATED
+Scale:  [0.0669846460223198]
+Offset: [0.0]
+Conv_8: onnx::Conv_324
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_8: onnx::Conv_544
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_8: onnx::Conv_545
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_8: input.20
+Quant State: ACTIVATED
+Scale:  [0.029244452714920044]
+Offset: [0.0]
+Conv_9: input.20
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_9: onnx::Conv_547
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_9: onnx::Conv_548
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_9: input.28
+Quant State: ACTIVATED
+Scale:  [0.024727966636419296]
+Offset: [0.0]
+Conv_13: onnx::Conv_331
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_13: onnx::Conv_550
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_13: onnx::Conv_551
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_13: input.36
+Quant State: ACTIVATED
+Scale:  [0.0315840020775795]
+Offset: [0.0]
+Conv_17: onnx::Conv_336
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_17: onnx::Conv_553
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_17: onnx::Conv_554
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_17: input.44
+Quant State: ACTIVATED
+Scale:  [0.01941598765552044]
+Offset: [0.0]
+Conv_18: input.44
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_18: onnx::Conv_556
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_18: onnx::Conv_557
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_18: input.52
+Quant State: ACTIVATED
+Scale:  [0.02109324187040329]
+Offset: [0.0]
+Conv_22: onnx::Conv_343
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_22: onnx::Conv_559
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_22: onnx::Conv_560
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_22: input.60
+Quant State: ACTIVATED
+Scale:  [0.013801032677292824]
+Offset: [0.0]
+Conv_26: onnx::Conv_348
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_26: onnx::Conv_562
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_26: onnx::Conv_563
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_26: onnx::Add_561
+Quant State: ACTIVATED
+Scale:  [0.017318040132522583]
+Offset: [0.0]
+Conv_28: input.68
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_28: onnx::Conv_565
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_28: onnx::Conv_566
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_28: input.76
+Quant State: ACTIVATED
+Scale:  [0.009056747891008854]
+Offset: [0.0]
+Conv_32: onnx::Conv_356
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_32: onnx::Conv_568
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_32: onnx::Conv_569
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_32: input.84
+Quant State: ACTIVATED
+Scale:  [0.014837614260613918]
+Offset: [0.0]
+Conv_36: onnx::Conv_361
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_36: onnx::Conv_571
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_36: onnx::Conv_572
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_36: input.92
+Quant State: ACTIVATED
+Scale:  [0.014153603464365005]
+Offset: [0.0]
+Conv_37: input.92
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_37: onnx::Conv_574
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_37: onnx::Conv_575
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_37: input.100
+Quant State: ACTIVATED
+Scale:  [0.005500792525708675]
+Offset: [0.0]
+Conv_41: onnx::Conv_368
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_41: onnx::Conv_577
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_41: onnx::Conv_578
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_41: input.108
+Quant State: ACTIVATED
+Scale:  [0.012631174176931381]
+Offset: [0.0]
+Conv_45: onnx::Conv_373
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_45: onnx::Conv_580
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_45: onnx::Conv_581
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_45: onnx::Add_579
+Quant State: ACTIVATED
+Scale:  [0.01319801900535822]
+Offset: [0.0]
+Conv_47: input.116
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_47: onnx::Conv_583
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_47: onnx::Conv_584
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_47: input.124
+Quant State: ACTIVATED
+Scale:  [0.005361477378755808]
+Offset: [0.0]
+Conv_51: onnx::Conv_381
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_51: onnx::Conv_586
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_51: onnx::Conv_587
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_51: input.132
+Quant State: ACTIVATED
+Scale:  [0.009418772533535957]
+Offset: [0.0]
+Conv_55: onnx::Conv_386
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_55: onnx::Conv_589
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_55: onnx::Conv_590
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_55: onnx::Add_588
+Quant State: ACTIVATED
+Scale:  [0.008950598537921906]
+Offset: [0.0]
+Conv_57: input.140
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_57: onnx::Conv_592
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_57: onnx::Conv_593
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_57: input.148
+Quant State: ACTIVATED
+Scale:  [0.009147894568741322]
+Offset: [0.0]
+Conv_61: onnx::Conv_394
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_61: onnx::Conv_595
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_61: onnx::Conv_596
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_61: input.156
+Quant State: ACTIVATED
+Scale:  [0.009193819016218185]
+Offset: [0.0]
+Conv_65: onnx::Conv_399
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_65: onnx::Conv_598
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_65: onnx::Conv_599
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_65: input.164
+Quant State: ACTIVATED
+Scale:  [0.011739539913833141]
+Offset: [0.0]
+Conv_66: input.164
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_66: onnx::Conv_601
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_66: onnx::Conv_602
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_66: input.172
+Quant State: ACTIVATED
+Scale:  [0.005537602584809065]
+Offset: [0.0]
+Conv_70: onnx::Conv_406
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_70: onnx::Conv_604
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_70: onnx::Conv_605
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_70: input.180
+Quant State: ACTIVATED
+Scale:  [0.012621874921023846]
+Offset: [0.0]
+Conv_74: onnx::Conv_411
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_74: onnx::Conv_607
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_74: onnx::Conv_608
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_74: onnx::Add_606
+Quant State: ACTIVATED
+Scale:  [0.014259184710681438]
+Offset: [0.0]
+Conv_76: input.188
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_76: onnx::Conv_610
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_76: onnx::Conv_611
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_76: input.196
+Quant State: ACTIVATED
+Scale:  [0.004740472882986069]
+Offset: [0.0]
+Conv_80: onnx::Conv_419
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_80: onnx::Conv_613
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_80: onnx::Conv_614
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_80: input.204
+Quant State: ACTIVATED
+Scale:  [0.007644309662282467]
+Offset: [0.0]
+Conv_84: onnx::Conv_424
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_84: onnx::Conv_616
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_84: onnx::Conv_617
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_84: onnx::Add_615
+Quant State: ACTIVATED
+Scale:  [0.011987987905740738]
+Offset: [0.0]
+Conv_86: input.212
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_86: onnx::Conv_619
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_86: onnx::Conv_620
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_86: input.220
+Quant State: ACTIVATED
+Scale:  [0.003706737421452999]
+Offset: [0.0]
+Conv_90: onnx::Conv_432
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_90: onnx::Conv_622
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_90: onnx::Conv_623
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_90: input.228
+Quant State: ACTIVATED
+Scale:  [0.014489622786641121]
+Offset: [0.0]
+Conv_94: onnx::Conv_437
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_94: onnx::Conv_625
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_94: onnx::Conv_626
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_94: onnx::Add_624
+Quant State: ACTIVATED
+Scale:  [0.024244824424386024]
+Offset: [0.0]
+Conv_96: input.236
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_96: onnx::Conv_628
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_96: onnx::Conv_629
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_96: input.244
+Quant State: ACTIVATED
+Scale:  [0.0067713214084506035]
+Offset: [0.0]
+Conv_100: onnx::Conv_445
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_100: onnx::Conv_631
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_100: onnx::Conv_632
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_100: input.252
+Quant State: ACTIVATED
+Scale:  [0.013509987853467464]
+Offset: [0.0]
+Conv_104: onnx::Conv_450
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_104: onnx::Conv_634
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_104: onnx::Conv_635
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_104: input.260
+Quant State: ACTIVATED
+Scale:  [0.012707480229437351]
+Offset: [0.0]
+Conv_105: input.260
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_105: onnx::Conv_637
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_105: onnx::Conv_638
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_105: input.268
+Quant State: ACTIVATED
+Scale:  [0.007033072877675295]
+Offset: [0.0]
+Conv_109: onnx::Conv_457
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_109: onnx::Conv_640
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_109: onnx::Conv_641
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_109: input.276
+Quant State: ACTIVATED
+Scale:  [0.009922023862600327]
+Offset: [0.0]
+Conv_113: onnx::Conv_462
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_113: onnx::Conv_643
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_113: onnx::Conv_644
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_113: onnx::Add_642
+Quant State: ACTIVATED
+Scale:  [0.01474477257579565]
+Offset: [0.0]
+Conv_115: input.284
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_115: onnx::Conv_646
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_115: onnx::Conv_647
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_115: input.292
+Quant State: ACTIVATED
+Scale:  [0.006465580780059099]
+Offset: [0.0]
+Conv_119: onnx::Conv_470
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_119: onnx::Conv_649
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_119: onnx::Conv_650
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_119: input.300
+Quant State: ACTIVATED
+Scale:  [0.012089970521628857]
+Offset: [0.0]
+Conv_123: onnx::Conv_475
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_123: onnx::Conv_652
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_123: onnx::Conv_653
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_123: onnx::Add_651
+Quant State: ACTIVATED
+Scale:  [0.034600917249917984]
+Offset: [0.0]
+Conv_125: input.308
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_125: onnx::Conv_655
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_125: onnx::Conv_656
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_125: input.316
+Quant State: ACTIVATED
+Scale:  [0.015861770138144493]
+Offset: [0.0]
+Conv_129: onnx::Conv_483
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_129: onnx::Conv_658
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_129: onnx::Conv_659
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_129: input.324
+Quant State: ACTIVATED
+Scale:  [0.031677212566137314]
+Offset: [0.0]
+Conv_133: onnx::Conv_488
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_133: onnx::Conv_661
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_133: onnx::Conv_662
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_133: input.332
+Quant State: ACTIVATED
+Scale:  [0.04066905751824379]
+Offset: [0.0]
+Conv_134: input.332
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_134: onnx::Conv_664
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_134: onnx::Conv_665
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_134: input.340
+Quant State: ACTIVATED
+Scale:  [0.017577290534973145]
+Offset: [0.0]
+Conv_138: onnx::Conv_495
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_138: onnx::Conv_667
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_138: onnx::Conv_668
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_138: input.348
+Quant State: ACTIVATED
+Scale:  [0.027252286672592163]
+Offset: [0.0]
+Conv_142: onnx::Conv_500
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_142: onnx::Conv_670
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_142: onnx::Conv_671
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_142: onnx::Add_669
+Quant State: ACTIVATED
+Scale:  [0.03790418803691864]
+Offset: [0.0]
+Conv_144: input.356
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_144: onnx::Conv_673
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_144: onnx::Conv_674
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_144: input.364
+Quant State: ACTIVATED
+Scale:  [0.02065317891538143]
+Offset: [0.0]
+Conv_148: onnx::Conv_508
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_148: onnx::Conv_676
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_148: onnx::Conv_677
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_148: input.372
+Quant State: ACTIVATED
+Scale:  [0.028938349336385727]
+Offset: [0.0]
+Conv_152: onnx::Conv_513
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_152: onnx::Conv_679
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_152: onnx::Conv_680
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_152: onnx::Add_678
+Quant State: ACTIVATED
+Scale:  [0.0897800549864769]
+Offset: [0.0]
+Conv_154: input.380
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_154: onnx::Conv_682
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_154: onnx::Conv_683
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_154: input.388
+Quant State: ACTIVATED
+Scale:  [0.04613685607910156]
+Offset: [0.0]
+Conv_158: onnx::Conv_521
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_158: onnx::Conv_685
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_158: onnx::Conv_686
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_158: input.396
+Quant State: ACTIVATED
+Scale:  [0.008933058008551598]
+Offset: [0.0]
+Conv_162: onnx::Conv_526
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_162: onnx::Conv_688
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_162: onnx::Conv_689
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_162: input.404
+Quant State: ACTIVATED
+Scale:  [0.004572293255478144]
+Offset: [0.0]
+Conv_163: input.404
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_163: onnx::Conv_691
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_163: onnx::Conv_692
+Quant State: FP32
+Scale:  None
+Offset: None
+Conv_163: input.412
+Quant State: ACTIVATED
+Scale:  [0.04638778418302536]
+Offset: [0.0]

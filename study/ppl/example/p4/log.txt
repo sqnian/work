@@ -1,0 +1,143 @@
+nohup: ignoring input
+
+      ____  ____  __   ____                    __              __
+     / __ \/ __ \/ /  / __ \__  ______ _____  / /_____  ____  / /
+    / /_/ / /_/ / /  / / / / / / / __ `/ __ \/ __/ __ \/ __ \/ /
+   / ____/ ____/ /__/ /_/ / /_/ / /_/ / / / / /_/ /_/ / /_/ / /
+  /_/   /_/   /_____\___\_\__,_/\__,_/_/ /_/\__/\____/\____/_/
+
+
+[31m[Warning] Compling Kernels... Please wait (It will take a few minutes).[0m
+Calibration Progress(Phase 1):   0%|          | 0/32 [00:00<?, ?it/s]Calibration Progress(Phase 1):   3%|▎         | 1/32 [00:00<00:03,  8.65it/s]Calibration Progress(Phase 1):   9%|▉         | 3/32 [00:00<00:03,  9.03it/s]Calibration Progress(Phase 1):  16%|█▌        | 5/32 [00:00<00:02,  9.45it/s]Calibration Progress(Phase 1):  22%|██▏       | 7/32 [00:00<00:02,  9.76it/s]Calibration Progress(Phase 1):  28%|██▊       | 9/32 [00:00<00:02,  9.98it/s]Calibration Progress(Phase 1):  34%|███▍      | 11/32 [00:01<00:02, 10.29it/s]Calibration Progress(Phase 1):  41%|████      | 13/32 [00:01<00:01, 10.51it/s]Calibration Progress(Phase 1):  47%|████▋     | 15/32 [00:01<00:01, 10.66it/s]Calibration Progress(Phase 1):  53%|█████▎    | 17/32 [00:01<00:01, 10.78it/s]Calibration Progress(Phase 1):  59%|█████▉    | 19/32 [00:01<00:01, 10.86it/s]Calibration Progress(Phase 1):  66%|██████▌   | 21/32 [00:01<00:01, 10.83it/s]Calibration Progress(Phase 1):  72%|███████▏  | 23/32 [00:02<00:00, 10.91it/s]Calibration Progress(Phase 1):  78%|███████▊  | 25/32 [00:02<00:00, 10.97it/s]Calibration Progress(Phase 1):  84%|████████▍ | 27/32 [00:02<00:00, 11.03it/s]Calibration Progress(Phase 1):  91%|█████████ | 29/32 [00:02<00:00, 11.06it/s]Calibration Progress(Phase 1):  97%|█████████▋| 31/32 [00:02<00:00, 11.10it/s]Calibration Progress(Phase 1): 100%|██████████| 32/32 [00:02<00:00, 10.81it/s]
+Analysing Graphwise Quantization Error(Phrase 1)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 1)::  12%|█▎        | 1/8 [00:00<00:00,  8.26it/s]Analysing Graphwise Quantization Error(Phrase 1)::  25%|██▌       | 2/8 [00:00<00:00,  8.20it/s]Analysing Graphwise Quantization Error(Phrase 1)::  38%|███▊      | 3/8 [00:00<00:00,  8.14it/s]Analysing Graphwise Quantization Error(Phrase 1)::  50%|█████     | 4/8 [00:00<00:00,  8.09it/s]Analysing Graphwise Quantization Error(Phrase 1)::  62%|██████▎   | 5/8 [00:00<00:00,  8.06it/s]Analysing Graphwise Quantization Error(Phrase 1)::  75%|███████▌  | 6/8 [00:00<00:00,  8.04it/s]Analysing Graphwise Quantization Error(Phrase 1)::  88%|████████▊ | 7/8 [00:00<00:00,  8.00it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:00<00:00,  7.96it/s]Analysing Graphwise Quantization Error(Phrase 1):: 100%|██████████| 8/8 [00:01<00:00,  7.08it/s]
+Analysing Graphwise Quantization Error(Phrase 2)::   0%|          | 0/8 [00:00<?, ?it/s]Analysing Graphwise Quantization Error(Phrase 2)::  12%|█▎        | 1/8 [00:00<00:00,  7.26it/s]Analysing Graphwise Quantization Error(Phrase 2)::  25%|██▌       | 2/8 [00:00<00:00,  7.35it/s]Analysing Graphwise Quantization Error(Phrase 2)::  38%|███▊      | 3/8 [00:00<00:00,  7.47it/s]Analysing Graphwise Quantization Error(Phrase 2)::  50%|█████     | 4/8 [00:00<00:00,  7.57it/s]Analysing Graphwise Quantization Error(Phrase 2)::  62%|██████▎   | 5/8 [00:00<00:00,  7.64it/s]Analysing Graphwise Quantization Error(Phrase 2)::  75%|███████▌  | 6/8 [00:00<00:00,  7.68it/s]Analysing Graphwise Quantization Error(Phrase 2)::  88%|████████▊ | 7/8 [00:00<00:00,  7.68it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:01<00:00,  7.71it/s]Analysing Graphwise Quantization Error(Phrase 2):: 100%|██████████| 8/8 [00:01<00:00,  6.80it/s]
+Analysing Layerwise quantization error::   0%|          | 0/53 [00:00<?, ?it/s]Analysing Layerwise quantization error::   2%|▏         | 1/53 [00:00<00:11,  4.38it/s]Analysing Layerwise quantization error::   4%|▍         | 2/53 [00:00<00:11,  4.38it/s]Analysing Layerwise quantization error::   6%|▌         | 3/53 [00:00<00:11,  4.38it/s]Analysing Layerwise quantization error::   8%|▊         | 4/53 [00:00<00:11,  4.39it/s]Analysing Layerwise quantization error::   9%|▉         | 5/53 [00:01<00:11,  4.27it/s]Analysing Layerwise quantization error::  11%|█▏        | 6/53 [00:01<00:10,  4.31it/s]Analysing Layerwise quantization error::  13%|█▎        | 7/53 [00:01<00:10,  4.35it/s]Analysing Layerwise quantization error::  15%|█▌        | 8/53 [00:01<00:10,  4.35it/s]Analysing Layerwise quantization error::  17%|█▋        | 9/53 [00:02<00:10,  4.17it/s]Analysing Layerwise quantization error::  19%|█▉        | 10/53 [00:02<00:11,  3.83it/s]Analysing Layerwise quantization error::  21%|██        | 11/53 [00:02<00:10,  4.03it/s]Analysing Layerwise quantization error::  23%|██▎       | 12/53 [00:02<00:09,  4.18it/s]Analysing Layerwise quantization error::  25%|██▍       | 13/53 [00:03<00:09,  4.30it/s]Analysing Layerwise quantization error::  26%|██▋       | 14/53 [00:03<00:08,  4.34it/s]Analysing Layerwise quantization error::  28%|██▊       | 15/53 [00:03<00:08,  4.42it/s]Analysing Layerwise quantization error::  30%|███       | 16/53 [00:03<00:08,  4.48it/s]Analysing Layerwise quantization error::  32%|███▏      | 17/53 [00:03<00:07,  4.51it/s]Analysing Layerwise quantization error::  34%|███▍      | 18/53 [00:04<00:07,  4.54it/s]Analysing Layerwise quantization error::  36%|███▌      | 19/53 [00:04<00:07,  4.57it/s]Analysing Layerwise quantization error::  38%|███▊      | 20/53 [00:04<00:07,  4.58it/s]Analysing Layerwise quantization error::  40%|███▉      | 21/53 [00:04<00:06,  4.60it/s]Analysing Layerwise quantization error::  42%|████▏     | 22/53 [00:05<00:06,  4.58it/s]Analysing Layerwise quantization error::  43%|████▎     | 23/53 [00:05<00:06,  4.59it/s]Analysing Layerwise quantization error::  45%|████▌     | 24/53 [00:05<00:06,  4.60it/s]Analysing Layerwise quantization error::  47%|████▋     | 25/53 [00:05<00:06,  4.60it/s]Analysing Layerwise quantization error::  49%|████▉     | 26/53 [00:05<00:05,  4.61it/s]Analysing Layerwise quantization error::  51%|█████     | 27/53 [00:06<00:05,  4.58it/s]Analysing Layerwise quantization error::  53%|█████▎    | 28/53 [00:06<00:05,  4.59it/s]Analysing Layerwise quantization error::  55%|█████▍    | 29/53 [00:06<00:05,  4.60it/s]Analysing Layerwise quantization error::  57%|█████▋    | 30/53 [00:06<00:04,  4.60it/s]Analysing Layerwise quantization error::  58%|█████▊    | 31/53 [00:06<00:04,  4.59it/s]Analysing Layerwise quantization error::  60%|██████    | 32/53 [00:07<00:04,  4.59it/s]Analysing Layerwise quantization error::  62%|██████▏   | 33/53 [00:07<00:04,  4.54it/s]Analysing Layerwise quantization error::  64%|██████▍   | 34/53 [00:07<00:04,  4.54it/s]Analysing Layerwise quantization error::  66%|██████▌   | 35/53 [00:07<00:03,  4.57it/s]Analysing Layerwise quantization error::  68%|██████▊   | 36/53 [00:08<00:03,  4.55it/s]Analysing Layerwise quantization error::  70%|██████▉   | 37/53 [00:08<00:03,  4.56it/s]Analysing Layerwise quantization error::  72%|███████▏  | 38/53 [00:08<00:03,  4.58it/s]Analysing Layerwise quantization error::  74%|███████▎  | 39/53 [00:08<00:03,  4.56it/s]Analysing Layerwise quantization error::  75%|███████▌  | 40/53 [00:08<00:02,  4.57it/s]Analysing Layerwise quantization error::  77%|███████▋  | 41/53 [00:09<00:02,  4.57it/s]Analysing Layerwise quantization error::  79%|███████▉  | 42/53 [00:09<00:02,  4.56it/s]Analysing Layerwise quantization error::  81%|████████  | 43/53 [00:09<00:02,  4.54it/s]Analysing Layerwise quantization error::  83%|████████▎ | 44/53 [00:09<00:01,  4.56it/s]Analysing Layerwise quantization error::  85%|████████▍ | 45/53 [00:10<00:01,  4.53it/s]Analysing Layerwise quantization error::  87%|████████▋ | 46/53 [00:10<00:01,  4.52it/s]Analysing Layerwise quantization error::  89%|████████▊ | 47/53 [00:10<00:01,  4.55it/s]Analysing Layerwise quantization error::  91%|█████████ | 48/53 [00:10<00:01,  4.54it/s]Analysing Layerwise quantization error::  92%|█████████▏| 49/53 [00:10<00:00,  4.54it/s]Analysing Layerwise quantization error::  94%|█████████▍| 50/53 [00:11<00:00,  4.55it/s]Analysing Layerwise quantization error::  96%|█████████▌| 51/53 [00:11<00:00,  4.49it/s]Analysing Layerwise quantization error::  98%|█████████▊| 52/53 [00:11<00:00,  4.46it/s]Analysing Layerwise quantization error:: 100%|██████████| 53/53 [00:11<00:00,  4.34it/s]Analysing Layerwise quantization error:: 100%|██████████| 53/53 [00:11<00:00,  4.46it/s]
+Analysing Phrase 1:   0%|          | 0/8 [00:00<?, ?it/s]Analysing Phrase 1:  12%|█▎        | 1/8 [00:00<00:00,  8.41it/s]Analysing Phrase 1:  25%|██▌       | 2/8 [00:00<00:00,  8.53it/s]Analysing Phrase 1:  38%|███▊      | 3/8 [00:00<00:00,  8.60it/s]Analysing Phrase 1:  50%|█████     | 4/8 [00:00<00:00,  8.65it/s]Analysing Phrase 1:  62%|██████▎   | 5/8 [00:00<00:00,  8.72it/s]Analysing Phrase 1:  75%|███████▌  | 6/8 [00:00<00:00,  8.72it/s]Analysing Phrase 1:  88%|████████▊ | 7/8 [00:00<00:00,  8.79it/s]Analysing Phrase 1: 100%|██████████| 8/8 [00:00<00:00,  8.84it/s]Analysing Phrase 1: 100%|██████████| 8/8 [00:01<00:00,  7.82it/s]
+Analysing Phrase 2:   0%|          | 0/8 [00:00<?, ?it/s]Analysing Phrase 2:  12%|█▎        | 1/8 [00:00<00:00,  8.65it/s]Analysing Phrase 2:  25%|██▌       | 2/8 [00:00<00:00,  8.66it/s]Analysing Phrase 2:  38%|███▊      | 3/8 [00:00<00:00,  8.66it/s]Analysing Phrase 2:  50%|█████     | 4/8 [00:00<00:00,  8.62it/s]Analysing Phrase 2:  62%|██████▎   | 5/8 [00:00<00:00,  8.57it/s]Analysing Phrase 2:  75%|███████▌  | 6/8 [00:00<00:00,  8.52it/s]Analysing Phrase 2:  88%|████████▊ | 7/8 [00:00<00:00,  8.57it/s]Analysing Phrase 2: 100%|██████████| 8/8 [00:00<00:00,  8.54it/s]Analysing Phrase 2: 100%|██████████| 8/8 [00:01<00:00,  7.63it/s]
+[01:56:26] PPQ Quantization Config Refine Pass Running ... Finished.
+[01:56:26] PPQ Quantization Fusion Pass Running ...        Finished.
+[01:56:27] PPQ Quantize Simplify Pass Running ...          Finished.
+[01:56:27] PPQ Parameter Quantization Pass Running ...     Finished.
+[01:56:27] PPQ Runtime Calibration Pass Running ...        Finished.
+[01:56:30] PPQ Quantization Alignment Pass Running ...     Finished.
+[01:56:30] PPQ Passive Parameter Quantization Running ...  Finished.
+[01:56:30] PPQ Parameter Baking Pass Running ...           Finished.
+--------- Network Snapshot ---------
+Num of Op:                    [100]
+Num of Quantized Op:          [54]
+Num of Variable:              [277]
+Num of Quantized Var:         [207]
+------- Quantization Snapshot ------
+Num of Quant Config:          [214]
+BAKED:                        [53]
+ACTIVATED:                    [55]
+FP32:                         [106]
+Network Quantization Finished.
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_154: | ████████████████████ | 0.680245
+Conv_152: | █████████████████    | 0.589294
+Conv_142: | ████████████████     | 0.550612
+Conv_133: | ███████████████      | 0.497482
+Conv_144: | ████████████         | 0.418598
+Conv_148: | ██████████           | 0.332050
+Conv_134: | ████████             | 0.280958
+Conv_138: | ███████              | 0.242262
+Conv_129: | ███████              | 0.231266
+Conv_123: | ██████               | 0.197927
+Conv_125: | ██████               | 0.189752
+Conv_113: | ████                 | 0.122764
+Conv_162: | ███                  | 0.100425
+Conv_163: | ███                  | 0.087275
+Conv_94:  | ██                   | 0.051823
+Conv_115: | █                    | 0.041274
+Conv_104: | █                    | 0.031553
+Conv_55:  | █                    | 0.031519
+Conv_119: | █                    | 0.029051
+Conv_158: | █                    | 0.026257
+Conv_109: | █                    | 0.022389
+Gemm_169: | █                    | 0.022008
+Conv_105: | █                    | 0.017408
+Conv_96:  |                      | 0.016705
+Conv_100: |                      | 0.015901
+Conv_45:  |                      | 0.015074
+Conv_26:  |                      | 0.014279
+Conv_51:  |                      | 0.011908
+Conv_84:  |                      | 0.010427
+Conv_36:  |                      | 0.010399
+Conv_90:  |                      | 0.010256
+Conv_65:  |                      | 0.010039
+Conv_57:  |                      | 0.009697
+Conv_41:  |                      | 0.009163
+Conv_86:  |                      | 0.007468
+Conv_28:  |                      | 0.007340
+Conv_22:  |                      | 0.007075
+Conv_70:  |                      | 0.006875
+Conv_80:  |                      | 0.006874
+Conv_17:  |                      | 0.006491
+Conv_47:  |                      | 0.006096
+Conv_32:  |                      | 0.004970
+Conv_74:  |                      | 0.004803
+Conv_13:  |                      | 0.004113
+Conv_8:   |                      | 0.003549
+Conv_76:  |                      | 0.003468
+Conv_61:  |                      | 0.003109
+Conv_37:  |                      | 0.003073
+Conv_66:  |                      | 0.002998
+Conv_9:   |                      | 0.002432
+Conv_18:  |                      | 0.002371
+Conv_4:   |                      | 0.000596
+Conv_0:   |                      | 0.000011
+Layer     | NOISE:SIGNAL POWER RATIO 
+Conv_4:   | ████████████████████ | 0.007243
+Conv_133: | ██████████████       | 0.005147
+Conv_154: | ████                 | 0.001323
+Conv_22:  | ████                 | 0.001307
+Conv_123: | ███                  | 0.001210
+Conv_142: | ███                  | 0.001175
+Conv_94:  | ███                  | 0.001075
+Conv_152: | ███                  | 0.000917
+Conv_119: | ██                   | 0.000836
+Conv_113: | ██                   | 0.000797
+Conv_162: | ██                   | 0.000683
+Conv_104: | █                    | 0.000515
+Conv_148: | █                    | 0.000481
+Conv_90:  | █                    | 0.000478
+Conv_144: | █                    | 0.000462
+Conv_158: | █                    | 0.000425
+Conv_138: | █                    | 0.000399
+Conv_8:   | █                    | 0.000386
+Conv_134: | █                    | 0.000373
+Conv_109: | █                    | 0.000364
+Conv_13:  | █                    | 0.000295
+Conv_26:  | █                    | 0.000235
+Conv_17:  | █                    | 0.000229
+Conv_65:  |                      | 0.000155
+Conv_100: |                      | 0.000152
+Conv_41:  |                      | 0.000145
+Conv_36:  |                      | 0.000115
+Conv_129: |                      | 0.000110
+Conv_125: |                      | 0.000102
+Conv_84:  |                      | 0.000097
+Conv_70:  |                      | 0.000094
+Gemm_169: |                      | 0.000065
+Conv_57:  |                      | 0.000061
+Conv_28:  |                      | 0.000059
+Conv_74:  |                      | 0.000059
+Conv_80:  |                      | 0.000058
+Conv_32:  |                      | 0.000056
+Conv_55:  |                      | 0.000054
+Conv_105: |                      | 0.000047
+Conv_96:  |                      | 0.000047
+Conv_9:   |                      | 0.000043
+Conv_45:  |                      | 0.000037
+Conv_115: |                      | 0.000036
+Conv_86:  |                      | 0.000034
+Conv_18:  |                      | 0.000034
+Conv_51:  |                      | 0.000026
+Conv_0:   |                      | 0.000023
+Conv_66:  |                      | 0.000022
+Conv_61:  |                      | 0.000018
+Conv_76:  |                      | 0.000015
+Conv_47:  |                      | 0.000012
+Conv_163: |                      | 0.000008
+Conv_37:  |                      | 0.000007
